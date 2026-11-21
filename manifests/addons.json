@@ -1,0 +1,27 @@
+{
+  "addons": [
+    {
+      "id": "screensaver.pingpong",
+      "version": "22.0.6",
+      "source": "https://github.com/xbmc/screensaver.pingpong",
+      "source_ref": "Piers",
+      "license": "GPL-2.0-or-later",
+      "archive_sha256": "c218e19394ce180d6768061a5ef5b0a887b7b75d94209ff5a64f849e8032cb64",
+      "redistribution_review": "approved",
+      "source_revision_pinning": "archive filename and content hash recorded",
+      "source_commit": "d1e2087248040b92c8f2a7eee5cdd89ec6e0447b",
+      "source_archive_sha256": "f0e445a887f7c04ad32ff52cfe4b3787bbf9db8e399bd5d7932d031817a14f39",
+      "original_archive_sha256": "44003f09754b3630b0437e76b15c3f7d2b865a7f3d0cc8d8d5b62e08ae06205b",
+      "review_evidence": {
+        "source_matches_pinned_archive": true,
+        "code_changes": false,
+        "package_license_notices": [
+          "LICENSE.md",
+          "licenses/GLM.txt"
+        ],
+        "dependency": "GLM 1.0.3 (MIT option)",
+        "runtime_scope": "Existing ARM64 load-test evidence; new online installation test pending"
+      }
+    }
+  ]
+}
