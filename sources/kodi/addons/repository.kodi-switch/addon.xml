@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addon id="repository.kodi-switch" name="Kodi Switch Add-on repository" version="1.0.0" provider-name="Kodi Switch port">
+<addon id="repository.kodi-switch" name="Kodi Switch Add-on repository" version="1.1.0" provider-name="Kodi Switch port">
   <requires>
     <import addon="xbmc.addon" version="12.0.0" />
   </requires>
   <extension point="xbmc.addon.repository">
     <dir>
-      <info>sdmc:/switch/kodi-public/repository/addons.xml</info>
-      <checksum verify="sha256">sdmc:/switch/kodi-public/repository/addons.xml.sha256</checksum>
-      <datadir zip="true">sdmc:/switch/kodi-public/repository/</datadir>
+      <info>https://devcatskz.github.io/kodi-switch-addons/piers/switch/addons.xml</info>
+      <checksum verify="sha256">https://devcatskz.github.io/kodi-switch-addons/piers/switch/addons.xml.sha256</checksum>
+      <datadir zip="true">https://github.com/DevCatSKZ/kodi-switch-addons/releases/download/</datadir>
       <hashes>sha256</hashes>
-    </dir>
+    <artdir>https://devcatskz.github.io/kodi-switch-addons/piers/switch/</artdir></dir>
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>switch</platform>
     <summary lang="en_GB">Binary add-ons and game cores for the Nintendo Switch</summary>
-    <description lang="en_GB">PVR clients, input streams, audio and image decoders, visualizations, screensavers and libretro game cores, built for the Nintendo Switch port of Kodi. Install the add-on package to the SD card to use it.</description>
+    <description lang="en_GB">Native add-ons for Kodi on Nintendo Switch. Install and update add-ons online.</description>
     <license>GPL-2.0-or-later</license>
     <assets>
       <icon>icon.png</icon>

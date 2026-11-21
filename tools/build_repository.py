@@ -79,7 +79,10 @@ def repository_files(base_url, version, package_base_url=None):
     directory.find('info').text = base_url + 'addons.xml'
     directory.find('checksum').text = base_url + 'addons.xml.sha256'
     directory.find('datadir').text = package_base_url
-    ET.SubElement(directory, 'artdir').text = base_url
+    artwork = directory.find('artdir')
+    if artwork is None:
+        artwork = ET.SubElement(directory, 'artdir')
+    artwork.text = base_url
     metadata = root.find("extension[@point='xbmc.addon.metadata']")
     for description in metadata.findall('description'):
         language = description.get('lang', '')
