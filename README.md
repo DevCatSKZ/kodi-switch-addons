@@ -22,8 +22,13 @@ downloaded when requested; the repository ZIP does not contain the add-ons.
 - These native packages are not Android, desktop Linux or Windows add-ons.
 - This is a development channel. Availability does not imply every feature,
   game or playback configuration has been validated.
-- The initial catalog contains reviewed PingPong, Stars, Asteroids and Biogenesis screensavers. Additional
-  packages are added as their source, licensing and compatibility checks complete.
+- The catalog contains 231 reviewed native add-ons: audio decoders and encoders, image decoders,
+  VFS and PVR clients, screensavers, visualizations and libretro game cores. Each release lists the
+  exact source archives the binary was built from. Further packages are added as their source,
+  licensing and compatibility checks complete.
+- Controller profiles (`game.controller.*`) and Python modules are installed from the official Kodi
+  repository, which Kodi NX keeps enabled.
+- Cores whose upstream licenses forbid sale or commercial use are not yet included.
 - Updates follow Kodi's add-on update settings. Updating Kodi NX itself requires
   a new application build. Statically linked components also require an application update.
 - No ROMs, BIOS files, proprietary CDM, user profiles or provider credentials are included.
