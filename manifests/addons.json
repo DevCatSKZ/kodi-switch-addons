@@ -22,6 +22,73 @@
         "dependency": "GLM 1.0.3 (MIT option)",
         "runtime_scope": "Existing ARM64 load-test evidence; new online installation test pending"
       }
+    },
+    {
+      "id": "screensaver.stars",
+      "version": "22.0.5",
+      "source": "https://github.com/xbmc/screensaver.stars",
+      "source_ref": "Piers",
+      "license": "GPL-2.0-or-later",
+      "archive_sha256": "e479cc457a90cc7967d5ae8f0c162ee68d26699204e5d5acd8a800a139fda418",
+      "redistribution_review": "approved",
+      "source_revision_pinning": "archive filename and content hash recorded",
+      "source_commit": "2405853d96e6a0c8cbd11fae8b67c3c7699ee93c",
+      "source_archive_sha256": "cb0d5d6f325990ce74e874a41fdb402a889e8f0ea06fb2c2e58a0be6746c5833",
+      "original_archive_sha256": "cb00e7e29429d3285705797254fb48e5615f32d6bd73743fa7c18271e9a9d14d",
+      "review_evidence": {
+        "source_matches_pinned_archive": true,
+        "code_changes": false,
+        "package_license_notices": [
+          "LICENSE.md"
+        ],
+        "native_dependency": "libhostexports.so only",
+        "runtime_scope": "Previously load-tested; clean-build visual verification pending"
+      }
+    },
+    {
+      "id": "screensaver.asteroids",
+      "version": "22.0.6",
+      "source": "https://github.com/xbmc/screensaver.asteroids",
+      "source_ref": "Piers",
+      "license": "GPL-2.0-or-later",
+      "archive_sha256": "3497530686005000adaed8517b2341c557ab2f6c4438b11cec4851f7afa63b9f",
+      "redistribution_review": "approved",
+      "source_revision_pinning": "archive filename and content hash recorded",
+      "source_commit": "a120539675830a8c408d7e611918cb7e9d39e60c",
+      "source_archive_sha256": "41b226e7974050205f27364b79a5723c69c11d6b8316eeef9dab0a703677f182",
+      "original_archive_sha256": "e2f0bd32fdd0dcdb742e838a07b053ec81e3490db6f45e78b4922023db094daf",
+      "review_evidence": {
+        "source_matches_pinned_archive": true,
+        "code_changes": false,
+        "package_license_notices": [
+          "LICENSE.md",
+          "licenses/GLM.txt"
+        ],
+        "native_dependency": "libhostexports.so only",
+        "runtime_scope": "Previously load-tested; clean-build visual verification pending"
+      }
+    },
+    {
+      "id": "screensaver.biogenesis",
+      "version": "22.0.6",
+      "source": "https://github.com/xbmc/screensaver.biogenesis",
+      "source_ref": "Piers",
+      "license": "GPL-2.0-or-later",
+      "archive_sha256": "34b6ca4ba6a1fd262d55b9d903988fbe2deb6b4d1ff456fa4ccd8190e668f333",
+      "redistribution_review": "approved",
+      "source_revision_pinning": "archive filename and content hash recorded",
+      "source_commit": "e0598b4e59629e221a4852a59d9a047b1bf6e89a",
+      "source_archive_sha256": "6540dab9d568e540e4b25a12ada2ff3863ebe44185585c8b1d1aad86a702cd96",
+      "original_archive_sha256": "7b469c4844c3627c66740a6fac9b58a4dafbbffbaf0d584ad37d1db9aea79952",
+      "review_evidence": {
+        "source_matches_pinned_archive": true,
+        "code_changes": false,
+        "package_license_notices": [
+          "LICENSE.md"
+        ],
+        "native_dependency": "libhostexports.so only",
+        "runtime_scope": "Previously load-tested; clean-build visual verification pending"
+      }
     }
   ]
 }

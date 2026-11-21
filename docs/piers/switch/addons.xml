@@ -1,5 +1,111 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="screensaver.pingpong" version="22.0.6" name="Ping Pong" provider-name="Team Kodi">
+<addons><addon id="screensaver.asteroids" version="22.0.6" name="Asteroids" provider-name="Team Kodi">
+  <requires>
+<import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.3" />
+<import addon="kodi.binary.global.gui" minversion="5.15.0" version="5.15.1" />
+<import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
+<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /></requires>
+  <extension point="xbmc.ui.screensaver" library_switch="screensaver.asteroids.so.22.0.6" />
+  <extension point="xbmc.addon.metadata">
+    <platform>switch</platform>
+    <license>GPL-2.0-or-later</license>
+    <source>https://github.com/xbmc/screensaver.asteroids</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+      <screenshot>resources/screenshot-01.png</screenshot>
+      <screenshot>resources/screenshot-02.png</screenshot>
+      <screenshot>resources/screenshot-03.png</screenshot>
+    </assets>
+    <summary lang="af_ZA">Asteroids skermskut</summary>
+    <summary lang="bs_BA">Čuvar ekrana s asteroidima</summary>
+    <summary lang="ca_ES">Estalvi de pantalla d'asteroides</summary>
+    <summary lang="cs_CZ">Spořič obrazovky Asteroids</summary>
+    <summary lang="da_DK">Asteroids pauseskærm</summary>
+    <summary lang="de_DE">Bildschirmschoner Asteroids</summary>
+    <summary lang="en_GB">Asteroids screensaver</summary>
+    <summary lang="eo">Ekrankurteno Asteroidoj</summary>
+    <summary lang="es_ES">Salvapantallas Asteroides</summary>
+    <summary lang="et_EE">Asteroids-ekraanisäästja</summary>
+    <summary lang="eu_ES">Asteroideen babes-pantaila</summary>
+    <summary lang="fi_FI">Asteroids-näytönsäästäjä</summary>
+    <summary lang="fr_FR">Économiseur d'écran d'astéroïdes</summary>
+    <summary lang="hr_HR">Asteroids čuvar zaslona</summary>
+    <summary lang="it_IT">Salvaschermo Asteroids</summary>
+    <summary lang="ko_KR">소행성 화면 보호기</summary>
+    <summary lang="pl_PL">Wygaszacz ekranu Asteroidy</summary>
+    <summary lang="pt_BR">Protetor de tela Asteroides</summary>
+    <summary lang="ru_RU">Заставка Asteroids</summary>
+    <summary lang="sv_SE">Asteroids skärmsläckare</summary>
+    <summary lang="uk_UA">Заставка Астероїди</summary>
+    <summary lang="zh_CN">小行星屏保</summary>
+    <description lang="af_ZA">'n Ou-styl skermskut waar die asteroïdes weggeskiet word.</description>
+    <description lang="bs_BA">Starinski čuvar ekrana gdje se asteroidi odbijaju.</description>
+    <description lang="ca_ES">Un estalvi de pantalla d'estil antic on els asteroides surten disparats.</description>
+    <description lang="cs_CZ">Spořič obrazovky ve starém stylu, ve kterém se odstřelují asteroidy.</description>
+    <description lang="da_DK">En pauseskærm i gammel stil, hvor asteroiderne bliver skudt væk.</description>
+    <description lang="de_DE">Ein Bildschirmschoner alten Stils, bei dem die Asteroiden weggeschossen werden.</description>
+    <description lang="en_GB">An old-style screen saver where the asteroids are shot away.</description>
+    <description lang="eo">Malnov-stila ekrankurteno en kiu la asteroidoj estas forpafitaj.</description>
+    <description lang="es_ES">Un salvapantallas a la antigua usanza donde se disparan asteroides.</description>
+    <description lang="et_EE">Vana stiilis ekraanisäästja, kus tulistatakse asteroide.</description>
+    <description lang="fi_FI">Vanhan tyylinen näytönsäästäjä, jossa ammutaan asteroideja.</description>
+    <description lang="fr_FR">Un économiseur d'écran à l'ancienne où les astéroïdes sont abattus.</description>
+    <description lang="hr_HR">Čuvar zaslona starinskog izgleda u kojem se otpucavaju asteroidi.</description>
+    <description lang="it_IT">Un salvaschermo vecchio stile in cui vengono distrutti degli asteroidi.</description>
+    <description lang="ko_KR">소행성이 총격을 당하는 구식 화면 보호기.</description>
+    <description lang="pl_PL">Wygaszacz ekranu w starym stylu, w którym asteroidy są zestrzeliwane.</description>
+    <description lang="pt_BR">Um protetor de tela de estilo antigo, onde os asteroides são disparados.</description>
+    <description lang="ru_RU">Заставка, выполненная в старом стиле, где звездолёт сражается с астероидами.</description>
+    <description lang="sv_SE">En gammaldags skärmsläckare där asteroiderna skjuts iväg.</description>
+    <description lang="uk_UA">Заставка, яка виконана в старому стилі, з руйнуванням астероїдів.</description>
+    <description lang="zh_CN">一个老式的屏幕保护程序，小行星被射出。</description>
+  </extension>
+</addon><addon id="screensaver.biogenesis" version="22.0.6" name="BioGenesis" provider-name="Team Kodi">
+  <requires>
+<import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.3" />
+<import addon="kodi.binary.global.gui" minversion="5.15.0" version="5.15.1" />
+<import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
+<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /></requires>
+  <extension point="xbmc.ui.screensaver" library_switch="screensaver.biogenesis.so.22.0.6" />
+  <extension point="xbmc.addon.metadata">
+    <platform>switch</platform>
+    <license>GPL-2.0-or-later</license>
+    <source>https://github.com/xbmc/screensaver.biogenesis</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+      <screenshot>resources/screenshot-01.png</screenshot>
+      <screenshot>resources/screenshot-02.png</screenshot>
+      <screenshot>resources/screenshot-03.png</screenshot>
+    </assets>
+    <summary lang="bs_BA">BioGenesis čuvar ekrana</summary>
+    <summary lang="cs_CZ">Spořič obrazovky BioGenesis</summary>
+    <summary lang="da_DK">BioGenesis pauseskærm</summary>
+    <summary lang="de_DE">Bildschirmschoner BioGenesis</summary>
+    <summary lang="en_GB">BioGenesis screensaver</summary>
+    <summary lang="es_ES">Salvapantallas BioGénesis</summary>
+    <summary lang="et_EE">BioGenesis ekraanisäästja</summary>
+    <summary lang="fi_FI">BioGenesis-näytönsäästäjä</summary>
+    <summary lang="fr_FR">Économiseur d'écran BioGenesis</summary>
+    <summary lang="it_IT">Salvaschermo BioGenesis</summary>
+    <summary lang="ru_RU">Заставка BioGenesis</summary>
+    <summary lang="sv_SE">BioGenesis skärmsläckare</summary>
+    <summary lang="uk_UA">Заставка BioGenesis</summary>
+    <summary lang="zh_CN">生物发生屏保程序</summary>
+    <description lang="bs_BA">Implementacija poznate "Igre života" Johna Conwaya sa 3 prilagođena pravila bojanja. Nekoliko osnovnih pravila određuje koje će ćelije živjeti u sljedećoj generaciji, ovisno o trenutnom stanju ćelije i broju njenih živih susjeda.[CR][CR]Snimci ekrana ne čine mnogo pravde jer kretanje sistema na granici između stabilnosti i haosa izgleda zanimljivo.[CR][CR]Karakteristike:[CR] - Implementirana su 3 prilagođena pravila bojanja, a svako daje zanimljive rezultate.[CR] - Bojanje kolonije boji ćelije ovisno o boji njenih "matičnih" ćelija.[CR] - Bojanje tokom života boji ćeliju ovisno o tome koliko je dugo živa.[CR] - Bojanje susjeda ovisno o konfiguraciji njenih susjeda.[CR] - Mnogi parametri se mogu konfigurirati u postavkama.</description>
+    <description lang="cs_CZ">Implementace slavné „Hry života“ Johna Conwaye se třemi vlastními pravidly obarvování. Několik základních pravidel určuje, které buňky budou žít v další generaci podle aktuálního stavu buňky a počtu jejích živých sousedů.[CR][CR]Snímky obrazovky to příliš nevystihují, protože zajímavě vypadá právě pohyb systému na hranici mezi stabilitou a chaosem.[CR][CR]Funkce:[CR] - Implementována jsou tři vlastní pravidla obarvování, z nichž každé přináší zajímavé výsledky.[CR] - Obarvování podle kolonie obarvuje buňky podle barvy jejich „rodičovských“ buněk.[CR] - Obarvování podle životnosti obarvuje buňku podle toho, jak dlouho je naživu.[CR] - Obarvování podle sousedů obarvuje buňku podle uspořádání jejích sousedů.[CR] - V nastavení lze upravit mnoho parametrů.</description>
+    <description lang="da_DK">En implementering af John Conways berømte "Game of Life" med 3 brugerdefinerede farveregler. Et par grundlæggende regler styrer, hvilke celler der vil leve i den næste generation, afhængigt af cellernes nuværende tilstand og antallet af dets levende naboer.[CR][CR]Screenshots yder ikke så meget retfærdighed, da systemets bevægelse grænsende mellem stabilitet og kaos er det, der ser interessant ud.[CR][CR]Funktioner:[CR]- Der er implementeret 3 brugerdefinerede farveregler, der hver især giver interessante resultater.[CR]- Kolonifarvende farveceller afhængig af farven på dets 'overordnede' celler.[CR]CR]- Farvelægning i en levetid farver en celle afhængig af, hvor længe den har været i live.[CR]- Nabo, der farver en celle afhængigt af naboens konfiguration.[CR]- Mange parametre kan konfigureres i indstillingerne.</description>
+    <description lang="de_DE">Eine Implementierung von John Conways berühmtem „Spiel des Lebens“ mit 3 benutzerdefinierten Färbungsregeln. Einige grundlegende Regeln bestimmen, welche Zellen in der nächsten Generation leben werden, abhängig vom aktuellen Zustand der Zelle und der Anzahl ihrer lebenden Nachbarn.[CR][CR]Bildschirmfotos können dem nicht gerecht werden, da die Bewegung des Systems zwischen Stabilität und Chaos, interessant aussieht.[CR][CR]Eigenschaften:[CR] - Es werden jeweils 3 benutzerdefinierte Färbungsregeln implementiert, die jeweils interessante Ergebnisse liefern.[CR] - Die Färbung von Koloniezellen hängt von der Farbe ihrer „Elternzellen“ ab.[CR] - Die Lebenszeitfärbung färbt die Zelle in Abhängigkeit davon, wie lange sie am Leben ist.[CR] - Nachbarfärbung einer Zelle in Abhängigkeit von der Konstitution ihrer Nachbarn.[CR] - Viele Parameter sind in den Einstellungen konfigurierbar.</description>
+    <description lang="en_GB">An implementation of John Conway's famous "Game of Life" with 3 custom coloring rules. A few basic rules govern which cells will live in the next generation depending on the cells current state and the number of its live neighbors.[CR][CR]Screenshots don't do this much justice as the motion of the system bordering between stability and chaos is what looks interesting.[CR][CR]Features:[CR] - 3 custom coloring rules are implemented each yielding interesting results.[CR] - Colony coloring color cells depending on the color of its 'parent' cells.[CR] - Lifetime coloring colors a cell depending on how long its been alive.[CR] - Neighbor coloring a cell depending on the configuration of its neighbors.[CR] - Many parameters are configurable in the settings.</description>
+    <description lang="es_ES">Una implementación del famoso "Juego de la Vida" de John Conway con 3 reglas de color personalizadas. Unas pocas reglas básicas gobiernan qué células vivirán en la siguiente generación dependiendo del estado actual de la célula y el número de sus vecinos vivas.[CR][CR]Las capturas de pantalla no le hacen mucha justicia, ya que el movimiento del sistema que bordea entre la estabilidad y el caos es lo que resulta interesante.[CR][CR]Características:[CR] - Se han implementado 3 reglas de color personalizado, cada una de las cuales produce resultados interesantes:[CR] - Colony coloring colorea las células en función del color de sus células "padre".[CR] - Lifetime coloring colorea una célula en función del tiempo que lleva viva.[CR] - Neighbor coloring colorea una célula en función de la configuración de sus vecinos.[CR] - Muchos parámetros son configurables en los ajustes.</description>
+    <description lang="fi_FI">John Conwayn kuuluisan "Game of Life" -pelin toteutus 3 mukautetulla värityssäännöllä. Muutama perussääntö määrittää seuraavassa sukupolvessa elävät solut riippuen niiden nykyisestä tilasta ja elävien naapureiden lukumäärästä.[CR][CR]Kuvakaappaukset eivät juuri kuvasta toimintaa, koska kiinnostavalta näyttää lähinnä liike vakauden ja kaaoksen välimaastossa.[CR][CR]Ominaisuudet:[CR] - Käyttää kolmea mukautettua värityssääntöä, joista jokainen tuottaa mielenkiintoisia tuloksia.[CR] - Pesäkeväritys värjää solut niiden 'emosolujen' värin perusteella.[CR][CR] - Elinikäväritys värjää solut niiden eliniän perusteella.[CR] - Naapuriväritys värjää solut niiden naapureiden määritysten perusteella.[CR] - Asetuksista voidaan määrittää monia parametrejä.</description>
+    <description lang="it_IT">Un'implementazione del celebre "Gioco della Vita" di John Conway con 3 regole di colorazione personalizzate. Alcune regole di base governano quali cellule vivranno nella generazione successiva in base allo stato attuale delle cellule e al numero dei loro vicini vivi.[CR][CR]Gli screenshot non rendono abbastanza giustizia, poiché ciò che rende interessante il sistema è il suo movimento al confine tra stabilità e caos.[CR][CR]Caratteristiche:[CR] - Sono implementate 3 regole di colorazione personalizzate, ognuna delle quali offre risultati interessanti.[CR] - La colorazione per colonia colora le cellule in base al colore delle loro cellule 'genitrici'.[CR] - La colorazione per età colora una cellula in base a quanto tempo è stata in vita.[CR] - La colorazione per vicinato colora una cellula in base alla configurazione dei suoi vicini.[CR] - Molti parametri sono configurabili nelle impostazioni.</description>
+    <description lang="ru_RU">Реализация знаменитой «Игры жизни» Джона Конвея с 3 пользовательскими правилами раскраски. Несколько основных правил определяют, какие клетки будут жить в следующем поколении в зависимости от текущего состояния клеток и количества их живых соседей.[CR][CR]Скриншоты не передают всей полноты картины, поскольку движение системы на границе между стабильностью и хаосом выглядит интересным.[CR][CR]Особенности:[CR] - Реализовано 3 пользовательских правила раскраски, каждое из которых дает интересные результаты.[CR] - Колония окрашивает клетки в зависимости от цвета ее «родительских» клеток.[CR] - Пожизненная раскраска окрашивает клетку в зависимости от того, как долго она была жива.[CR] - Сосед окрашивает клетку в зависимости от конфигурации ее соседей.[CR] - Многие параметры настраиваются в настройках.</description>
+    <description lang="sv_SE">En implementering av John Conways berömda ”Game of Life” med 3 anpassade färgläggningsregler. Några grundläggande regler styr vilka celler som kommer att leva i nästa generation beroende på cellens nuvarande tillstånd och antalet levande grannar.[CR][CR]Skärmdumpar gör inte detta mycket rättvisa eftersom systemets rörelse som gränsar mellan stabilitet och kaos är det som ser intressant ut.[CR][CR]Funktioner:[CR] - 3 anpassade färgregler implementeras var och en ger intressanta resultat. [CR] - Kolonifärgning färgar celler beroende på färgen på dess ”föräldraceller”.[CR] - Livstidsfärgning färgar en cell beroende på hur länge den har levt.[CR] - Grannfärgning färgar en cell beroende på konfigurationen av dess grannar.[CR] - Många parametrar kan konfigureras i inställningarna.</description>
+    <description lang="zh_CN">约翰·康威著名的“生活游戏”的一个实现，带有3个自定义着色规则。根据细胞的当前状态和其活的邻居的数量，一些基本规则决定了下一代细胞将存活。[CR][CR]截图没有做到这一点，因为系统在稳定和混乱之间的运动看起来很有趣。[CR][CR]特性:[CR] -实现了3个自定义着色规则，每个规则都产生了有趣的结果。[CR] -菌落根据其“亲代”细胞的颜色给细胞着色。[CR] -根据细胞存活的时间给细胞着色。[CR] -邻居根据其邻居的配置为单元格着色。[CR] -许多参数可在设置中配置。</description>
+  </extension>
+</addon><addon id="screensaver.pingpong" version="22.0.6" name="Ping Pong" provider-name="Team Kodi">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.3" />
 <import addon="kodi.binary.global.gui" minversion="5.15.0" version="5.15.1" />
@@ -41,6 +147,55 @@
     <description lang="ru_RU">Теперь мяч будет прыгать вперёд-назад.</description>
     <description lang="sv_SE">Låter en boll hoppa fram och tillbaka.</description>
     <description lang="zh_CN">让球来回弹跳。</description>
+  </extension>
+</addon><addon id="screensaver.stars" version="22.0.5" name="Stars" provider-name="Team Kodi">
+  <requires>
+<import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.3" />
+<import addon="kodi.binary.global.gui" minversion="5.15.0" version="5.15.1" />
+<import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
+<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /></requires>
+  <extension point="xbmc.ui.screensaver" library_switch="screensaver.stars.so.22.0.5" />
+  <extension point="xbmc.addon.metadata">
+    <platform>switch</platform>
+    <license>GPL-2.0-or-later</license>
+    <source>https://github.com/xbmc/visualization.stars</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+      <screenshot>resources/screenshot-01.png</screenshot>
+      <screenshot>resources/screenshot-02.png</screenshot>
+      <screenshot>resources/screenshot-03.png</screenshot>
+    </assets>
+    <summary lang="af_ZA">Sterre skermskut</summary>
+    <summary lang="bs_BA">Zvjezdani čuvar ekrana</summary>
+    <summary lang="cs_CZ">Spořič obrazovky Stars</summary>
+    <summary lang="da_DK">Stjerne-pauseskærm</summary>
+    <summary lang="de_DE">Stars Bildschirmschoner</summary>
+    <summary lang="en_GB">Stars screensaver</summary>
+    <summary lang="eo">Ekrankurteno steloj</summary>
+    <summary lang="es_ES">Salvapantallas de estrellas</summary>
+    <summary lang="et_EE">Ekraanisäästja 'Tähed'</summary>
+    <summary lang="fi_FI">Tähdet-näytönsäästäjä</summary>
+    <summary lang="it_IT">Salvaschermo stelle</summary>
+    <summary lang="ko_KR">별 화면 보호기</summary>
+    <summary lang="ru_RU">Звёздный хранитель экрана</summary>
+    <summary lang="sv_SE">Stjärnor skärmsläckare</summary>
+    <summary lang="zh_CN">星空屏幕保护程序</summary>
+    <description lang="af_ZA">'n Skermskut wat jou toelaat om deur die sterre te vlieg.</description>
+    <description lang="bs_BA">Čuvar ekrana koji vam omogućava da letite kroz zvijezde.</description>
+    <description lang="cs_CZ">Spořič obrazovky, který vám umožní proletět se mezi hvězdami.</description>
+    <description lang="da_DK">En pauseskærm, der lader dig flyve gennem stjernerne.</description>
+    <description lang="de_DE">Ein Bildschirmschoner, mit dem Sie durch die Sterne fliegen können.</description>
+    <description lang="en_GB">A screensaver that lets you fly through the stars.</description>
+    <description lang="eo">Ekrankurteno kiu lasas vin flugi tra la steloj.</description>
+    <description lang="es_ES">Un salvapantallas que te permite volar a través de las estrellas.</description>
+    <description lang="et_EE">Ekraanisäästja, mis võimaldab lennata läbi tähtede.</description>
+    <description lang="fi_FI">Näytönsäästäjä, joka lennättää sinua tähtien keskellä.</description>
+    <description lang="it_IT">Un salvaschermo che ti permette di volare tra le stelle.</description>
+    <description lang="ko_KR">별 사이로 날아가는 화면 보호기.</description>
+    <description lang="ru_RU">Экранная заставка, что отправит вас в полёт среди звёзд.</description>
+    <description lang="sv_SE">En skärmsläckare som låter dig flyga genom stjärnorna.</description>
+    <description lang="zh_CN">让你在星空中飞翔的屏幕保护程序。</description>
   </extension>
 </addon><addon id="repository.kodi-switch" name="Kodi Switch Add-on repository" version="1.1.0" provider-name="Kodi Switch port">
   <requires>

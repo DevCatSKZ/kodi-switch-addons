@@ -5,7 +5,7 @@ This is an independent community project, not an official Team Kodi or Nintendo 
 
 ## Installation
 
-Kodi NX includes the repository entry. Open **Add-ons → Install from repository →
+Kodi NX includes the repository entry. Open **Add-ons â†’ Install from repository â†’
 Kodi Switch Add-on repository** to download an available add-on.
 
 For an existing compatible installation, install the
@@ -22,7 +22,7 @@ downloaded when requested; the repository ZIP does not contain the add-ons.
 - These native packages are not Android, desktop Linux or Windows add-ons.
 - This is a development channel. Availability does not imply every feature,
   game or playback configuration has been validated.
-- The initial catalog contains the reviewed PingPong screensaver. Additional
+- The initial catalog contains reviewed PingPong, Stars, Asteroids and Biogenesis screensavers. Additional
   packages are added as their source, licensing and compatibility checks complete.
 - Updates follow Kodi's add-on update settings. Updating Kodi NX itself requires
   a new application build. Statically linked components also require an application update.
