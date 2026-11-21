@@ -1021,6 +1021,40 @@
    }
   },
   {
+   "id": "game.libretro.4do",
+   "version": "1.3.2.13",
+   "source": "https://github.com/kodi-game/game.libretro.4do",
+   "source_ref": "master",
+   "license": "Unlicensed",
+   "archive_sha256": "bcfaee6d43db027217d3b8048d110a3c5466ca46f93847481891b399ce825388",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "6aeae7a011381d002211b9a78f469764d2635f04",
+   "original_archive_sha256": "0511b2083b3764004dc6bafa2b4560c0a7ed0ac4f5dce235538d945677cf23fe",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "4do-da814a868c41fb47f265e04e5f95756cda62e5c2.tar.gz",
+      "sha256": "8418e109cf851f2bbf7b90c796c7f7a8a4b238d49cce8d1fa95334cf73b5edcf",
+      "upstream_url": "https://github.com/kodi-game/4do-libretro/archive/da814a868c41fb47f265e04e5f95756cda62e5c2.tar.gz"
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.4do-6aeae7a01138-horizon-source.tar.gz",
+     "sha256": "6b61b7fccfd2c34c0d32a0097a1d51b1f47b3fa23d5c43224ab12f3dcc3b2bba",
+     "git_commit": "6aeae7a011381d002211b9a78f469764d2635f04",
+     "modified": true,
+     "patch": "game.libretro.4do-horizon.patch"
+    },
+    "package_license_notices": [
+     "game.libretro.4do/debian/copyright"
+    ],
+    "license_restrictions_found": [],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
    "id": "game.libretro.81",
    "version": "1.0.0.37",
    "source": "https://github.com/kodi-game/game.libretro.81",
@@ -2113,6 +2147,44 @@
    }
   },
   {
+   "id": "game.libretro.cannonball",
+   "version": "0.0.1.44",
+   "source": "https://github.com/kodi-game/game.libretro.cannonball",
+   "source_ref": "master",
+   "license": "Non-commercial",
+   "archive_sha256": "2384f03d1bd9ee000d3e860dc92369eb7930e0dfa5101aaeab7ce1ed873806fe",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "f3d37903f47d40681884da9e958de5009941bbe5",
+   "original_archive_sha256": "c4c445dd22f4bc6dba35ed883bc6c424ea6e2f639ed561f977a92a5f796f66d6",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "cannonball-0d83575d920ea4c0a280847a19d7802f673e6a68.tar.gz",
+      "sha256": "5031626c68ce45fa12ebcae3e59563f813c3f1c8bc8d55a2892c21031f34f8fb",
+      "upstream_url": "https://github.com/libretro/cannonball/archive/0d83575d920ea4c0a280847a19d7802f673e6a68.tar.gz"
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.cannonball-f3d37903f47d-horizon-source.tar.gz",
+     "sha256": "8a80600f6795cd858101e23069d47a5b90987349d5ca699c777679bfcc36346f",
+     "git_commit": "f3d37903f47d40681884da9e958de5009941bbe5",
+     "modified": true,
+     "patch": "game.libretro.cannonball-horizon.patch"
+    },
+    "package_license_notices": [
+     "cannonball/cannonball-0d83575d920ea4c0a280847a19d7802f673e6a68/docs/license.txt",
+     "game.libretro.cannonball/debian/copyright",
+     "game.libretro.cannonball/game.libretro.cannonball/resources/system/cannonball/res/license.txt"
+    ],
+    "license_restrictions_found": [
+     "sale or permission restriction"
+    ],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
    "id": "game.libretro.cap32",
    "version": "4.5.4.54",
    "source": "https://github.com/kodi-game/game.libretro.cap32",
@@ -2144,6 +2216,114 @@
      "game.libretro.cap32/debian/copyright"
     ],
     "license_restrictions_found": [],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
+   "id": "game.libretro.chailove",
+   "version": "1.3.0.33",
+   "source": "https://github.com/kodi-game/game.libretro.chailove",
+   "source_ref": "master",
+   "license": "MIT",
+   "archive_sha256": "34739f988064b169b7b27bfc1feb34c4c0441084e7aa6db554c91306511eea3a",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "3beaf2859426d0e583555a39c38d2b8f44d6e748",
+   "original_archive_sha256": "f60f6af1ca000e2377be0a0a969746ac75bdb8f13d3f35dcf3f00c3ea62c51a1",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "chailove-e970f1191855cc6a4de6103f78506d60a08532d7.tar.gz",
+      "sha256": "dc3ebc7b91a3dc32b5ccb7562af23b81e7c614185e1e88b2d5286df54dd53713",
+      "upstream_url": "https://github.com/kodi-game/libretro-chailove/archive/e970f1191855cc6a4de6103f78506d60a08532d7.tar.gz"
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.chailove-3beaf2859426-horizon-source.tar.gz",
+     "sha256": "26c948f5f533b03da1bb29bba7810fd2cb4b85311f9c39ffe34ebb411e821796",
+     "git_commit": "3beaf2859426d0e583555a39c38d2b8f44d6e748",
+     "modified": true,
+     "patch": "game.libretro.chailove-horizon.patch"
+    },
+    "package_license_notices": [
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/COPYING",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/ChaiScript_Extras/LICENSE",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/chaiscript/LICENSE",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/chaiscript/license.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/cppcodec/LICENSE",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/cppcodec/test/catch/LICENSE.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/libretro-deps/fluidlite/LICENSE",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/libretro-deps/libfaac/kiss_fft/COPYING",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/libretro-deps/libfaad/COPYING",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/libretro-deps/libjpeg/LICENSE.md",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/libretro-deps/libmad/COPYING",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/libretro-deps/libmad/COPYRIGHT",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/libretro-deps/libpng/LICENSE",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/libretro-deps/libpng/contrib/gregbook/COPYING",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/libretro-deps/libpng/contrib/gregbook/LICENSE",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/libretro-deps/libusb/COPYING",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/libretro-deps/luajit/COPYRIGHT",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/libretro-deps/miniupnpc/LICENSE",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/libretro-deps/minizip/LICENSE",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/libretro-deps/retroluxury/LICENSE",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/libretro-deps/theora/COPYING",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/libretro-deps/theora/LICENSE",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/libretro-deps/tremor/COPYING",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/libretro-deps/wildmidi/COPYING",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/libretro-deps/wildmidi/docs/license/GPLv3.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/libretro-deps/wildmidi/docs/license/LGPLv3.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/noarch/LICENSE",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/physfs/LICENSE.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/random/LICENSE.MIT",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/COPYING",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_gfx-2.0.26/COPYING",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_gfx-2.0.26/LICENSE",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_gfx-2.0.26/Test/COPYING",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_image-1.2.12/COPYING",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_image-1.2.12/VisualC/external/lib/x64/LICENSE.jpeg.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_image-1.2.12/VisualC/external/lib/x64/LICENSE.png.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_image-1.2.12/VisualC/external/lib/x64/LICENSE.tiff.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_image-1.2.12/VisualC/external/lib/x64/LICENSE.webp.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_image-1.2.12/VisualC/external/lib/x64/LICENSE.zlib.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_image-1.2.12/VisualC/external/lib/x86/LICENSE.jpeg.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_image-1.2.12/VisualC/external/lib/x86/LICENSE.png.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_image-1.2.12/VisualC/external/lib/x86/LICENSE.tiff.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_image-1.2.12/VisualC/external/lib/x86/LICENSE.webp.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_image-1.2.12/VisualC/external/lib/x86/LICENSE.zlib.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_image-1.2.12/Xcode/Frameworks/webp.framework/LICENSE.webp.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_mixer-1.2.12/COPYING",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_mixer-1.2.12/VisualC/external/lib/x64/LICENSE.FLAC.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_mixer-1.2.12/VisualC/external/lib/x64/LICENSE.mikmod.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_mixer-1.2.12/VisualC/external/lib/x64/LICENSE.ogg-vorbis.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_mixer-1.2.12/VisualC/external/lib/x64/LICENSE.smpeg.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_mixer-1.2.12/VisualC/external/lib/x86/LICENSE.FLAC.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_mixer-1.2.12/VisualC/external/lib/x86/LICENSE.mikmod.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_mixer-1.2.12/VisualC/external/lib/x86/LICENSE.ogg-vorbis.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_mixer-1.2.12/VisualC/external/lib/x86/LICENSE.smpeg.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_mixer-1.2.12/Xcode/Frameworks/FLAC.framework/LICENSE.FLAC.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_mixer-1.2.12/Xcode/Frameworks/Ogg.framework/LICENSE.ogg-vorbis.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_mixer-1.2.12/Xcode/Frameworks/Vorbis.framework/LICENSE.ogg-vorbis.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_mixer-1.2.12/Xcode/Frameworks/mikmod.framework/LICENSE.mikmod.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_mixer-1.2.12/Xcode/Frameworks/smpeg.framework/LICENSE.smpeg.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_mixer-1.2.12/timidity/COPYING",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_ttf-2.0.11/COPYING",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_ttf-2.0.11/VisualC/external/lib/x64/LICENSE.freetype.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_ttf-2.0.11/VisualC/external/lib/x64/LICENSE.zlib.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_ttf-2.0.11/VisualC/external/lib/x86/LICENSE.freetype.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_ttf-2.0.11/VisualC/external/lib/x86/LICENSE.zlib.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/SDL_ttf-2.0.11/Xcode/Frameworks/FreeType.framework/LICENSE.freetype.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/opentyrian/COPYING",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/sdl-libretro/tests/sdl-mandelbrot/LICENSE",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/stb/LICENSE",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/stb/data/herringbone/license.txt",
+     "chailove/libretro-chailove-e970f1191855cc6a4de6103f78506d60a08532d7/vendor/styleguide/LICENSE",
+     "game.libretro.chailove/debian/copyright"
+    ],
+    "license_restrictions_found": [
+     "CC BY-NC",
+     "non-commercial"
+    ],
     "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
    }
   },
@@ -2321,6 +2501,44 @@
      "game.libretro.desmume2015/debian/copyright"
     ],
     "license_restrictions_found": [],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
+   "id": "game.libretro.dinothawr",
+   "version": "1.0.0.50",
+   "source": "https://github.com/kodi-game/game.libretro.dinothawr",
+   "source_ref": "master",
+   "license": "Non-commercial",
+   "archive_sha256": "615d99a2861c22f92af0796ddfba93be5649f5eb8107e627d837fb5ba97b5db3",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "0123df8980b3d20b2c78fc8d9efc72de89b40980",
+   "original_archive_sha256": "b014c8e9e3b4609e33baa4236fb66038d7e2dc69d04a58482875d04105437dfe",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "dinothawr-62d3e1ecf85f0feea01cad6809a80303a87e8a28.tar.gz",
+      "sha256": "aad5b5071132f3c9ad3ce1497964cc5e1d87af31333b54c80c089b178906189e",
+      "upstream_url": "https://github.com/libretro/Dinothawr/archive/62d3e1ecf85f0feea01cad6809a80303a87e8a28.tar.gz"
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.dinothawr-0123df8980b3-horizon-source.tar.gz",
+     "sha256": "96f20bdb91a14d92d375a3b015b8f96139a9dcf879483315af0af559c3fde40a",
+     "git_commit": "0123df8980b3d20b2c78fc8d9efc72de89b40980",
+     "modified": true,
+     "patch": "game.libretro.dinothawr-horizon.patch"
+    },
+    "package_license_notices": [
+     "dinothawr/Dinothawr-62d3e1ecf85f0feea01cad6809a80303a87e8a28/LICENSE",
+     "game.libretro.dinothawr/debian/copyright",
+     "game.libretro.dinothawr/game.libretro.dinothawr/resources/system/dinothawr/LICENSE"
+    ],
+    "license_restrictions_found": [
+     "sale or permission restriction"
+    ],
     "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
    }
   },
@@ -2504,6 +2722,48 @@
    }
   },
   {
+   "id": "game.libretro.ecwolf",
+   "version": "0.01.0.44",
+   "source": "https://github.com/kodi-game/game.libretro.ecwolf",
+   "source_ref": "master",
+   "license": "BSD|LGPL",
+   "archive_sha256": "6b010e3463366764e86d67ea92d2cf7aabb1630801352ac74c1e8bfa0e285e95",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "5a029df94bcc480383accb6e794a3d10bfb4d80d",
+   "original_archive_sha256": "2a84c56f38025471203c424e8a3395785dcc42f9b9b666cf8fdca89e20ce35ef",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "ecwolf-0cccd9a85d7ffa33fb695691a8a5db246606518c.tar.gz",
+      "sha256": "eda0719e0d93abea3667e658764cbab21c9f370c5f6e1166c31f39fe00c3e246",
+      "upstream_url": "https://github.com/libretro/ecwolf/archive/0cccd9a85d7ffa33fb695691a8a5db246606518c.tar.gz"
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.ecwolf-5a029df94bcc-horizon-source.tar.gz",
+     "sha256": "4f360ee181ee1c573568eb5bdcdf6278bbce82790eb9d9efeef6ba45a97bd905",
+     "git_commit": "5a029df94bcc480383accb6e794a3d10bfb4d80d",
+     "modified": true,
+     "patch": "game.libretro.ecwolf-horizon.patch"
+    },
+    "package_license_notices": [
+     "ecwolf/ecwolf-0cccd9a85d7ffa33fb695691a8a5db246606518c/deps/bzip2/LICENSE",
+     "ecwolf/ecwolf-0cccd9a85d7ffa33fb695691a8a5db246606518c/docs/copyright",
+     "ecwolf/ecwolf-0cccd9a85d7ffa33fb695691a8a5db246606518c/docs/license-gpl.txt",
+     "ecwolf/ecwolf-0cccd9a85d7ffa33fb695691a8a5db246606518c/docs/license-id.txt",
+     "ecwolf/ecwolf-0cccd9a85d7ffa33fb695691a8a5db246606518c/docs/license-mame.txt",
+     "ecwolf/ecwolf-0cccd9a85d7ffa33fb695691a8a5db246606518c/src/sfmt/LICENSE.txt",
+     "game.libretro.ecwolf/debian/copyright"
+    ],
+    "license_restrictions_found": [
+     "sale or permission restriction"
+    ],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
    "id": "game.libretro.ep128emu",
    "version": "1.2.13.32",
    "source": "https://github.com/kodi-game/game.libretro.ep128emu",
@@ -2541,6 +2801,264 @@
    }
   },
   {
+   "id": "game.libretro.fbalpha",
+   "version": "0.2.97.18",
+   "source": "https://github.com/kodi-game/game.libretro.fbalpha",
+   "source_ref": "master",
+   "license": "Unlicensed",
+   "archive_sha256": "a603df49204ae291e72918b09e0a93a152ae4a4ca047363554b9efee93fd8745",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "d67fbc72891d39c51f8301c99c1c4dbca27eb2f0",
+   "original_archive_sha256": "509b54df4a79948b4881b67e4a8480eddec9c2de5089e0ffb605f6b78da82b5a",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "fbalpha-0581797db6fdffd826086b053ced4b6b29bb6678.tar.gz",
+      "sha256": "8309b4af12c532e4454f07e46632a6c9bcd42ec54417e724948bfe2a5e83cf00",
+      "upstream_url": "https://github.com/libretro/fbalpha/archive/0581797db6fdffd826086b053ced4b6b29bb6678.tar.gz"
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.fbalpha-d67fbc72891d-horizon-source.tar.gz",
+     "sha256": "09a58ac75b34b5c1b741614482718cb5363281561fbde5da082f3dd47fce87a3",
+     "git_commit": "d67fbc72891d39c51f8301c99c1c4dbca27eb2f0",
+     "modified": true,
+     "patch": "game.libretro.fbalpha-horizon.patch"
+    },
+    "package_license_notices": [
+     "fbalpha/beetle-finalarcade2019-0581797db6fdffd826086b053ced4b6b29bb6678/src/license.txt",
+     "game.libretro.fbalpha/debian/copyright"
+    ],
+    "license_restrictions_found": [],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
+   "id": "game.libretro.fbalpha2012",
+   "version": "0.2.97.43",
+   "source": "https://github.com/kodi-game/game.libretro.fbalpha2012",
+   "source_ref": "master",
+   "license": "Non-commercial",
+   "archive_sha256": "74e0d8b182f9488de6f93293949e72ec73dc20056d2394d492988d3386243037",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "1374e8df96c5fe5bf33dc4dea4e42f323856cddb",
+   "original_archive_sha256": "897d21ac6aefd4ce69e06ddf4be8f5981e05272843bcaab6abb811511e3ca356",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "fbalpha2012-0ce31536bef3162fe7e69ff5f555334ec4913cef.tar.gz",
+      "sha256": "6825b86c65887fc92ba02c07059d8225113bcca7764dab84ce21da18954c33af",
+      "upstream_url": "https://github.com/libretro/fbalpha2012/archive/0ce31536bef3162fe7e69ff5f555334ec4913cef.tar.gz"
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.fbalpha2012-1374e8df96c5-horizon-source.tar.gz",
+     "sha256": "9be9c6d169f84ac4b338748a997470fedb77afa189b4177dda2231ab92cd34ec",
+     "git_commit": "1374e8df96c5fe5bf33dc4dea4e42f323856cddb",
+     "modified": true,
+     "patch": "game.libretro.fbalpha2012-horizon.patch"
+    },
+    "package_license_notices": [
+     "fbalpha2012/fbalpha2012-0ce31536bef3162fe7e69ff5f555334ec4913cef/docs/COPYING",
+     "fbalpha2012/fbalpha2012-0ce31536bef3162fe7e69ff5f555334ec4913cef/docs/license.txt",
+     "fbalpha2012/fbalpha2012-0ce31536bef3162fe7e69ff5f555334ec4913cef/svn-current/trunk/src/license.txt",
+     "game.libretro.fbalpha2012/debian/copyright"
+    ],
+    "license_restrictions_found": [],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
+   "id": "game.libretro.fbalpha2012-cps1",
+   "version": "0.2.97.34",
+   "source": "https://github.com/kodi-game/game.libretro.fbalpha2012-cps1",
+   "source_ref": "master",
+   "license": "Non-commercial",
+   "archive_sha256": "c00f79f7c274a9b597c0dc4745cb8f96bedea826817af8193d75631247663e64",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "b8b92b219bb38afb0a20e5ce4c95584b254763f7",
+   "original_archive_sha256": "67440344af2defa17f41d7964d4a2fdaf6bf4776f7944c00038eaf7f8aaae689",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "fbalpha2012-cps1-5542c1848ef81e92db311193b01dc349bc29d7cc.tar.gz",
+      "sha256": "444d5f0e4f60862dbc0fecaeb700c515a5fd156c07aa7bbbcda287b9c1615717",
+      "upstream_url": "https://github.com/libretro/fbalpha2012_cps1/archive/5542c1848ef81e92db311193b01dc349bc29d7cc.tar.gz"
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.fbalpha2012-cps1-b8b92b219bb3-horizon-source.tar.gz",
+     "sha256": "ab32ac468dc5fb85c71ea3736a32ecf2497db91ac11609dde4222d9fee3607c2",
+     "git_commit": "b8b92b219bb38afb0a20e5ce4c95584b254763f7",
+     "modified": true,
+     "patch": "game.libretro.fbalpha2012-cps1-horizon.patch"
+    },
+    "package_license_notices": [
+     "fbalpha2012-cps1/fbalpha2012_cps1-5542c1848ef81e92db311193b01dc349bc29d7cc/src/license.txt",
+     "game.libretro.fbalpha2012-cps1/debian/copyright"
+    ],
+    "license_restrictions_found": [],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
+   "id": "game.libretro.fbalpha2012-cps2",
+   "version": "0.2.97.34",
+   "source": "https://github.com/kodi-game/game.libretro.fbalpha2012-cps2",
+   "source_ref": "master",
+   "license": "Non-commercial",
+   "archive_sha256": "81aafb0a85d0b56e52f9298c1facc520d1142a29225d10fa975050fc510d7568",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "9deedbfac6b735510c52ba54a72e40ee9a073865",
+   "original_archive_sha256": "cb4f07c1b0f4a7bf3767c036f16a07c2f896a2cf83cc9a0f2cbd07bd61a2c61e",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "fbalpha2012-cps2-e3f3ae46f120228b74d41e2b2862f1fbf1d7eb5b.tar.gz",
+      "sha256": "34d1f2d30995c51c4631e2ca34650d831b8b92cd3b02bca3d320772c671dd426",
+      "upstream_url": "https://github.com/libretro/fbalpha2012_cps2/archive/e3f3ae46f120228b74d41e2b2862f1fbf1d7eb5b.tar.gz"
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.fbalpha2012-cps2-9deedbfac6b7-horizon-source.tar.gz",
+     "sha256": "58aa9db0f46f8f6249688c798294903becc7fde348cc45e0d063f74cb7114a8b",
+     "git_commit": "9deedbfac6b735510c52ba54a72e40ee9a073865",
+     "modified": true,
+     "patch": "game.libretro.fbalpha2012-cps2-horizon.patch"
+    },
+    "package_license_notices": [
+     "fbalpha2012-cps2/fbalpha2012_cps2-e3f3ae46f120228b74d41e2b2862f1fbf1d7eb5b/src/license.txt",
+     "game.libretro.fbalpha2012-cps2/debian/copyright"
+    ],
+    "license_restrictions_found": [],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
+   "id": "game.libretro.fbalpha2012-cps3",
+   "version": "0.2.97.29",
+   "source": "https://github.com/kodi-game/game.libretro.fbalpha2012-cps3",
+   "source_ref": "master",
+   "license": "Non-commercial",
+   "archive_sha256": "35e33d3a734d32731c17e4608c0e97e1036c40410aa0740e4edff54462d381b5",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "f8c9a0d71088123e30ea564b91d0eecb46e00bcf",
+   "original_archive_sha256": "88cd49e40a3cd99823d0b29944be5ed3c4623722a6fe4af25fc739ed4bc7b99d",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "fbalpha2012-cps3-57f8015c2e0cdebcf42d3add2c314bb7448f9421.tar.gz",
+      "sha256": "0a8b245dac5dd1a01938127d0095a600d00770cca1ed467d75b9d965b1697d02",
+      "upstream_url": "https://github.com/libretro/fbalpha2012_cps3/archive/57f8015c2e0cdebcf42d3add2c314bb7448f9421.tar.gz"
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.fbalpha2012-cps3-f8c9a0d71088-horizon-source.tar.gz",
+     "sha256": "8f492519601ea097da5f8b2b4ba2a3973779de475f457c8f0366caaa59f76896",
+     "git_commit": "f8c9a0d71088123e30ea564b91d0eecb46e00bcf",
+     "modified": true,
+     "patch": "game.libretro.fbalpha2012-cps3-horizon.patch"
+    },
+    "package_license_notices": [
+     "fbalpha2012-cps3/fbalpha2012_cps3-57f8015c2e0cdebcf42d3add2c314bb7448f9421/docs/COPYING",
+     "fbalpha2012-cps3/fbalpha2012_cps3-57f8015c2e0cdebcf42d3add2c314bb7448f9421/docs/license.txt",
+     "fbalpha2012-cps3/fbalpha2012_cps3-57f8015c2e0cdebcf42d3add2c314bb7448f9421/svn-current/trunk/src/license.txt",
+     "game.libretro.fbalpha2012-cps3/debian/copyright"
+    ],
+    "license_restrictions_found": [],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
+   "id": "game.libretro.fbalpha2012-neogeo",
+   "version": "0.2.97.29",
+   "source": "https://github.com/kodi-game/game.libretro.fbalpha2012-neogeo",
+   "source_ref": "master",
+   "license": "Non-commercial",
+   "archive_sha256": "0625693f8dbc836593d0d44216efa0d782b50c100852aea236c93fa63abfdf1d",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "4ea4bdf304e45ce8afb5009f0e3ce3fc5736568b",
+   "original_archive_sha256": "f8cbe595f8b50a367d6ce58d2a10e2cfb07a412201b4b3da23000f0f2fb0e61d",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "fbalpha2012-neogeo-e092097037d494c50d17c5144a2758d68538061b.tar.gz",
+      "sha256": "ab2258eb154e590715c081e72d84e39162a0f6f0dd2053a1d9489f79461a6d3f",
+      "upstream_url": "https://github.com/libretro/fbalpha2012_neogeo/archive/e092097037d494c50d17c5144a2758d68538061b.tar.gz"
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.fbalpha2012-neogeo-4ea4bdf304e4-horizon-source.tar.gz",
+     "sha256": "60781d55996008664670d1562e7ac97eee70ba3de9a2eb2c852233efbabaca62",
+     "git_commit": "4ea4bdf304e45ce8afb5009f0e3ce3fc5736568b",
+     "modified": true,
+     "patch": "game.libretro.fbalpha2012-neogeo-horizon.patch"
+    },
+    "package_license_notices": [
+     "fbalpha2012-neogeo/fbalpha2012_neogeo-e092097037d494c50d17c5144a2758d68538061b/src/license.txt",
+     "game.libretro.fbalpha2012-neogeo/debian/copyright"
+    ],
+    "license_restrictions_found": [],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
+   "id": "game.libretro.fbneo",
+   "version": "1.0.0.107",
+   "source": "https://github.com/kodi-game/game.libretro.fbneo",
+   "source_ref": "master",
+   "license": "Non-commercial",
+   "archive_sha256": "0a15c8dd3327407912a5dce686d69ba6700139584e2a19015a3289914742566b",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "dc966d6219d6c9e84cffdba182532930e08076b6",
+   "original_archive_sha256": "521abe08c142e5136ef9856901d1f640470244da8614eb23986bb21d2176eccd",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "fbneo-405b247a9f3b348ea09bd227a28fa1fcb80db341.tar.gz",
+      "sha256": "a6640a0c52c20c1a1b1c6a1ce3efbb99bf4911e4db2496bbb6da08e19160bb23",
+      "upstream_url": "https://github.com/libretro/FBNeo/archive/405b247a9f3b348ea09bd227a28fa1fcb80db341.tar.gz"
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.fbneo-dc966d6219d6-horizon-source.tar.gz",
+     "sha256": "5cf9f65f7bd9a8e59cb10953031fee3d102e64463d357cbc71df0f311a5bae03",
+     "git_commit": "dc966d6219d6c9e84cffdba182532930e08076b6",
+     "modified": true,
+     "patch": "game.libretro.fbneo-horizon.patch"
+    },
+    "package_license_notices": [
+     "fbneo/FBNeo-405b247a9f3b348ea09bd227a28fa1fcb80db341/LICENSE.md",
+     "fbneo/FBNeo-405b247a9f3b348ea09bd227a28fa1fcb80db341/src/burn/drv/gba/license.txt",
+     "fbneo/FBNeo-405b247a9f3b348ea09bd227a28fa1fcb80db341/src/burn/drv/snes/license.txt",
+     "fbneo/FBNeo-405b247a9f3b348ea09bd227a28fa1fcb80db341/src/burner/libretro/deps/ugui/LICENSE.md",
+     "fbneo/FBNeo-405b247a9f3b348ea09bd227a28fa1fcb80db341/src/dep/libs/dr_libs/LICENSE.txt",
+     "fbneo/FBNeo-405b247a9f3b348ea09bd227a28fa1fcb80db341/src/dep/libs/libchdr/LICENSE.txt",
+     "fbneo/FBNeo-405b247a9f3b348ea09bd227a28fa1fcb80db341/src/dep/libs/lzma/LICENSE",
+     "fbneo/FBNeo-405b247a9f3b348ea09bd227a28fa1fcb80db341/src/license.txt",
+     "game.libretro.fbneo/debian/copyright"
+    ],
+    "license_restrictions_found": [
+     "sale or permission restriction"
+    ],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
    "id": "game.libretro.fceumm",
    "version": "0.0.1.68",
    "source": "https://github.com/kodi-game/game.libretro.fceumm",
@@ -2571,6 +3089,42 @@
      "fceumm/libretro-fceumm-e0f3086a8104f8fbbe49a2615b10401504a9533f/Copying",
      "fceumm/libretro-fceumm-e0f3086a8104f8fbbe49a2615b10401504a9533f/src/ntsc/license.txt",
      "game.libretro.fceumm/debian/copyright"
+    ],
+    "license_restrictions_found": [],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
+   "id": "game.libretro.fmsx",
+   "version": "6.0.0.52",
+   "source": "https://github.com/kodi-game/game.libretro.fmsx",
+   "source_ref": "master",
+   "license": "Non-commercial",
+   "archive_sha256": "d7cb678e19a112f00883f547506ddc138c8aa3ed7c0c4c2f860afececd2ba733",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "0a7e18959c72c5e2544e87d5b57dc4844bd80ad4",
+   "original_archive_sha256": "72f4eed3429e8e4c2fcaec267aa666c72ac75975e1f865f10ee69d5e55393f60",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "fmsx-4de11755ce4f196ac1c8a7bb20bb4eccbc87a7d4.tar.gz",
+      "sha256": "00d67d2bd41254d48fac9e9ae8c3b399aead46b3bcecca2e9f3cdf7f03feef44",
+      "upstream_url": "https://github.com/libretro/fmsx-libretro/archive/4de11755ce4f196ac1c8a7bb20bb4eccbc87a7d4.tar.gz"
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.fmsx-0a7e18959c72-horizon-source.tar.gz",
+     "sha256": "80cb323b97237fcfeeb0f5e51b3dc25cd4af4b75c919312f0f372891b3714ffe",
+     "git_commit": "0a7e18959c72c5e2544e87d5b57dc4844bd80ad4",
+     "modified": true,
+     "patch": "game.libretro.fmsx-horizon.patch"
+    },
+    "package_license_notices": [
+     "fmsx/fmsx-libretro-4de11755ce4f196ac1c8a7bb20bb4eccbc87a7d4/LICENSE",
+     "fmsx/fmsx-libretro-4de11755ce4f196ac1c8a7bb20bb4eccbc87a7d4/NukeYKT/LICENSE",
+     "game.libretro.fmsx/debian/copyright"
     ],
     "license_restrictions_found": [],
     "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
@@ -2903,6 +3457,99 @@
    }
   },
   {
+   "id": "game.libretro.genplus",
+   "version": "1.7.4.86",
+   "source": "https://github.com/kodi-game/game.libretro.genplus",
+   "source_ref": "master",
+   "license": "Non-commercial",
+   "archive_sha256": "82782459c71f257ec2bb205879ad6eedbbd150017223f94401259710b746698a",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "526af9a94a52221e3674a2d1686987c404055917",
+   "original_archive_sha256": "c56b3da4ae7d391897bad51e08614eafb1644896f394ce58c75af4f20de11a69",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "genplus-60bee4c724859710ce05672239e5b601ad01382e.tar.gz",
+      "sha256": "be38862ff269dfb69c543fbd4219c1883f18f9de99d00164040b40d6e5b3a844",
+      "upstream_url": "https://github.com/libretro/Genesis-Plus-GX/archive/60bee4c724859710ce05672239e5b601ad01382e.tar.gz"
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.genplus-526af9a94a52-horizon-source.tar.gz",
+     "sha256": "c16cb5d91cf6532bc932ca262a28d3825c60829d2785ad84ebd4557751cae67d",
+     "git_commit": "526af9a94a52221e3674a2d1686987c404055917",
+     "modified": true,
+     "patch": "game.libretro.genplus-horizon.patch"
+    },
+    "package_license_notices": [
+     "game.libretro.genplus/debian/copyright",
+     "genplus/Genesis-Plus-GX-60bee4c724859710ce05672239e5b601ad01382e/LICENSE.txt",
+     "genplus/Genesis-Plus-GX-60bee4c724859710ce05672239e5b601ad01382e/core/cd_hw/libchdr/LICENSE.txt",
+     "genplus/Genesis-Plus-GX-60bee4c724859710ce05672239e5b601ad01382e/core/ntsc/license.txt",
+     "genplus/Genesis-Plus-GX-60bee4c724859710ce05672239e5b601ad01382e/core/sound/minimp3/LICENSE.txt",
+     "genplus/Genesis-Plus-GX-60bee4c724859710ce05672239e5b601ad01382e/core/sound/tremor/COPYING",
+     "genplus/Genesis-Plus-GX-60bee4c724859710ce05672239e5b601ad01382e/gcw0/opk-data/LICENSE.txt",
+     "genplus/Genesis-Plus-GX-60bee4c724859710ce05672239e5b601ad01382e/gx/utils/wiidrc/LICENSE",
+     "genplus/Genesis-Plus-GX-60bee4c724859710ce05672239e5b601ad01382e/libretro/debian/copyright",
+     "genplus/Genesis-Plus-GX-60bee4c724859710ce05672239e5b601ad01382e/libretro/deps/libchdr/LICENSE.txt",
+     "genplus/Genesis-Plus-GX-60bee4c724859710ce05672239e5b601ad01382e/libretro/deps/lzma-19.00/LICENSE",
+     "genplus/Genesis-Plus-GX-60bee4c724859710ce05672239e5b601ad01382e/libretro/deps/zstd/COPYING",
+     "genplus/Genesis-Plus-GX-60bee4c724859710ce05672239e5b601ad01382e/libretro/deps/zstd/LICENSE"
+    ],
+    "license_restrictions_found": [
+     "non-commercial",
+     "sale or permission restriction"
+    ],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
+   "id": "game.libretro.genplus-wide",
+   "version": "1.7.4.39",
+   "source": "https://github.com/kodi-game/game.libretro.genplus-wide",
+   "source_ref": "master",
+   "license": "Non-commercial",
+   "archive_sha256": "0780babf26a174af9f00409561e3f18d108f88d612c3e55fe8532e4f81a69377",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "00df802e8800a487b070511b7e753edf458bfbf1",
+   "original_archive_sha256": "04ed41beb83e79c7bba830b7e8ccb8f6f3d567ca90d4ec2c0b50ddf81e170693",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "genplus-wide-b7ad005431f5f0b55e559f6d598d1ed2479bf13b.tar.gz",
+      "sha256": "ce5bd58df616da98db6d1fd1761ebcb40a7cacb5d30afaaa8ba65f0e126e2950",
+      "upstream_url": "https://github.com/libretro/Genesis-Plus-GX-Wide/archive/b7ad005431f5f0b55e559f6d598d1ed2479bf13b.tar.gz"
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.genplus-wide-00df802e8800-horizon-source.tar.gz",
+     "sha256": "591199585fcaee1cf1d0ff8e53b8f337866b536fb4e1aa3c233136d754bafeeb",
+     "git_commit": "00df802e8800a487b070511b7e753edf458bfbf1",
+     "modified": true,
+     "patch": "game.libretro.genplus-wide-horizon.patch"
+    },
+    "package_license_notices": [
+     "game.libretro.genplus-wide/debian/copyright",
+     "genplus-wide/Genesis-Plus-GX-Wide-b7ad005431f5f0b55e559f6d598d1ed2479bf13b/LICENSE.txt",
+     "genplus-wide/Genesis-Plus-GX-Wide-b7ad005431f5f0b55e559f6d598d1ed2479bf13b/core/cd_hw/libchdr/LICENSE.txt",
+     "genplus-wide/Genesis-Plus-GX-Wide-b7ad005431f5f0b55e559f6d598d1ed2479bf13b/core/ntsc/license.txt",
+     "genplus-wide/Genesis-Plus-GX-Wide-b7ad005431f5f0b55e559f6d598d1ed2479bf13b/core/tremor/COPYING",
+     "genplus-wide/Genesis-Plus-GX-Wide-b7ad005431f5f0b55e559f6d598d1ed2479bf13b/libretro/debian/copyright",
+     "genplus-wide/Genesis-Plus-GX-Wide-b7ad005431f5f0b55e559f6d598d1ed2479bf13b/libretro/deps/libchdr/LICENSE.txt",
+     "genplus-wide/Genesis-Plus-GX-Wide-b7ad005431f5f0b55e559f6d598d1ed2479bf13b/libretro/deps/lzma-19.00/LICENSE"
+    ],
+    "license_restrictions_found": [
+     "non-commercial",
+     "sale or permission restriction"
+    ],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
    "id": "game.libretro.gme",
    "version": "0.6.1.12",
    "source": "https://github.com/kodi-game/game.libretro.gme",
@@ -3118,6 +3765,119 @@
    }
   },
   {
+   "id": "game.libretro.hbmame",
+   "version": "0.220.0.22",
+   "source": "https://github.com/kodi-game/game.libretro.hbmame",
+   "source_ref": "master",
+   "license": "GPLv2+",
+   "archive_sha256": "1e2fcf8a44c0e4126a9b3734c592ca08714a6d3185474f5ee457fe222b244acc",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "fc43f447f0515909bfa5e60f370e7113e18c8152",
+   "original_archive_sha256": "17a1295b01e2018b87422bddfdb9a6cb4809f6a10d60ea64f322067e8b02a862",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "game.libretro.hbmame-hbmame-horizon-core-source.tar.gz",
+      "sha256": "3c16f1370cb147921e945a2eb5dbb8ce3479b70efa026cb819a77869a4f85936",
+      "upstream_url": null
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.hbmame-fc43f447f051-horizon-source.tar.gz",
+     "sha256": "159b03915c27b969be23ffc73bb7edc271644249ee197554d0cfee87be5430d2",
+     "git_commit": "fc43f447f0515909bfa5e60f370e7113e18c8152",
+     "modified": true,
+     "patch": "game.libretro.hbmame-horizon.patch"
+    },
+    "package_license_notices": [
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/SDL2/COPYING.txt",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/SDL2/Xcode-iOS/Demos/data/bitmapfont/license.txt",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/SDL2/Xcode/SDL/pkg-support/resources/License.txt",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/SDL2/debian/copyright",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/SDL2/test/COPYING",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/asio/COPYING",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/asio/LICENSE_1_0.txt",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/benchmark/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/bgfx/3rdparty/fcpp/COPYING",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/bgfx/3rdparty/glsl-optimizer/license.txt",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/bgfx/3rdparty/glslang/LICENSE.txt",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/bgfx/3rdparty/iconfontheaders/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/bgfx/3rdparty/meshoptimizer/LICENSE.md",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/bgfx/3rdparty/sdf/LICENSE.txt",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/bgfx/3rdparty/spirv-cross/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/bgfx/3rdparty/spirv-headers/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/bgfx/3rdparty/spirv-tools/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/bgfx/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/bimg/3rdparty/astc-codec/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/bimg/3rdparty/astc/license.txt",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/bimg/3rdparty/edtaa3/LICENSE.md",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/bimg/3rdparty/etc1/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/bimg/3rdparty/etc2/LICENSE.txt",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/bimg/3rdparty/iqa/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/bimg/3rdparty/libsquish/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/bimg/3rdparty/pvrtc/LICENSE.TXT",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/bimg/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/bx/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/bx/include/tinystl/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/catch/LICENSE_1_0.txt",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/expat/COPYING",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/genie/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/glm/copying.txt",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/libflac/COPYING.GPL",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/libflac/COPYING.LGPL",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/libflac/doc/html/license.html",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/luafilesystem/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/luafilesystem/doc/us/license.html",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/nanosvg/LICENSE.txt",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/portaudio/LICENSE.txt",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/portaudio/bindings/cpp/COPYING",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/portmidi/license.txt",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/rapidjson/license.txt",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/softfloat3/COPYING.txt",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/sol2/LICENSE.txt",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/tap-windows6/COPYING",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/tap-windows6/COPYRIGHT.GPL",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/tap-windows6/COPYRIGHT.MIT",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/utf8proc/LICENSE.md",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/3rdparty/zlib/contrib/dotzlib/LICENSE_1_0.txt",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/COPYING",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/android-project/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/artwork/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/benchmarks/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/bgfx/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/bgfx/chains/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/bgfx/effects/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/bgfx/effects/default/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/bgfx/effects/hlsl/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/bgfx/effects/unfiltered/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/docs/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/docs/man/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/docs/release/docs/license.txt",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/docs/release/scripts/font/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/docs/source/license.rst",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/doxygen/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/hash/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/keymaps/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/language/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/plugins/json/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/regtests/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/samples/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/scripts/font/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/src/emu/layout/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/src/mame/layout/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/tests/LICENSE",
+     "game.libretro.hbmame-hbmame-horizon-core-source.tar/hbmame/web/LICENSE",
+     "game.libretro.hbmame/debian/copyright"
+    ],
+    "license_restrictions_found": [
+     "non-commercial"
+    ],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
    "id": "game.libretro.jumpnbump",
    "version": "0.1.0.18",
    "source": "https://github.com/kodi-game/game.libretro.jumpnbump",
@@ -3301,6 +4061,373 @@
      "game.libretro.mame/debian/copyright"
     ],
     "license_restrictions_found": [],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
+   "id": "game.libretro.mame2000",
+   "version": "0.37.0.49",
+   "source": "https://github.com/kodi-game/game.libretro.mame2000",
+   "source_ref": "master",
+   "license": "MAME",
+   "archive_sha256": "affdee7a1ded600bded342aea22119e364ee76a7fa52e262cd54164f809766ae",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "24f9404080e110c6c8139c07afcab67817934a8f",
+   "original_archive_sha256": "5deb71585ec844463b3c72b5964e09e38a4d7a81b9fe6a3319968fc40daf88a9",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "mame2000-181b42e5da0d2f0c7a2e59244f23633ed594de2e.tar.gz",
+      "sha256": "5420ee002c68afda1c54479ba1b80a4810705d7f4c18e5b6165bfd978968152e",
+      "upstream_url": "https://github.com/libretro/mame2000-libretro/archive/181b42e5da0d2f0c7a2e59244f23633ed594de2e.tar.gz"
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.mame2000-24f9404080e1-horizon-source.tar.gz",
+     "sha256": "e541f655fe56ea8e303465339726bbf7fa0d6a97ad3f2d05cb5bae21453459cc",
+     "git_commit": "24f9404080e110c6c8139c07afcab67817934a8f",
+     "modified": true,
+     "patch": "game.libretro.mame2000-horizon.patch"
+    },
+    "package_license_notices": [
+     "game.libretro.mame2000/debian/copyright",
+     "mame2000/mame2000-libretro-181b42e5da0d2f0c7a2e59244f23633ed594de2e/src/cpu/z80_drz80/gpl.txt"
+    ],
+    "license_restrictions_found": [],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
+   "id": "game.libretro.mame2003",
+   "version": "0.78.0.72",
+   "source": "https://github.com/kodi-game/game.libretro.mame2003",
+   "source_ref": "master",
+   "license": "MAME",
+   "archive_sha256": "72ffe08343af7f4b100d5c92925bdfbb90edb078e56b12e71a8c39e60145d79e",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "8ae4dc594e02651bdabe4f1848193935b8c69d3c",
+   "original_archive_sha256": "2a6ad0447156259262b3cf61cb10d92326ab6682bf821379287b145bcc996267",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "mame2003-b9ac708f922386a0ae1f2379dbb31b60d7ec7b25.tar.gz",
+      "sha256": "3f45adec0787afff205c28dd0c99ee4dab096fe5742991eddebc2144ebf4d373",
+      "upstream_url": "https://github.com/libretro/mame2003-libretro/archive/b9ac708f922386a0ae1f2379dbb31b60d7ec7b25.tar.gz"
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.mame2003-8ae4dc594e02-horizon-source.tar.gz",
+     "sha256": "f6121363923c21f2733b28f8fc1c58d2f0e62fcc07939b3885f1eb364049acef",
+     "git_commit": "8ae4dc594e02651bdabe4f1848193935b8c69d3c",
+     "modified": true,
+     "patch": "game.libretro.mame2003-horizon.patch"
+    },
+    "package_license_notices": [
+     "game.libretro.mame2003/debian/copyright",
+     "mame2003/mame2003-libretro-b9ac708f922386a0ae1f2379dbb31b60d7ec7b25/LICENSE.md",
+     "mame2003/mame2003-libretro-b9ac708f922386a0ae1f2379dbb31b60d7ec7b25/src/cpu/z80_drz80/gpl.txt"
+    ],
+    "license_restrictions_found": [
+     "non-commercial"
+    ],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
+   "id": "game.libretro.mame2003_midway",
+   "version": "0.78.0.33",
+   "source": "https://github.com/kodi-game/game.libretro.mame2003_midway",
+   "source_ref": "master",
+   "license": "MAME",
+   "archive_sha256": "d32c350a1fec50e0abc1babcab62a3afc667a6ee4a621390cf37bbb86bda8e6f",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "d2a63ceab34496867f12d5b72a8e1345361c4e42",
+   "original_archive_sha256": "61555d9ecb57524a611e40aad6a557adf109f9820c28c011d8ecbb4ee0f3dac1",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "mame2003_midway-fb5fb047d0efd9fdc9d56e50fa377f5e47569d35.tar.gz",
+      "sha256": "6145ec61cd28822155d062b170aa4c392050f1c6b1c4d249ad0af295567b65b6",
+      "upstream_url": "https://github.com/libretro/mame2003_midway/archive/fb5fb047d0efd9fdc9d56e50fa377f5e47569d35.tar.gz"
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.mame2003_midway-d2a63ceab344-horizon-source.tar.gz",
+     "sha256": "71da4eb110edba7b6e80bcb6a51b2771869d3c1bc8fccd64bda0e62481d5739d",
+     "git_commit": "d2a63ceab34496867f12d5b72a8e1345361c4e42",
+     "modified": true,
+     "patch": "game.libretro.mame2003_midway-horizon.patch"
+    },
+    "package_license_notices": [
+     "game.libretro.mame2003_midway/debian/copyright"
+    ],
+    "license_restrictions_found": [],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
+   "id": "game.libretro.mame2003_plus",
+   "version": "0.0.1.105",
+   "source": "https://github.com/kodi-game/game.libretro.mame2003_plus",
+   "source_ref": "master",
+   "license": "MAME Noncommercial",
+   "archive_sha256": "30acefb34706000ba3714b228824f9c2cd14b99ec3359dee2437248ea9ca921b",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "730047eb5774f973360c461a6a05179044fc5d53",
+   "original_archive_sha256": "fbaeb5634ee38f051ac93c89d22a3120cfe54bac73a7e6fdbe08fd8f382ebb55",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "game.libretro.mame2003_plus-mame2003_plus-horizon-core-source.tar.gz",
+      "sha256": "3137eb934e3161acb1da1046876e6b58892a72806c02dd04ae3d9994aa0980eb",
+      "upstream_url": null
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.mame2003_plus-730047eb5774-horizon-source.tar.gz",
+     "sha256": "56c28d4e9a6d498f83f23fb3279216fa95b9fb72601143042310f12b23034bbd",
+     "git_commit": "730047eb5774f973360c461a6a05179044fc5d53",
+     "modified": true,
+     "patch": "game.libretro.mame2003_plus-horizon.patch"
+    },
+    "package_license_notices": [
+     "game.libretro.mame2003_plus-mame2003_plus-horizon-core-source.tar/mame2003_plus/LICENSE.md",
+     "game.libretro.mame2003_plus-mame2003_plus-horizon-core-source.tar/mame2003_plus/src/cpu/z80_drz80/gpl.txt",
+     "game.libretro.mame2003_plus-mame2003_plus-horizon-core-source.tar/mame2003_plus/src/lib/libchdr/LICENSE.txt",
+     "game.libretro.mame2003_plus-mame2003_plus-horizon-core-source.tar/mame2003_plus/src/lib/libchdr/deps/lzma/LICENSE",
+     "game.libretro.mame2003_plus-mame2003_plus-horizon-core-source.tar/mame2003_plus/src/lib/sljit/LICENSE",
+     "game.libretro.mame2003_plus/debian/copyright"
+    ],
+    "license_restrictions_found": [
+     "non-commercial"
+    ],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
+   "id": "game.libretro.mame2010",
+   "version": "0.139.0.40",
+   "source": "https://github.com/kodi-game/game.libretro.mame2010",
+   "source_ref": "master",
+   "license": "MAME",
+   "archive_sha256": "34c56ee7eba7c3325cf6058e8bd4c0e1807914163453957ebb49a7fb18b64600",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "82e70c7e0223e19ee84393104d8387d831ee9319",
+   "original_archive_sha256": "95e03f1f75c1e0524813af92b6f7ac207ca5ba70e80c52586200f6aca8e2be1e",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "mame2010-dff8aadd1c3f38215af3955746d6e19abe0ddcea.tar.gz",
+      "sha256": "ef62ec2884a18b0af64ad35a96d7622253793d5c93db315d9c1a2f2c021ae72a",
+      "upstream_url": "https://github.com/libretro/mame2010-libretro/archive/dff8aadd1c3f38215af3955746d6e19abe0ddcea.tar.gz"
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.mame2010-82e70c7e0223-horizon-source.tar.gz",
+     "sha256": "d12ee58b1e2bda185520d83687ae65773a0dff3cf46b08a5859066144e21271b",
+     "git_commit": "82e70c7e0223e19ee84393104d8387d831ee9319",
+     "modified": true,
+     "patch": "game.libretro.mame2010-horizon.patch"
+    },
+    "package_license_notices": [
+     "game.libretro.mame2010/debian/copyright",
+     "mame2010/mame2010-libretro-dff8aadd1c3f38215af3955746d6e19abe0ddcea/docs/license.txt",
+     "mame2010/mame2010-libretro-dff8aadd1c3f38215af3955746d6e19abe0ddcea/src/tools/bin2c/LICENCE"
+    ],
+    "license_restrictions_found": [
+     "sale or permission restriction"
+    ],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
+   "id": "game.libretro.mame2014",
+   "version": "0.160.0.2",
+   "source": "https://github.com/kodi-game/game.libretro.mame2014",
+   "source_ref": "master",
+   "license": "MAME",
+   "archive_sha256": "792590d3f7b75533b37487cb264f0c0c18dd1e5d4e193309de35bbcd8127d191",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "807a016fee99cdc0bb62369ff2b0b7b03771a231",
+   "original_archive_sha256": "59191743831fed6f55422afe1f1645eb669668dc88bdbc65be37143805c0844e",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "game.libretro.mame2014-mame2014-horizon-core-source.tar.gz",
+      "sha256": "1d323d31790cc50c870654d436afe7b234f8cf77c0b87986db03e65b4f2faee9",
+      "upstream_url": null
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.mame2014-807a016fee99-horizon-source.tar.gz",
+     "sha256": "444802343a43a3d810259573ac7314ac6d44fee14b6dd5257acb6a96fcc92e65",
+     "git_commit": "807a016fee99cdc0bb62369ff2b0b7b03771a231",
+     "modified": true,
+     "patch": "game.libretro.mame2014-horizon.patch"
+    },
+    "package_license_notices": [
+     "game.libretro.mame2014-mame2014-horizon-core-source.tar/mame2014/3rdparty/expat/COPYING",
+     "game.libretro.mame2014-mame2014-horizon-core-source.tar/mame2014/3rdparty/portmidi/license.txt",
+     "game.libretro.mame2014-mame2014-horizon-core-source.tar/mame2014/docs/license.txt",
+     "game.libretro.mame2014/debian/copyright"
+    ],
+    "license_restrictions_found": [
+     "sale or permission restriction"
+    ],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
+   "id": "game.libretro.mame2015",
+   "version": "0.160.0.32",
+   "source": "https://github.com/kodi-game/game.libretro.mame2015",
+   "source_ref": "master",
+   "license": "MAME",
+   "archive_sha256": "535903a724ec0cbd6bd444e0a9b5b8ca8ec7d120b1089c49b1e644f447778282",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "794bbbb07154999a520551064755f38f36be6a97",
+   "original_archive_sha256": "3357f42104e3a55da4c9fb1ae7764212db9d56e060006e378214ecfcbdb68ee8",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "game.libretro.mame2015-mame2015-horizon-core-source.tar.gz",
+      "sha256": "b8a48ba3a22c61cd4f75be19d98231a782312075a2af4f08a3571f0946b6d0d7",
+      "upstream_url": null
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.mame2015-794bbbb07154-horizon-source.tar.gz",
+     "sha256": "42e7880e5bc4c72d3cbce93e996fff79425baa4e6776ca73455b00969c845c78",
+     "git_commit": "794bbbb07154999a520551064755f38f36be6a97",
+     "modified": true,
+     "patch": "game.libretro.mame2015-horizon.patch"
+    },
+    "package_license_notices": [
+     "game.libretro.mame2015-mame2015-horizon-core-source.tar/mame2015/3rdparty/expat/COPYING",
+     "game.libretro.mame2015-mame2015-horizon-core-source.tar/mame2015/3rdparty/portmidi/license.txt",
+     "game.libretro.mame2015-mame2015-horizon-core-source.tar/mame2015/docs/license.txt",
+     "game.libretro.mame2015/debian/copyright"
+    ],
+    "license_restrictions_found": [
+     "sale or permission restriction"
+    ],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
+   "id": "game.libretro.mame2016",
+   "version": "0.174.0.31",
+   "source": "https://github.com/kodi-game/game.libretro.mame2016",
+   "source_ref": "master",
+   "license": "GPLv2+",
+   "archive_sha256": "9dd1f4f59147a06ed7079d55fb36bf1d74f23c3a6f1131e1993c90267ccefa82",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "9f09bd07556123c44dc48d0d2a185a52960f4350",
+   "original_archive_sha256": "227d59c1f27737f2034883def57034799c3ce4fca508d32dea5eb5b8aabd7da5",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "game.libretro.mame2016-mame2016-horizon-core-source.tar.gz",
+      "sha256": "e7123b4f17ec60d3f48a1c280ff64c78c823bc792ba7e56b35033eedfb6e2729",
+      "upstream_url": null
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.mame2016-9f09bd075561-horizon-source.tar.gz",
+     "sha256": "7b4138b79d7762258037cd943af144932a0c47a7b85c36a53ebe12713ea6c1fa",
+     "git_commit": "9f09bd07556123c44dc48d0d2a185a52960f4350",
+     "modified": true,
+     "patch": "game.libretro.mame2016-horizon.patch"
+    },
+    "package_license_notices": [
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/SDL2/COPYING.txt",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/SDL2/Xcode-iOS/Demos/data/bitmapfont/license.txt",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/SDL2/Xcode/SDL/pkg-support/resources/License.txt",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/SDL2/debian/copyright",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/SDL2/test/COPYING",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/benchmark/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/bgfx/3rdparty/edtaa3/LICENSE.md",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/bgfx/3rdparty/etc1/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/bgfx/3rdparty/etc2/LICENSE.txt",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/bgfx/3rdparty/fcpp/COPYING",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/bgfx/3rdparty/forsyth-too/LICENSE.md",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/bgfx/3rdparty/glsl-optimizer/license.txt",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/bgfx/3rdparty/iconfontheaders/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/bgfx/3rdparty/iqa/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/bgfx/3rdparty/libsquish/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/bgfx/3rdparty/pvrtc/LICENSE.TXT",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/bgfx/3rdparty/remotery/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/bgfx/3rdparty/scintilla/License.txt",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/bgfx/3rdparty/scintilla/test/unit/LICENSE_1_0.txt",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/bgfx/3rdparty/sdf/LICENSE.txt",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/bgfx/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/bx/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/bx/include/tinystl/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/expat/COPYING",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/genie/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/glm/copying.txt",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/googletest/googlemock/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/googletest/googlemock/scripts/generator/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/googletest/googletest/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/http-parser/LICENSE-MIT",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/libflac/COPYING.GPL",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/libflac/COPYING.LGPL",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/libflac/doc/html/license.html",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/libuv/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/libuv/samples/socks5-proxy/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/luafilesystem/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/luafilesystem/doc/us/license.html",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/nanosvg/LICENSE.txt",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/portaudio/LICENSE.txt",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/portaudio/bindings/cpp/COPYING",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/portmidi/license.txt",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/rapidjson/license.txt",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/3rdparty/zlib/contrib/dotzlib/LICENSE_1_0.txt",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/LICENSE.md",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/android-project/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/artwork/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/benchmarks/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/bgfx/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/bgfx/chains/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/bgfx/effects/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/bgfx/effects/default/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/bgfx/effects/hlsl/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/bgfx/effects/unfiltered/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/docs/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/docs/man/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/doxygen/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/hash/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/keymaps/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/language/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/plugins/json/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/regtests/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/samples/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/scripts/font/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/src/emu/layout/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/src/ldplayer/layout/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/src/mame/layout/LICENSE",
+     "game.libretro.mame2016-mame2016-horizon-core-source.tar/mame2016/tests/LICENSE",
+     "game.libretro.mame2016/debian/copyright"
+    ],
+    "license_restrictions_found": [
+     "non-commercial"
+    ],
     "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
    }
   },
@@ -3603,6 +4730,43 @@
      "mrboom/mrboom-libretro-89997083b6f492b5adbae3124a5ed2c784ace6eb/sdl2/xBRZ/License.txt"
     ],
     "license_restrictions_found": [],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
+   "id": "game.libretro.mu",
+   "version": "1.3.3.43",
+   "source": "https://github.com/kodi-game/game.libretro.mu",
+   "source_ref": "master",
+   "license": "CC BY-NC 3.0 US (Non-commercial)",
+   "archive_sha256": "56d8ef2f75eba789a8ce5d3790bdcb503ca1f1038d94f26e5acb135f210db5ce",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "1ef7a37d690026e8ef77c518807f6df5bcec4bc0",
+   "original_archive_sha256": "f84542e61839470f27f1c963ea2d9b2487de6952f27879bc84a6bb71442afe44",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "mu-afaeb157b8ba38a4a9bdf426ba663f7efb2cc6f8.tar.gz",
+      "sha256": "beac284d3027b05b50ef81d966e5b436b41792ce3dbfcf9cef9243130a648db9",
+      "upstream_url": "https://github.com/libretro/Mu/archive/afaeb157b8ba38a4a9bdf426ba663f7efb2cc6f8.tar.gz"
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.mu-1ef7a37d6900-horizon-source.tar.gz",
+     "sha256": "0fe9122bf5525a9bd4b26d49b77722f9702679894cf64707f79d591c4b86ba1c",
+     "git_commit": "1ef7a37d690026e8ef77c518807f6df5bcec4bc0",
+     "modified": true,
+     "patch": "game.libretro.mu-horizon.patch"
+    },
+    "package_license_notices": [
+     "game.libretro.mu/debian/copyright",
+     "mu/Mu-afaeb157b8ba38a4a9bdf426ba663f7efb2cc6f8/LICENSE"
+    ],
+    "license_restrictions_found": [
+     "CC BY-NC"
+    ],
     "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
    }
   },
@@ -4003,6 +5167,41 @@
    }
   },
   {
+   "id": "game.libretro.opera",
+   "version": "1.0.0.61",
+   "source": "https://github.com/kodi-game/game.libretro.opera",
+   "source_ref": "master",
+   "license": "LGPL/Non-commercial",
+   "archive_sha256": "24387ae6ac11e9b25f3e191d12609bc38cd6484edb447dc535210c4e0e79ec1b",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "5588c3bf7614cd657fd1409f0754d58ffa9f848c",
+   "original_archive_sha256": "d8a3e2c93ead39ab2af3854039b77f27de90ba09da2e51526c9e36dacde69db4",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "opera-370d9a25c030bb9de4aade371b31045691c40a95.tar.gz",
+      "sha256": "cb7176d654861502e7bef1b3d1914393522dfdf94abb9e80a6b61cc8796804ba",
+      "upstream_url": "https://github.com/libretro/opera-libretro/archive/370d9a25c030bb9de4aade371b31045691c40a95.tar.gz"
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.opera-5588c3bf7614-horizon-source.tar.gz",
+     "sha256": "1d16da83a4d0e3e6d60c65102aa08ee2c7a87fb6d0636894d01ac123f0badaed",
+     "git_commit": "5588c3bf7614cd657fd1409f0754d58ffa9f848c",
+     "modified": true,
+     "patch": "game.libretro.opera-horizon.patch"
+    },
+    "package_license_notices": [
+     "game.libretro.opera/debian/copyright",
+     "opera/opera-libretro-370d9a25c030bb9de4aade371b31045691c40a95/deps/zlib-1.3.1.2/LICENSE"
+    ],
+    "license_restrictions_found": [],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
    "id": "game.libretro.parallel_n64",
    "version": "2.14.6.48",
    "source": "https://github.com/kodi-game/game.libretro.parallel_n64",
@@ -4162,6 +5361,56 @@
      "pcsx-rearmed/pcsx_rearmed-c8816799b50388e61cfe237fe2cdbb7d8175f20a/deps/lightrec/COPYING"
     ],
     "license_restrictions_found": [],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
+   "id": "game.libretro.picodrive",
+   "version": "2.05.0.64",
+   "source": "https://github.com/kodi-game/game.libretro.picodrive",
+   "source_ref": "master",
+   "license": "MAME",
+   "archive_sha256": "43cf7ad143382f73fa99eb5f10a5a1351ffc41a41d8d86073f6d811ae6666042",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "b17e184827b2dca2eaf23ff488534d8345f5781f",
+   "original_archive_sha256": "d11e34f49ba7fb9b2126cc9684294fcf75b9c3fcdee2cb3ab69c469768586fc8",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "picodrive-92c8634e9c8aa59a5cf54d7a8ac53822b603d5e8.tar.gz",
+      "sha256": "80e2a3896bb949f5583ac621e071f6a09952506dfa2eb33ded8fe6c7c1c2ebbf",
+      "upstream_url": "https://github.com/kodi-game/picodrive/archive/92c8634e9c8aa59a5cf54d7a8ac53822b603d5e8.tar.gz"
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.picodrive-b17e184827b2-horizon-source.tar.gz",
+     "sha256": "58b4eec3ce25d7287938b4aeb7be30d396251f29dae588c186827de662c4f414",
+     "git_commit": "b17e184827b2dca2eaf23ff488534d8345f5781f",
+     "modified": true,
+     "patch": "game.libretro.picodrive-horizon.patch"
+    },
+    "package_license_notices": [
+     "game.libretro.picodrive/debian/copyright",
+     "picodrive/picodrive-92c8634e9c8aa59a5cf54d7a8ac53822b603d5e8/COPYING",
+     "picodrive/picodrive-92c8634e9c8aa59a5cf54d7a8ac53822b603d5e8/cpu/cyclone/License-GPLv2.txt",
+     "picodrive/picodrive-92c8634e9c8aa59a5cf54d7a8ac53822b603d5e8/cpu/cyclone/License.txt",
+     "picodrive/picodrive-92c8634e9c8aa59a5cf54d7a8ac53822b603d5e8/pico/cd/libchdr/LICENSE.txt",
+     "picodrive/picodrive-92c8634e9c8aa59a5cf54d7a8ac53822b603d5e8/pico/cd/libchdr/deps/lzma-24.05/LICENSE",
+     "picodrive/picodrive-92c8634e9c8aa59a5cf54d7a8ac53822b603d5e8/pico/cd/libchdr/deps/zlib-1.3.1/LICENSE",
+     "picodrive/picodrive-92c8634e9c8aa59a5cf54d7a8ac53822b603d5e8/pico/cd/libchdr/deps/zlib-1.3.1/contrib/dotzlib/LICENSE_1_0.txt",
+     "picodrive/picodrive-92c8634e9c8aa59a5cf54d7a8ac53822b603d5e8/pico/cd/libchdr/deps/zstd-1.5.6/COPYING",
+     "picodrive/picodrive-92c8634e9c8aa59a5cf54d7a8ac53822b603d5e8/pico/cd/libchdr/deps/zstd-1.5.6/LICENSE",
+     "picodrive/picodrive-92c8634e9c8aa59a5cf54d7a8ac53822b603d5e8/pico/cd/libchdr/deps/zstd-1.5.6/build/LICENSE",
+     "picodrive/picodrive-92c8634e9c8aa59a5cf54d7a8ac53822b603d5e8/pico/sound/emu2413/LICENSE",
+     "picodrive/picodrive-92c8634e9c8aa59a5cf54d7a8ac53822b603d5e8/platform/common/dr_libs/LICENSE",
+     "picodrive/picodrive-92c8634e9c8aa59a5cf54d7a8ac53822b603d5e8/platform/common/dr_libs/tests/external/miniaudio/LICENSE",
+     "picodrive/picodrive-92c8634e9c8aa59a5cf54d7a8ac53822b603d5e8/platform/common/tremor/COPYING"
+    ],
+    "license_restrictions_found": [
+     "sale or permission restriction"
+    ],
     "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
    }
   },
@@ -4446,6 +5695,79 @@
      "prosystem/prosystem-libretro-8a88014287c7a01cd568067e5a557d0a2b2a051f/bupboop/License.txt"
     ],
     "license_restrictions_found": [],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
+   "id": "game.libretro.px68k",
+   "version": "0.15.0.42",
+   "source": "https://github.com/kodi-game/game.libretro.px68k",
+   "source_ref": "master",
+   "license": "Custom Non-Commercial",
+   "archive_sha256": "972fbfc8bbf6b18f10c55c691a9725ea7020b18a21b9af8c5751ef78517339ef",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "adc28c22d219dbac1e3768848487cf85e08f2dfd",
+   "original_archive_sha256": "754545a559e017013d238c4aa1ee7851fcc56d37cd7f014c6c3eae45092050c4",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "px68k-0ad84d7058a12b7db4f7f7a906e87fad4e2f26f6.tar.gz",
+      "sha256": "7d9b284f3a6cb388b7bfd159118ae4ecaf2660a7c0855e3babb208fc107b685d",
+      "upstream_url": "https://github.com/libretro/px68k-libretro/archive/0ad84d7058a12b7db4f7f7a906e87fad4e2f26f6.tar.gz"
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.px68k-adc28c22d219-horizon-source.tar.gz",
+     "sha256": "ec75ed90c7d302b04ba7f604a7bb12c402e31c538bb9e0f55b7a689bc56d632b",
+     "git_commit": "adc28c22d219dbac1e3768848487cf85e08f2dfd",
+     "modified": true,
+     "patch": "game.libretro.px68k-horizon.patch"
+    },
+    "package_license_notices": [
+     "game.libretro.px68k/debian/copyright",
+     "px68k/px68k-libretro-0ad84d7058a12b7db4f7f7a906e87fad4e2f26f6/COPYING"
+    ],
+    "license_restrictions_found": [],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
+   "id": "game.libretro.quasi88",
+   "version": "0.6.4.45",
+   "source": "https://github.com/kodi-game/game.libretro.quasi88",
+   "source_ref": "master",
+   "license": "BSD 3-Clause and MAME non-commercial",
+   "archive_sha256": "c6940ae54013423ea4238fbe70878470d3b90d7ce570232be75ad0e8f6304902",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "2e8983de62614a3423ae5fa642fc8ee89aeb03e2",
+   "original_archive_sha256": "654082d1e59bc2b8ef0ef71c70f6180907bc5da38816e54649c8e3076b01f9bf",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "quasi88-7884be5277776a5d8c4fdc4e574e9b5b589945c9.tar.gz",
+      "sha256": "1bf45b4a87c96a7f6de212dde83f3c0e0cbc7023fac8e01e4f07da507c92273f",
+      "upstream_url": "https://github.com/libretro/quasi88-libretro/archive/7884be5277776a5d8c4fdc4e574e9b5b589945c9.tar.gz"
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.quasi88-2e8983de6261-horizon-source.tar.gz",
+     "sha256": "dfc22b17d2c49b3783c35163d20b84438bb0c912e14c175d462d40dc7e7dba8d",
+     "git_commit": "2e8983de62614a3423ae5fa642fc8ee89aeb03e2",
+     "modified": true,
+     "patch": "game.libretro.quasi88-horizon.patch"
+    },
+    "package_license_notices": [
+     "game.libretro.quasi88/debian/copyright",
+     "quasi88/quasi88-libretro-7884be5277776a5d8c4fdc4e574e9b5b589945c9/LICENSE",
+     "quasi88/quasi88-libretro-7884be5277776a5d8c4fdc4e574e9b5b589945c9/src/snddrv/license.txt"
+    ],
+    "license_restrictions_found": [
+     "sale or permission restriction"
+    ],
     "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
    }
   },
@@ -4751,6 +6073,116 @@
      "smsplus-gx/smsplus-gx-3844b46caa926b6494987b97da63092818c4ddef/source/ntsc/license.txt"
     ],
     "license_restrictions_found": [],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
+   "id": "game.libretro.snes9x",
+   "version": "1.63.0.64",
+   "source": "https://github.com/kodi-game/game.libretro.snes9x",
+   "source_ref": "master",
+   "license": "Non-commercial",
+   "archive_sha256": "399529b3b8019c35b16ecbd9cda24f03cb43c9effbb344d340fe7fa7a7e67a6a",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "06cc25961bb757237c84690d96ed899937f4244e",
+   "original_archive_sha256": "fcc3044d92fdfdb3db4fd4f8a0fea1f1069880ed2b3a4784afe7a3154b4bbc57",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "snes9x-fae2fea08f74180759ef540ee94259213f503480.tar.gz",
+      "sha256": "0d4b0c4181d66668ec0040eb17f90a559f7b7fa6cbd9198593c3bdbe79acd029",
+      "upstream_url": "https://github.com/libretro/snes9x/archive/fae2fea08f74180759ef540ee94259213f503480.tar.gz"
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.snes9x-06cc25961bb7-horizon-source.tar.gz",
+     "sha256": "8f687236643d4217641bced94ae4604ddb3c09dd01be1d359efae53e29749ab7",
+     "git_commit": "06cc25961bb757237c84690d96ed899937f4244e",
+     "modified": true,
+     "patch": "game.libretro.snes9x-horizon.patch"
+    },
+    "package_license_notices": [
+     "game.libretro.snes9x/debian/copyright",
+     "snes9x/snes9x-fae2fea08f74180759ef540ee94259213f503480/LICENSE"
+    ],
+    "license_restrictions_found": [
+     "non-commercial"
+    ],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
+   "id": "game.libretro.snes9x2002",
+   "version": "7.2.0.55",
+   "source": "https://github.com/kodi-game/game.libretro.snes9x2002",
+   "source_ref": "master",
+   "license": "Non-commercial",
+   "archive_sha256": "cd27f553a55e2f667cb3aeb82f498f3a4054d3ba30c22c80d287288333f7ae04",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "a8afb7c423b2aa2de510d991f9c0f477801d44fa",
+   "original_archive_sha256": "cc43c876798e334bab7d3f8a5065c971b5f17647fa57999f956e083422811c1b",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "snes9x2002-6ffbf9ef4f0063e1f1b78a40d10c50fc52f2524c.tar.gz",
+      "sha256": "01c733054f8d02b26c53ab3f89ae0698e1f4edb55999dfa63c9a522fccb6382d",
+      "upstream_url": "https://github.com/libretro/snes9x2002/archive/6ffbf9ef4f0063e1f1b78a40d10c50fc52f2524c.tar.gz"
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.snes9x2002-a8afb7c423b2-horizon-source.tar.gz",
+     "sha256": "04c9cf01b88932c88e9a64e5eeb85adfea7481b9c68d5184f5a6ce3f40ff2690",
+     "git_commit": "a8afb7c423b2aa2de510d991f9c0f477801d44fa",
+     "modified": true,
+     "patch": "game.libretro.snes9x2002-horizon.patch"
+    },
+    "package_license_notices": [
+     "game.libretro.snes9x2002/debian/copyright"
+    ],
+    "license_restrictions_found": [],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
+   "id": "game.libretro.snes9x2010",
+   "version": "1.52.4.59",
+   "source": "https://github.com/kodi-game/game.libretro.snes9x2010",
+   "source_ref": "master",
+   "license": "Non-commercial",
+   "archive_sha256": "b4ea0ed7b553a9ff30f6fdb152e9c6e20231e22e5f49e74f7c1213fa7dbced03",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "9f83f06b6046c0cc021f67998f6bb9ee742a6de3",
+   "original_archive_sha256": "511678517a4264838687e0c17042727f95ff3db4d91d61291b3149511daf426d",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "snes9x2010-fe690dd321fa5a46b5234a2bde089d2518c62b0e.tar.gz",
+      "sha256": "7d2d2a21c2c00e6c5a83c8b51c18fccb6a9b3764584aa5ceb4b231e3a7c0ab6c",
+      "upstream_url": "https://github.com/libretro/snes9x2010/archive/fe690dd321fa5a46b5234a2bde089d2518c62b0e.tar.gz"
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.snes9x2010-9f83f06b6046-horizon-source.tar.gz",
+     "sha256": "ba25e5b4ae6b7f88ab5e51740d18b7c992fd5eede5b67ddcfb490a8a4c364a07",
+     "git_commit": "9f83f06b6046c0cc021f67998f6bb9ee742a6de3",
+     "modified": true,
+     "patch": "game.libretro.snes9x2010-horizon.patch"
+    },
+    "package_license_notices": [
+     "game.libretro.snes9x2010/debian/copyright",
+     "snes9x2010/snes9x2010-fe690dd321fa5a46b5234a2bde089d2518c62b0e/LICENSE.txt",
+     "snes9x2010/snes9x2010-fe690dd321fa5a46b5234a2bde089d2518c62b0e/docs/gpl-2.0.txt",
+     "snes9x2010/snes9x2010-fe690dd321fa5a46b5234a2bde089d2518c62b0e/docs/lgpl-2.1.txt"
+    ],
+    "license_restrictions_found": [
+     "non-commercial"
+    ],
     "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
    }
   },
@@ -5130,6 +6562,45 @@
      "game.libretro.uae2021/debian/copyright"
     ],
     "license_restrictions_found": [],
+    "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
+   }
+  },
+  {
+   "id": "game.libretro.uae4arm",
+   "version": "0.5.0.12",
+   "source": "https://github.com/kodi-game/game.libretro.uae4arm",
+   "source_ref": "master",
+   "license": "GPLv2",
+   "archive_sha256": "71bd600cae8239b4ac34cc63f8b5f91a8f21a299d94d7640a1b73780ee1b8e3d",
+   "redistribution_review": "approved",
+   "source_revision_pinning": "build inputs archived with SHA-256 and attached to the release",
+   "source_commit": "4083a8d95ca11fce62b40ad818945262f3b3b9be",
+   "original_archive_sha256": "966133aa1e64242b486b2d66a4a3c1fe8563486a6dfb81f3b7c27b744fe96eac",
+   "review_evidence": {
+    "native_objects_match_build_output": true,
+    "source_archives": [
+     {
+      "asset": "game.libretro.uae4arm-uae4arm-horizon-core-source.tar.gz",
+      "sha256": "eaa77cb1040e8bd99a94047d7940a91557a01d80fa4f3b095df240b756579103",
+      "upstream_url": null
+     }
+    ],
+    "horizon_source_tree": {
+     "asset": "game.libretro.uae4arm-4083a8d95ca1-horizon-source.tar.gz",
+     "sha256": "ae6cc3fe19b5b513d67d01cd595c4f43ad1e83b9badaace691533457edcdd3d8",
+     "git_commit": "4083a8d95ca11fce62b40ad818945262f3b3b9be",
+     "modified": true,
+     "patch": "game.libretro.uae4arm-horizon.patch"
+    },
+    "package_license_notices": [
+     "game.libretro.uae4arm-uae4arm-horizon-core-source.tar/uae4arm/capsimg/CAPSImg/LICENSE",
+     "game.libretro.uae4arm-uae4arm-horizon-core-source.tar/uae4arm/capsimg/LICENCE.txt",
+     "game.libretro.uae4arm/debian/copyright"
+    ],
+    "license_restrictions_found": [
+     "non-commercial",
+     "sale or permission restriction"
+    ],
     "runtime_scope": "Loader import/relocation checks passed. Hardware validation per add-on pending."
    }
   },

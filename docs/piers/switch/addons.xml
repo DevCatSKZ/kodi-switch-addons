@@ -2142,6 +2142,36 @@
 		<description lang="sv_SE">En teknisk demo för libretro GL med ytterligare funktioner (kamera/placering/etc).</description>
 		<description lang="zh_CN">包含附加功能（摄像头/位置等）的 libretro GL 的技术演示。</description>
 	</extension>
+</addon><addon id="game.libretro.4do" name="The 3DO Company - 3DO (4DO)" version="1.3.2.13" provider-name="Libretro">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+		<import addon="game.controller.3do" version="1.0.0" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.4do.so">
+		<platforms>3DO</platforms>
+		<extensions>iso|bin|chd|cue</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<requires_opengl>false</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Unlicensed</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.4do</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<lifecycle type="broken" lang="en_GB">This add-on has been renamed from 4do to Opera.</lifecycle>
+		<summary lang="en_GB">4DO</summary>
+		<summary lang="es_ES">The 3DO Company - 3DO (4DO)</summary>
+		<summary lang="it_IT">The 3DO Company - 3DO (4DO)</summary>
+		<summary lang="ru_RU">The 3DO Company - 3DO (4DO)</summary>
+		<description lang="en_GB">4DO emulates the 3DO Interactive Multiplayer video game system, often called simply the 3DO.[CR][CR]4DO is based on the FreeDO source code.</description>
+		<description lang="es_ES">4DO emula el sistema de videojuegos 3DO Interactive Multiplayer, a menudo llamado simplemente 3DO.[CR][CR]4DO se basa en el código fuente de FreeDO.</description>
+		<description lang="it_IT">4DO emula il sistema di videogiochi multiplayer interattivo 3DO, spesso chiamato semplicemente 3DO.[CR][CR]4DO è basato sul codice sorgente FreeDO.</description>
+		<lifecyclestate type="broken" lang="en_GB">This add-on has been renamed from 4do to Opera.</lifecyclestate>
+		<lifecyclestate type="broken" lang="es_ES">Este add-on ha sido renombrado de 4do a Opera.</lifecyclestate>
+	</extension>
 </addon><addon id="game.libretro.81" name="Sinclair - ZX 81 (EightyOne)" version="1.0.0.37" provider-name="Michael D Wynne">
 	<requires>
 		<import addon="game.libretro" version="1.0.0" />
@@ -3626,6 +3656,45 @@
 		<disclaimer lang="sv_SE">Till kärleksfullt minne av Near / Byuu</disclaimer>
 		<disclaimer lang="zh_CN">怀念 Near / Byuu</disclaimer>
 	</extension>
+</addon><addon id="game.libretro.cannonball" name="Cannonball" version="0.0.1.44" provider-name="Chris White">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.cannonball.so">
+		<platforms />
+		<extensions>game</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>cannonball_libretro</libretro_core>
+		<savestate_features>null</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Non-commercial</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.cannonball</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+		<summary lang="cs_CZ">Cannonball</summary>
+		<summary lang="da_DK">Cannonball</summary>
+		<summary lang="en_GB">Cannonball</summary>
+		<summary lang="es_ES">Cannonball</summary>
+		<summary lang="ga">Cannonball</summary>
+		<summary lang="it_IT">Cannonball</summary>
+		<summary lang="ru_RU">Cannonball</summary>
+		<summary lang="sv_SE">Cannonball</summary>
+		<summary lang="zh_CN">加农炮</summary>
+		<description lang="cs_CZ">Cannonball je vylepšená verze přelomové arkádové závodní hry OutRun, kterou v roce 1986 navrhl Yu Suzuki.[CR][CR]Poznámka: jsou potřeba soubory OutRun Revision B. Podívejte se do souboru [I]roms needed.txt[/I].</description>
+		<description lang="en_GB">Cannonball is an enhanced version of the seminal arcade racer OutRun designed by Yu Suzuki in 1986.[CR][CR]Note: OutRun Revision B files are needed. See the file [I]roms needed.txt[/I].</description>
+		<description lang="es_ES">Cannonball es una versión mejorada del mítico arcade de carreras OutRun, diseñado por Yu Suzuki en 1986.[CR][CR]Nota: Se necesitan los archivos de la Revisión B de OutRun. Ver el archivo [I]roms needed.txt[/I].</description>
+		<description lang="ga">Is leagan feabhsaithe den rásaíocht stuara ceannródaíoch OutRun, arna dhearadh ag Yu Suzuki i 1986, é Cannonball.[CR][CR]Nóta: Tá comhaid OutRun Leagan B ag teastáil. Féach an comhad [I]roms needed.txt[/I].</description>
+		<description lang="it_IT">Cannonball è una versione avanzata del fondamentale gioco di corse arcade OutRun, progettato da Yu Suzuki nel 1986.[CR][CR]Nota: sono necessari i file OutRun Revisione B. Consulta il file [I]roms needed.txt[/I].</description>
+		<description lang="ru_RU">Cannonball — это улучшенная версия знаменитой аркадной гонки OutRun, созданной Ю Судзуки в 1986 году.[CR][CR]Примечание: требуются файлы OutRun Revision B. Смотрите файл [I]roms needed.txt[/I].</description>
+		<description lang="sv_SE">Cannonball är en förbättrad version av den banbrytande arkadracern OutRun som designades av Yu Suzuki 1986.[CR][CR]Notera: OutRun Revision B-filer behövs. Se filen [I]roms needed.txt[/I].</description>
+		<description lang="zh_CN">Cannonball 是铃木裕（Yu Suzuki）于 1986 年设计的开创性街机赛车游戏《OutRun》的增强版。[CR][CR]注：需要《OutRun》B 版文件。请参阅文件 [I]roms needed.txt[/I]。</description>
+	</extension>
 </addon><addon id="game.libretro.cap32" name="Amstrad - CPC/GX4000 (Caprice32)" version="4.5.4.54" provider-name="Ulrich Doewich, dantoine">
 	<requires>
 		<import addon="game.libretro" version="1.0.0" />
@@ -3678,6 +3747,53 @@
 		<disclaimer lang="ru_RU">Автор: Ульрих Доевич</disclaimer>
 		<disclaimer lang="sv_SE">Skriven av Ulrich Doewich</disclaimer>
 		<disclaimer lang="zh_CN">作者：Ulrich Doewich</disclaimer>
+	</extension>
+</addon><addon id="game.libretro.chailove" name="ChaiLove" version="1.3.0.33" provider-name="Rob Loach">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+		<import addon="game.controller.default" version="1.0.5" />
+		<import addon="game.controller.keyboard" version="1.0.0" />
+		<import addon="game.controller.mouse" version="1.0.0" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.chailove.so">
+		<platforms />
+		<extensions>chai|chailove</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>chailove_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>MIT</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.chailove</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.png</screenshot>
+			<screenshot>resources/screenshot-02.png</screenshot>
+			<screenshot>resources/screenshot-03.png</screenshot>
+		</assets>
+		<summary lang="cs_CZ">ChaiLove</summary>
+		<summary lang="da_DK">ChaiLove</summary>
+		<summary lang="en_GB">ChaiLove</summary>
+		<summary lang="es_ES">ChaiLove</summary>
+		<summary lang="ga">ChaiLove</summary>
+		<summary lang="it_IT">ChaiLove</summary>
+		<summary lang="ru_RU">ChaiLove</summary>
+		<summary lang="sv_SE">ChaiLove</summary>
+		<summary lang="zh_CN">ChaiLove</summary>
+		<description lang="cs_CZ">ChaiLove je 2D herní framework inspirovaný API Love2D.[CR][CR]Seznam her dostupných v ChaiLove najdete na https://github.com/libretro/libretro-chailove.</description>
+		<description lang="da_DK">ChaiLove er en 2D-spilramme inspireret af Love2D API.[CR][CR]Se https://github.com/libretro/libretro-chailove for en liste over spil, der er tilgængelige i ChaiLove.</description>
+		<description lang="de_DE">ChaiLove ist ein 2D-Spiele-Framework, das von der Love2D-API inspiriert wurde.[CR][CR]Eine Liste der in ChaiLove verfügbaren Spiele findet sich unter https://github.com/libretro/libretro-chailove.</description>
+		<description lang="en_GB">ChaiLove is a 2D game framework inspired by the Love2D API.[CR][CR]See https://github.com/libretro/libretro-chailove for a list of games that are available in ChaiLove.</description>
+		<description lang="es_ES">ChaiLove es un framework de juegos 2D inspirado en la API Love2D.[CR][CR]Consulta https://github.com/libretro/libretro-chailove para ver una lista de los juegos disponibles en ChaiLove.</description>
+		<description lang="ga">Is creat cluiche 2T é ChaiLove atá spreagtha ag API Love2D.[CR][CR]Féach https://github.com/libretro/libretro-chailove le haghaidh liosta de na cluichí atá ar fáil i ChaiLove.</description>
+		<description lang="it_IT">ChaiLove è un framework di gioco 2D ispirato all'API Love2D.[CR][CR]Vedi https://github.com/libretro/libretro-chailove per un elenco di giochi disponibili in ChaiLove.</description>
+		<description lang="ru_RU">ChaiLove — фреймворк для 2D-игр, созданный на основе API Love2D.[CR][CR]Список игр, доступных в ChaiLove, можно найти по адресу https://github.com/libretro/libretro-chailove.</description>
+		<description lang="sl_SI">ChaiLove je ogrodje 2D iger, ki ga je navdihnil API Love2D.[CR][CR]Glejte https://github.com/libretro/libretro-chailove za seznam iger, ki so na voljo v ChaiLove.</description>
+		<description lang="sv_SE">ChaiLove är ett ramverk för 2D-spel inspirerat av Love2D API.[CR][CR]Se https://github.com/libretro/libretro-chailove för en lista över spel som är tillgängliga i ChaiLove.</description>
+		<description lang="zh_CN">ChaiLove 是一个受 Love2D API 启发的 2D 游戏框架。[CR][CR]可到 https://github.com/libretro/libretro-chailove 查看 ChaiLove 中可用的游戏列表。</description>
 	</extension>
 </addon><addon id="game.libretro.craft" name="Minecraft (Craft)" version="0.0.1.32" provider-name="Michael Fogleman">
 	<requires>
@@ -3896,6 +4012,53 @@
 		<description lang="sv_SE">En portning av DeSmuME till libretro baserad på DeSmuME SVN, cirka 2015.</description>
 		<description lang="zh_CN">大约在2015年，基于 DeSmuME SVN 的 DeSmuME 到 libretro 的移植。</description>
 	</extension>
+</addon><addon id="game.libretro.dinothawr" name="Dinothawr" version="1.0.0.50" provider-name="Themaister, Agnes Heyer">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.dinothawr.so">
+		<platforms />
+		<extensions>game</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>dinothawr_libretro</libretro_core>
+		<savestate_features>null</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Non-commercial</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.dinothawr</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Dinothawr</summary>
+		<summary lang="da_DK">Dinothawr</summary>
+		<summary lang="en_GB">Dinothawr</summary>
+		<summary lang="es_ES">Dinothawr</summary>
+		<summary lang="ga">Dinothawr</summary>
+		<summary lang="it_IT">Dinothawr</summary>
+		<summary lang="ko_KR">디노소우르</summary>
+		<summary lang="ru_RU">Dinothawr</summary>
+		<summary lang="sv_SE">Dinothawr</summary>
+		<summary lang="zh_CN">恐龙侠</summary>
+		<description lang="cs_CZ">Dinothawr je logická hra s posouváním bloků na kluzkých površích.[CR][CR]Vaším úkolem je osvobodit přátele dinosauřího hrdiny z jejich ledového vězení.</description>
+		<description lang="da_DK">Dinothawr er et blokskubbende puslespil på glatte overflader.[CR][CR]Det er din opgave at befri dinosaurheltens venner fra deres isfængsel.</description>
+		<description lang="de_DE">Dinothawr ist ein Blockschiebe-Puzzlespiel auf rutschigen Oberflächen. Die Aufgabe des Spielers ist es, die Freunde des Dinosaurierhelden aus ihrem Eisgefängnis zu befreien.</description>
+		<description lang="en_GB">Dinothawr is a block-pushing puzzle game on slippery surfaces.[CR][CR]It is your task to free the dinosaur hero's friends from their ice prison.</description>
+		<description lang="es_ES">Dinothawr es un juego rompecabezas de empujar bloques sobre superficies resbaladizas.[CR][CR]Tu tarea es liberar a los amigos del héroe dinosaurio de su prisión de hielo.</description>
+		<description lang="ga">Is cluiche puzail é Dinothawr ina mbrúitear blocanna ar dhromchlaí sleamhain.[CR][CR]Is é do chúram cairde laoch an dineasáir a shaoradh óna bpríosún oighir.</description>
+		<description lang="it_IT">Dinothawr è un puzzle game che spinge i blocchi su superfici scivolose.[CR][CR]Il tuo compito è liberare gli amici dell'eroe dinosauro dalla loro prigione di ghiaccio.</description>
+		<description lang="ko_KR">Dinothawr은 미끄러운 표면에서 블록을 푸는 퍼즐 게임입니다.[CR][CR]공룡 영웅의 친구들을 얼음 감옥에서 해방시키는 것이 당신의 임무입니다.</description>
+		<description lang="ru_RU">Dinothawr — игра-головоломка, в которой вам предстоит толкать блоки на скользких поверхностях.[CR][CR]Ваша задача — освободить друзей героя-динозавра из ледяной тюрьмы.</description>
+		<description lang="sl_SI">Dinothawr je ugankarska igra s potiskanjem blokov na spolzkih površinah.[CR][CR]Vaša naloga je, da osvobodite prijatelje junaka dinozavra iz njihovega ledenega zapora.</description>
+		<description lang="sv_SE">Dinothawr är ett pusselspel där man flyttar block på hala ytor.[CR][CR]Det är din uppgift att befria dinosauriehjältens vänner från deras isfängelse.</description>
+		<description lang="zh_CN">《恐龙侠（Dinothawr）》是一款在光滑表面上推积木的益智游戏。[CR][CR]你的任务是把恐龙英雄的朋友们从他们的冰狱中解救出来。</description>
+	</extension>
 </addon><addon id="game.libretro.dosbox" name="DOS (DOSBox)" version="0.74.0.36" provider-name="DOSBox Team">
 	<requires>
 		<import addon="game.libretro" version="1.0.0" />
@@ -4039,6 +4202,47 @@
 		<summary lang="en_GB">RPG Maker 2000/2003 (EasyRPG)</summary>
 		<description lang="en_GB"> EasyRPG is a role playing game engine compatible with RPG Maker 2000 and 2003.</description>
 	</extension>
+</addon><addon id="game.libretro.ecwolf" name="Wolfenstein 3D (ECWolf)" version="0.01.0.44" provider-name="Braden Obrzut">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.ecwolf.so">
+		<platforms>Wolfenstein 3D</platforms>
+		<extensions>wl6|n3d|sod|sdm|wl1|pk3</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>ecwolf_libretro</libretro_core>
+		<savestate_features>basic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>BSD|LGPL</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.ecwolf</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Wolfenstein 3D (ECWolf)</summary>
+		<summary lang="da_DK">Wolfenstein 3D (ECWolf)</summary>
+		<summary lang="en_GB">Wolfenstein 3D (ECWolf)</summary>
+		<summary lang="es_ES">Wolfenstein 3D (ECWolf)</summary>
+		<summary lang="it_IT">Wolfenstein 3D (ECWolf)</summary>
+		<summary lang="ru_RU">Wolfenstein 3D (ECWolf)</summary>
+		<summary lang="sv_SE">Wolfenstein 3D (ECWolf)</summary>
+		<summary lang="zh_CN">德军总部3D（ECWolf）</summary>
+		<description lang="cs_CZ">ECWolf je pokročilý source port pro Wolfenstein 3D, Spear of Destiny a Super 3D Noah's Ark založený na kódové základně Wolf4SDL.</description>
+		<description lang="da_DK">ECWolf er en avanceret port af kilden til Wolfenstein 3D, Spear of Destiny og Super 3D Noah's Ark baseret på Wolf4SDL-kodebasen.</description>
+		<description lang="de_DE">ECWolf ist eine erweiterte Source-Portierung für Wolfenstein 3D, Spear of Destiny und Super 3D Noah's Ark, die auf der Wolf4SDL-Codebasis basiert.</description>
+		<description lang="en_GB">ECWolf is an advanced source port for Wolfenstein 3D, Spear of Destiny, and Super 3D Noah's Ark based off of the Wolf4SDL code base.</description>
+		<description lang="es_ES">ECWolf es una adaptación avanzada del código fuente de Wolfenstein 3D, Spear of Destiny y Super 3D Noah's Ark basada en el código Wolf4SDL.</description>
+		<description lang="it_IT">ECWolf è un port sorgente avanzato per Wolfenstein 3D, Spear of Destiny e Super 3D Noah's Ark, basato sulla base di codice Wolf4SDL.</description>
+		<description lang="ru_RU">ECWolf — это продвинутый порт исходного кода для игр Wolfenstein 3D, Spear of Destiny и Super 3D Noah's Ark, основанный на кодовой базе Wolf4SDL.</description>
+		<description lang="sv_SE">ECWolf är en avancerad källkodsport för Wolfenstein 3D, Spear of Destiny och Super 3D Noah's Ark baserad på Wolf4SDL-kodbasen.</description>
+		<description lang="zh_CN">ECWolf 是基于 Wolf4SDL 代码库针对《德军总部3D》、《德军总部：命运之矛》和《超级3D诺亚方舟》的高级源移植。</description>
+	</extension>
 </addon><addon id="game.libretro.ep128emu" name="Enterprise - 64/128 (ep128emu)" version="1.2.13.32" provider-name="Istvan Varga, Zoltan Balogh">
 	<requires>
 		<import addon="game.libretro" version="1.0.0" />
@@ -4080,6 +4284,301 @@
 		<description lang="ru_RU">ep128emu — это переносимый эмулятор компьютеров Enterprise 64/128, ZX Spectrum 48/128 и Amstrad CPC 464/664/6128.</description>
 		<description lang="sv_SE">ep128emu är en portabel emulator för datorerna Enterprise 64/128, ZX Spectrum 48/128 och Amstrad CPC 464/664/6128.</description>
 		<description lang="zh_CN">ep128emu 是 Enterprise 64/128、ZX Spectrum 48/128 和 Amstrad CPC 464/664/6128 计算机的便携式模拟器。</description>
+	</extension>
+</addon><addon id="game.libretro.fbalpha" name="Arcade (FB Alpha)" version="0.2.97.18" provider-name="Libretro">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.fbalpha.so">
+		<platforms />
+		<extensions>zip|7z</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<requires_opengl>false</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Unlicensed</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.fbalpha</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<lifecycle type="broken" lang="en_GB">This add-on has been discontinued. Use FBNeo.</lifecycle>
+		<summary lang="en_GB">FB Alpha</summary>
+		<summary lang="es_ES">FB Alfa</summary>
+		<description lang="en_GB">FinalBurn Alpha is an emulator of arcade games, including Capcom CPS-1 and CPS-2, SNK Neo-Geo, Toaplan, Cave and Sega System 16.</description>
+		<description lang="es_ES">FinalBurn Alpha es un emulador de juegos arcade, incluyendo Capcom CPS-1 y CPS-2, SNK Neo-Geo, Toaplan, Cave y Sega System 16.</description>
+		<disclaimer lang="da_DK">Billedekredit: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="en_GB">Icon credit: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="es_ES">Crédito del icono: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="ko_KR">아이콘 크레딧: TRIPLEKILLZ(triplekillz.deviantart.com)</disclaimer>
+		<lifecyclestate type="broken" lang="en_GB">This add-on has been discontinued. Use FBNeo.</lifecyclestate>
+		<lifecyclestate type="broken" lang="es_ES">Este add-on ha sido descontinuado. Usa FBNeo.</lifecyclestate>
+	</extension>
+</addon><addon id="game.libretro.fbalpha2012" name="Arcade (FB Alpha 2012)" version="0.2.97.43" provider-name="Team FB Alpha">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.fbalpha2012.so">
+		<platforms>Arcade</platforms>
+		<extensions>iso|zip|7z</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>fbalpha2012_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Non-commercial</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.fbalpha2012</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Arcade (FB Alpha 2012)</summary>
+		<summary lang="da_DK">Arcade (FB Alpha 2012)</summary>
+		<summary lang="en_GB">Arcade (FB Alpha 2012)</summary>
+		<summary lang="es_ES">Arcade (FinalBurn Alpha 2012)</summary>
+		<summary lang="it_IT">Arcade (FB Alpha 2012)</summary>
+		<summary lang="ko_KR">아케이드 (FB 알파 2012)</summary>
+		<summary lang="ru_RU">Arcade (FB Alpha 2012)</summary>
+		<summary lang="sv_SE">Arcade (FB Alpha 2012)</summary>
+		<summary lang="zh_CN">街机（FB Alpha 2012）</summary>
+		<description lang="cs_CZ">FinalBurn Alpha je emulátor arkádových her, včetně Capcom CPS-1 a CPS-2, SNK Neo-Geo, Toaplan, Cave a Sega System 16.[CR][CR]Verze 2012 běží lépe na starším hardwaru.</description>
+		<description lang="da_DK">FinalBurn Alpha er en emulator af arkadespil, inklusive Capcom CPS-1 og CPS-2, SNK Neo-Geo, Toaplan, Cave og Sega System 16.[CR][CR]2012-versionen kører bedre på ældre hardware.</description>
+		<description lang="de_DE">FinalBurn Alpha ist ein Emulator für Arcade-Spiele, darunter Capcom CPS-1 und CPS-2, SNK Neo-Geo, Toaplan, Cave und Sega System 16.[CR][CR]Die Version von 2012 läuft besser auf älterer Hardware.</description>
+		<description lang="en_GB">FinalBurn Alpha is an emulator of arcade games, including Capcom CPS-1 and CPS-2, SNK Neo-Geo, Toaplan, Cave and Sega System 16.[CR][CR]The 2012 version runs better on older hardware.</description>
+		<description lang="es_ES">FinalBurn Alpha es un emulador de juegos arcade, que incluye Capcom CPS-1 y CPS-2, SNK Neo-Geo, Toaplan, Cave y Sega System 16.[CR][CR]La versión de 2012 funciona mejor en hardware antiguo.</description>
+		<description lang="it_IT">FinalBurn Alpha è un emulatore di giochi arcade, tra cui Capcom CPS-1 e CPS-2, SNK Neo-Geo, Toaplan, Cave e Sega System 16.[CR][CR]La versione 2012 funziona meglio su hardware meno recente.</description>
+		<description lang="ko_KR">FinalBurn Alpha는 Capcom CPS-1 및 CPS-2, SNK Neo-Geo, Toaplan, Cave 및 Sega System 16을 포함한 아케이드 게임의 에뮬레이터입니다.[CR][CR]2012 버전은 이전 하드웨어에서 더 잘 실행됩니다.</description>
+		<description lang="ru_RU">FinalBurn Alpha — эмулятор аркадных игр, включая Capcom CPS-1 и CPS-2, SNK Neo-Geo, Toaplan, Cave и Sega System 16.[CR][CR]Версия 2012 года работает лучше на старом оборудовании.</description>
+		<description lang="sv_SE">FinalBurn Alpha är en emulator för arkadspel, inklusive Capcom CPS-1 och CPS-2, SNK Neo-Geo, Toaplan, Cave och Sega System 16.[CR][CR]2012 års version körs bättre på äldre hårdvara.</description>
+		<description lang="zh_CN">FinalBurn Alpha 是街机游戏的仿真器，包括 Capcom CPS-1 和 CPS-2、SNK Neo Geo、Toaplan、Cave 和 Sega System 16。[CR][CR]2012版在较旧的硬件上运行得更好。</description>
+		<disclaimer lang="cs_CZ">Autoři FB Alpha nezaručují jeho vhodnost k jakémukoli účelu, ať už předpokládanému, nebo jinému, a nepřijímají odpovědnost za žádné škody, které by mohly při používání FB Alpha vzniknout. Všechny hry emulované pomocí FB Alpha, včetně veškerých obrazových a zvukových materiálů v nich, jsou chráněny autorskými právy příslušných držitelů práv. Autor ikony: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="da_DK">Udviklerne af FB Alpha garanterer ikke dets egnethed til noget formål, underforstået eller på anden måde, og påtager sig ikke ansvar for nogen som helst skade, der måtte opstå ved brug af FB Alpha. Alle spil emuleret af FB Alpha, inklusive billeder og lyde deri, er ophavsretligt beskyttet af deres respektive copyright-indehavere. Billedkreditering: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="de_DE">Die Autoren von FB Alpha übernehmen keine Garantie für die Brauchbarkeit für einen bestimmten Zweck, weder implizit noch anderweitig, und übernehmen keine Verantwortung für Schäden, die bei der Nutzung von FB Alpha entstehen könnten. Alle von FB Alpha emulierten Spiele, einschließlich der darin enthaltenen Bilder und Sounds, unterliegen dem Copyright der jeweiligen Rechteinhaber. Symbolverweis: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="en_GB">The authors of FB Alpha do not guarantee its fitness for any purpose, implied or otherwise, and do not accept responsibility for any damages whatsoever that might occur when using FB Alpha. All games emulated by FB Alpha, including any images and sounds therein, are copyrighted by their respective copyright holders. Icon credit: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="es_ES">Los autores de FB Alpha no garantizan su idoneidad para cualquier propósito, implícito o de otro tipo, y no aceptan responsabilidad alguna por cualquier daño que pueda ocurrir al utilizar FB Alpha. Todos los juegos emulados por FB Alpha, incluidas sus imágenes y sonidos, están protegidos por sus respectivos derechos de autor. Crédito del icono: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="it_IT">Gli autori di FB Alpha non garantiscono la sua idoneità per qualsiasi scopo, implicito o meno, e non accettano responsabilità per eventuali danni di qualsiasi tipo che potrebbero verificarsi durante l'utilizzo di FB Alpha. Tutti i giochi emulati da FB Alpha, comprese le immagini e i suoni in essi contenuti, sono protetti da copyright dei rispettivi detentori del copyright. Credito icona: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="ko_KR">FB Alpha의 작성자는 묵시적이든 아니든 어떤 목적에 대한 적합성을 보장하지 않으며 FB Alpha를 사용할 때 발생할 수 있는 모든 손해에 대해 책임을 지지 않습니다. 이미지와 사운드를 포함하여 FB Alpha가 에뮬레이트한 모든 게임은 해당 저작권 소유자에게 저작권이 있습니다. 아이콘 크레딧: TRIPLEKILLZ(triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="ru_RU">Авторы FB Alpha не гарантируют его пригодности для каких-либо целей, подразумеваемых или иных, и не несут ответственности за любой ущерб, который может возникнуть при использовании FB Alpha. Все игры, эмулируемые FB Alpha, включая любые изображения и звуки в них, защищены авторским правом их соответствующих владельцев. Значок: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="sv_SE">Upphovspersonerna till FB Alpha garanterar inte dess lämplighet för något ändamål, underförstått eller på annat sätt, och tar inte ansvar för några som helst skador som kan uppstå vid användning av FB Alpha. Alla spel som emuleras av FB Alpha, inklusive alla bilder och ljud däri, är upphovsrättsligt skyddade av respektive upphovsrättsinnehavare. Ikon: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="zh_CN">FB Alpha 的作者不保证其适用于任何目的（暗示或其他），也不承担使用 FB Alpha 时可能发生的任何损害的责任。FB Alpha 模拟的所有游戏，包括其中的任何图像和声音，均由其各自的版权所有者版权所有。图标来源：TRIPLEKILLZ（triplekillz.deviantart.com）</disclaimer>
+	</extension>
+</addon><addon id="game.libretro.fbalpha2012-cps1" name="Arcade (FB Alpha 2012 CPS-1)" version="0.2.97.34" provider-name="Team FB Alpha">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.fbalpha2012-cps1.so">
+		<platforms>Arcade</platforms>
+		<extensions>zip</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>fbalpha2012_cps1_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Non-commercial</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.fbalpha2012-cps1</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Arcade (FB Alpha 2012 CPS-1)</summary>
+		<summary lang="da_DK">Arcade (FB Alpha 2012 CPS-1)</summary>
+		<summary lang="en_GB">Arcade (FB Alpha 2012 CPS-1)</summary>
+		<summary lang="es_ES">Arcade (FinalBurn Alpha 2012 CPS-1)</summary>
+		<summary lang="ga">Arcade (FB Alpha 2012 CPS-1)</summary>
+		<summary lang="it_IT">Arcade (FB Alpha 2012 CPS-1)</summary>
+		<summary lang="ru_RU">Аркада (FB Alpha 2012 CPS-1)</summary>
+		<summary lang="sv_SE">Arcade (FB Alpha 2012 CPS-1)</summary>
+		<summary lang="zh_CN">街机（FB Alpha 2012 CPS-1）</summary>
+		<description lang="cs_CZ">Port FinalBurn Alpha 2012 pro Libretro. Jde o samostatné jádro pro Capcom CPS-1.</description>
+		<description lang="da_DK">En port af FinalBurn Alpha 2012 til Libretro. Dette er den selvstændige kerne til Capcom CPS-1.</description>
+		<description lang="de_DE">Eine Portierung von FinalBurn Alpha 2012 auf Libretro. Dies ist der eigenständige Core für Capcom CPS-1.</description>
+		<description lang="en_GB">A port of FinalBurn Alpha 2012 to Libretro. This is the standalone core for Capcom CPS-1.</description>
+		<description lang="es_ES">Una adaptación de FinalBurn Alpha 2012 a Libretro. Este es el núcleo independiente para Capcom CPS-1.</description>
+		<description lang="ga">Port de FinalBurn Alpha 2012 chuig Libretro. Seo croílár neamhspleách Capcom CPS-1.</description>
+		<description lang="it_IT">Un porting di FinalBurn Alpha 2012 su Libretro. Questo è il core autonomo per Capcom CPS-1.</description>
+		<description lang="ru_RU">Порт FinalBurn Alpha 2012 на Libretro. Это отдельное ядро для Capcom CPS-1.</description>
+		<description lang="sv_SE">En portning av FinalBurn Alpha 2012 till Libretro. Detta är den fristående kärnan för Capcom CPS-1.</description>
+		<description lang="zh_CN">FinalBurn Alpha 2012 的 Libretro 实现。这是 Capcom CPS-1 的独立核心。</description>
+	</extension>
+</addon><addon id="game.libretro.fbalpha2012-cps2" name="Arcade (FB Alpha 2012 CPS-2)" version="0.2.97.34" provider-name="Team FB Alpha">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.fbalpha2012-cps2.so">
+		<platforms>Arcade</platforms>
+		<extensions>zip</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>fbalpha2012_cps2_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Non-commercial</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.fbalpha2012-cps2</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Arcade (FB Alpha 2012 CPS-2)</summary>
+		<summary lang="da_DK">Arcade (FB Alpha 2012 CPS-2)</summary>
+		<summary lang="en_GB">Arcade (FB Alpha 2012 CPS-2)</summary>
+		<summary lang="es_ES">Arcade (FinalBurn Alpha 2012 CPS-2)</summary>
+		<summary lang="ga">Arcade (FB Alpha 2012 CPS-2)</summary>
+		<summary lang="it_IT">Arcade (FB Alpha 2012 CPS-2)</summary>
+		<summary lang="ru_RU">Аркада (FB Alpha 2012 CPS-2)</summary>
+		<summary lang="sv_SE">Arcade (FB Alpha 2012 CPS-2)</summary>
+		<summary lang="zh_CN">街机（FB Alpha 2012 CPS-2）</summary>
+		<description lang="cs_CZ">Port FinalBurn Alpha 2012 pro Libretro. Jde o samostatné jádro pro Capcom CPS-2.</description>
+		<description lang="da_DK">En port af FinalBurn Alpha 2012 til Libretro. Dette er den selvstændige kerne til Capcom CPS-2.</description>
+		<description lang="de_DE">Eine Portierung von FinalBurn Alpha 2012 auf Libretro. Dies ist der eigenständige Core für Capcom CPS-2.</description>
+		<description lang="en_GB">A port of FinalBurn Alpha 2012 to Libretro. This is the standalone core for Capcom CPS-2.</description>
+		<description lang="es_ES">Una adaptación de FinalBurn Alpha 2012 a Libretro. Este es el núcleo independiente para Capcom CPS-2.</description>
+		<description lang="ga">Port de FinalBurn Alpha 2012 chuig Libretro. Seo croílár neamhspleách Capcom CPS-2.</description>
+		<description lang="it_IT">Un porting di FinalBurn Alpha 2012 su Libretro. Questo è il core autonomo per Capcom CPS-2.</description>
+		<description lang="ru_RU">Порт FinalBurn Alpha 2012 на Libretro. Это отдельное ядро для Capcom CPS-2.</description>
+		<description lang="sv_SE">En portning av FinalBurn Alpha 2012 till Libretro. Detta är den fristående kärnan för Capcom CPS-2.</description>
+		<description lang="zh_CN">FinalBurn Alpha 2012 的 Libretro 实现。这是 Capcom CPS-2 的独立核心。</description>
+	</extension>
+</addon><addon id="game.libretro.fbalpha2012-cps3" name="Arcade (FB Alpha 2012 CPS-3)" version="0.2.97.29" provider-name="Team FB Alpha">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.fbalpha2012-cps3.so">
+		<platforms>Arcade</platforms>
+		<extensions>iso|zip</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>fbalpha2012_cps3_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Non-commercial</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.fbalpha2012-cps3</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Arkáda (FB Alpha 2012 CPS-3)</summary>
+		<summary lang="da_DK">Arcade (FB Alpha 2012 CPS-3)</summary>
+		<summary lang="en_GB">Arcade (FB Alpha 2012 CPS-3)</summary>
+		<summary lang="es_ES">Arcade (FinalBurn Alpha 2012 CPS-3)</summary>
+		<summary lang="ga">Arcade (FB Alpha 2012 CPS-3)</summary>
+		<summary lang="it_IT">Arcade (FB Alpha 2012 CPS-3)</summary>
+		<summary lang="ru_RU">Аркада (FB Alpha 2012 CPS-3)</summary>
+		<summary lang="sv_SE">Arcade (FB Alpha 2012 CPS-3)</summary>
+		<summary lang="zh_CN">街机（FB Alpha 2012 CPS-3）</summary>
+		<description lang="cs_CZ">Port FinalBurn Alpha 2012 pro Libretro. Jde o samostatné jádro pro Capcom CPS-3.</description>
+		<description lang="da_DK">En port af FinalBurn Alpha 2012 til Libretro. Dette er den selvstændige kerne til Capcom CPS-3.</description>
+		<description lang="de_DE">Eine Portierung von FinalBurn Alpha 2012 auf Libretro. Dies ist der eigenständige Core für Capcom CPS-3.</description>
+		<description lang="en_GB">A port of FinalBurn Alpha 2012 to Libretro. This is the standalone core for Capcom CPS-3.</description>
+		<description lang="es_ES">Una adaptación de FinalBurn Alpha 2012 a Libretro. Este es el núcleo independiente para Capcom CPS-3.</description>
+		<description lang="ga">Port de FinalBurn Alpha 2012 chuig Libretro. Seo croílár neamhspleách Capcom CPS-3.</description>
+		<description lang="it_IT">Un port di FinalBurn Alpha 2012 su Libretro. Questo è il core autonomo per Capcom CPS-3.</description>
+		<description lang="ru_RU">Порт FinalBurn Alpha 2012 на Libretro. Это отдельное ядро для Capcom CPS-3.</description>
+		<description lang="sv_SE">En portning av FinalBurn Alpha 2012 till Libretro. Detta är den fristående kärnan för Capcom CPS-3.</description>
+		<description lang="zh_CN">FinalBurn Alpha 2012 的 Libretro 实现。这是 Capcom CPS-3 的独立核心。</description>
+	</extension>
+</addon><addon id="game.libretro.fbalpha2012-neogeo" name="Arcade (FB Alpha 2012 Neo Geo)" version="0.2.97.29" provider-name="Team FB Alpha">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.fbalpha2012-neogeo.so">
+		<platforms>Arcade</platforms>
+		<extensions>iso|zip|7z</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>fbalpha2012_neogeo_libretro</libretro_core>
+		<savestate_features>serialized</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Non-commercial</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.fbalpha2012-neogeo</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Arkáda (FB Alpha 2012 Neo Geo)</summary>
+		<summary lang="da_DK">Arcade (FB Alpha 2012 Neo Geo)</summary>
+		<summary lang="en_GB">Arcade (FB Alpha 2012 Neo Geo)</summary>
+		<summary lang="es_ES">Arcade (FinalBurn Alpha 2012 Neo Geo)</summary>
+		<summary lang="ga">Arcade (FB Alpha 2012 Neo Geo)</summary>
+		<summary lang="it_IT">Arcade (FB Alpha 2012 Neo Geo)</summary>
+		<summary lang="ko_KR">아케이드 (FB 알파 2012 Neo Geo)</summary>
+		<summary lang="ru_RU">Arcade (FB Alpha 2012 Neo Geo)</summary>
+		<summary lang="sv_SE">Arcade (FB Alpha 2012 Neo Geo)</summary>
+		<summary lang="zh_CN">街机（FB Alpha 2012 Neo Geo）</summary>
+		<description lang="cs_CZ">Port FinalBurn Alpha 2012 pro Libretro. Jde o samostatné jádro pro Neo Geo.</description>
+		<description lang="da_DK">En port af FinalBurn Alpha 2012 til Libretro. Dette er den selvstændige kerne til Neo Geo.</description>
+		<description lang="de_DE">Eine Portierung von FinalBurn Alpha 2012 auf Libretro. Dies ist der eigenständige Core für Neo Geo.</description>
+		<description lang="en_GB">A port of FinalBurn Alpha 2012 to Libretro. This is the standalone core for Neo Geo.</description>
+		<description lang="es_ES">Una adaptación de FinalBurn Alpha 2012 a Libretro. Este es el núcleo independiente para Neo Geo.</description>
+		<description lang="ga">Port de FinalBurn Alpha 2012 chuig Libretro. Seo croílár neamhspleách Neo Geo.</description>
+		<description lang="it_IT">Un porting di FinalBurn Alpha 2012 su Libretro. Questo è il core autonomo per Neo Geo.</description>
+		<description lang="ko_KR">FinalBurn Alpha 2012를 Libretro로 이식. Neo Geo의 독립형 코어입니다.</description>
+		<description lang="ru_RU">Порт FinalBurn Alpha 2012 для Libretro. Это автономное ядро для Neo Geo.</description>
+		<description lang="sv_SE">En portning av FinalBurn Alpha 2012 till Libretro. Detta är den fristående kärnan för Neo Geo.</description>
+		<description lang="zh_CN">FinalBurn Alpha 2012 的 Libretro 实现。这是 Neo Geo 的独立核心。</description>
+	</extension>
+</addon><addon id="game.libretro.fbneo" name="Arcade (FinalBurn Neo)" version="1.0.0.107" provider-name="Team FBNeo">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.fbneo.so">
+		<platforms>Arcade</platforms>
+		<extensions>zip|7z|cue|ccd|chd|m3u</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>fbneo_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Non-commercial</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.fbneo</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Arkáda (FinalBurn Neo)</summary>
+		<summary lang="da_DK">Arcade (FinalBurn Neo)</summary>
+		<summary lang="en_GB">Arcade (FinalBurn Neo)</summary>
+		<summary lang="es_ES">Arcade (FinalBurn Neo)</summary>
+		<summary lang="ga">Arcade (FinalBurn Neo)</summary>
+		<summary lang="it_IT">Arcade (FinalBurn Neo)</summary>
+		<summary lang="ko_KR">아케이드 (FinalBurn Neo)</summary>
+		<summary lang="ru_RU">Arcade (FinalBurn Neo)</summary>
+		<summary lang="sv_SE">Arcade (FinalBurn Neo)</summary>
+		<summary lang="zh_CN">街机（FinalBurn Neo）</summary>
+		<description lang="cs_CZ">FinalBurn Neo je odvozená verze FinalBurn Alpha, emulátoru arkádových her.[CR][CR]Emulace ve FB Neo zahrnuje Capcom CPS-1 a CPS-2, SNK Neo-Geo, Toaplan, Cave a Sega System 16.</description>
+		<description lang="da_DK">FinalBurn Neo er en fork af FinalBurn Alpha, en emulator af arkadespil.[CR][CR]FB Neo-emulering inkluderer Capcom CPS-1 og CPS-2, SNK Neo-Geo, Toaplan, Cave og Sega System 16.</description>
+		<description lang="de_DE">FinalBurn Neo ist ein Fork von FinalBurn Alpha, einem Emulator für Arcade-Spiele.[CR][CR]Die Emulation von FB Neo umfasst Capcom CPS-1 und CPS-2, SNK Neo-Geo, Toaplan, Cave und Sega System 16.</description>
+		<description lang="en_GB">FinalBurn Neo is a fork of FinalBurn Alpha, an emulator of arcade games.[CR][CR]FB Neo emulation includes Capcom CPS-1 and CPS-2, SNK Neo-Geo, Toaplan, Cave and Sega System 16.</description>
+		<description lang="es_ES">FinalBurn Neo es una bifurcación de FinalBurn Alpha, un emulador de juegos arcade[CR][CR]La emulación de FB Neo incluye Capcom CPS-1 y CPS-2, SNK Neo-Geo, Toaplan, Cave y Sega System 16.</description>
+		<description lang="ga">Is forc de FinalBurn Alpha é FinalBurn Neo, aithriseoir cluichí stuara.[CR][CR]Áirítear le haithris FB Neo Capcom CPS-1 agus CPS-2, SNK Neo-Geo, Toaplan, Cave agus Sega System 16.</description>
+		<description lang="it_IT">FinalBurn Neo è un fork di FinalBurn Alpha, un emulatore di giochi arcade.[CR][CR]L'emulazione di FB Neo include Capcom CPS-1 e CPS-2, SNK Neo-Geo, Toaplan, Cave e Sega System 16.</description>
+		<description lang="ko_KR">FinalBurn Neo는 아케이드 게임의 에뮬레이터인 FinalBurn Alpha의 포크입니다.[CR][CR]FB Neo 에뮬레이션에는 Capcom CPS-1 및 CPS-2, SNK Neo-Geo, Toaplan, Cave 및 Sega System 16이 포함됩니다.</description>
+		<description lang="ru_RU">FinalBurn Neo — это форк FinalBurn Alpha, эмулятора аркадных игр.[CR][CR]Эмуляция FB Neo включает в себя Capcom CPS-1 и CPS-2, SNK Neo-Geo, Toaplan, Cave и Sega System 16.</description>
+		<description lang="sv_SE">FinalBurn Neo är en förgrening av FinalBurn Alpha, en emulator för arkadspel.[CR][CR]FB Neo emulerar bland annat Capcom CPS-1 och CPS-2, SNK Neo-Geo, Toaplan, Cave och Sega System 16.</description>
+		<description lang="zh_CN">FinalBurn Neo 是 FinalBurn Alpha 的一个分支，它是街机游戏的模拟器。[CR][CR]FB Neo 仿真包括 Capcom CPS-1 和 CPS-2、SNK Neo Geo、Toaplan、Cave 和 Sega System 16。</description>
+		<disclaimer lang="cs_CZ">Autor ikony: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="da_DK">Billedekredit: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="de_DE">Symbolverweis: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="en_GB">Icon credit: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="es_ES">Crédito del icono: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="ga">Creidmheas deilbhín: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="it_IT">Credito icona: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="ko_KR">아이콘 크레딧: TRIPLEKILLZ(triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="ru_RU">Автор значка: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="sv_SE">Ikonreferens: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="zh_CN">图标来源：TRIPLEKILLZ（triplekillz.deviantart.com）</disclaimer>
 	</extension>
 </addon><addon id="game.libretro.fceumm" name="Nintendo - NES / Famicom (FCEUmm)" version="0.0.1.68" provider-name="FCEU Team, CaH4e3">
 	<requires>
@@ -4140,6 +4639,57 @@
 		<disclaimer lang="sl_SI">Zasluga ikone: Anarhya (anarhya.deviantart.com)</disclaimer>
 		<disclaimer lang="sv_SE">Ikon: Anarkhya (anarkhya.deviantart.com)</disclaimer>
 		<disclaimer lang="zh_CN">图标来源：Anarkhya（anarkhya.deviantart.com）</disclaimer>
+	</extension>
+</addon><addon id="game.libretro.fmsx" name="Microsoft - MSX (fMSX)" version="6.0.0.52" provider-name="Marat Fayzullin">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+		<import addon="game.controller.msx.keyboard" version="1.0.0" />
+		<import addon="game.controller.msx.joystick" version="1.0.0" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.fmsx.so">
+		<platforms>Microsoft - MSX</platforms>
+		<extensions>rom|mx1|mx2|dsk|fdi|cas|m3u</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>fmsx_libretro</libretro_core>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Non-commercial</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.fmsx</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Microsoft - MSX (fMSX)</summary>
+		<summary lang="da_DK">Microsoft - MSX (fMSX)</summary>
+		<summary lang="en_GB">Microsoft - MSX (fMSX)</summary>
+		<summary lang="es_ES">Microsoft - MSX (fMSX)</summary>
+		<summary lang="ga">Microsoft - MSX (fMSX)</summary>
+		<summary lang="it_IT">Microsoft - MSX (fMSX)</summary>
+		<summary lang="ru_RU">Microsoft — MSX (fMSX)</summary>
+		<summary lang="sv_SE">Microsoft - MSX (fMSX)</summary>
+		<summary lang="zh_CN">Microsoft - MSX (fMSX)</summary>
+		<description lang="cs_CZ">fMSX je emulátor MSX napsaný Maratem Fayzullinem. Emuluje 8bitové domácí počítače MSX, MSX2 a MSX2+.</description>
+		<description lang="da_DK">fMSX er en MSX-emulator skrevet af Marat Fayzullin. Den emulerer MSX, MSX2 og MSX2+ 8-bit hjemmecomputere.</description>
+		<description lang="de_DE">fMSX ist ein von Marat Fayzullin geschriebener MSX-Emulator. Er emuliert MSX, MSX2 und MSX2+ 8-Bit-Heimcomputer.</description>
+		<description lang="en_GB">fMSX is a MSX emulator written by Marat Fayzullin. It emulates MSX, MSX2, and MSX2+ 8-bit home computers.</description>
+		<description lang="es_ES">fMSX es un emulador de MSX escrito por Marat Fayzullin. Emula ordenadores domésticos de 8 bits MSX, MSX2 y MSX2+.</description>
+		<description lang="ga">Is aithriseoir MSX é fMSX a scríobh Marat Fayzullin. Déanann sé aithris ar ríomhairí baile 8-giotán MSX, MSX2, agus MSX2+.</description>
+		<description lang="it_IT">fMSX è un emulatore MSX scritto da Marat Fayzullin. Emula i computer domestici a 8 bit MSX, MSX2 e MSX2+.</description>
+		<description lang="ru_RU">fMSX — это эмулятор MSX, написанный Маратом Файзуллиным. Он эмулирует 8-битные домашние компьютеры MSX, MSX2 и MSX2+.</description>
+		<description lang="sv_SE">fMSX är en MSX-emulator skriven av Marat Fayzullin. Den emulerar MSX, MSX2 och MSX2+ 8-bitars hemdatorer.</description>
+		<description lang="zh_CN">fMSX 是由 Marat Fayzullin 编写的 MSX 模拟器。它模拟 MSX、MSX2 和 MSX2+ 8位家用计算机。</description>
+		<disclaimer lang="cs_CZ">Autor obrázku: Garage Research Emulators</disclaimer>
+		<disclaimer lang="da_DK">Billedkreditering: Garage Research Emulators</disclaimer>
+		<disclaimer lang="de_DE">Bildnachweis: Garage Research Emulators</disclaimer>
+		<disclaimer lang="en_GB">Image credit: Garage Research Emulators</disclaimer>
+		<disclaimer lang="es_ES">Créditos de la imagen: Garage Research Emulators</disclaimer>
+		<disclaimer lang="ga">Creidmheas íomhá: Aithriseoirí Taighde Garáiste</disclaimer>
+		<disclaimer lang="it_IT">Immagine per gentile concessione di: Garage Research Emulators</disclaimer>
+		<disclaimer lang="ru_RU">Изображение предоставлено: Garage Research Emulators</disclaimer>
+		<disclaimer lang="sv_SE">Bild: Garage Research Emulators</disclaimer>
+		<disclaimer lang="zh_CN">图片来源：Garage Research 模拟器</disclaimer>
 	</extension>
 </addon><addon id="game.libretro.freechaf" name="Fairchild - ChannelF (FreeChaF)" version="1.0.0.38" provider-name="David Richardson">
 	<requires>
@@ -4541,6 +5091,113 @@
 		<description lang="sv_SE">Gearsystem är en plattformsoberoende emulator med öppen källkod för Sega Master System / Game Gear / SG-1000 / Othello Multivision.</description>
 		<description lang="zh_CN">Gearsystem 是一款开源、跨平台的世嘉 Master System / Game Gear / SG-1000 / Othello Multivision 模拟器。</description>
 	</extension>
+</addon><addon id="game.libretro.genplus" name="Sega - MS/GG/MD/CD (Genesis Plus GX)" version="1.7.4.86" provider-name="Charles McDonald, Eke-Eke">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+		<import addon="game.controller.genesis.3button" version="1.0.0" />
+		<import addon="game.controller.genesis.6button" version="1.0.0" />
+		<import addon="game.controller.genesis.mouse" version="1.0.0" />
+		<import addon="game.controller.genesis.4wayplay" version="1.0.0" />
+		<import addon="game.controller.genesis.teamplayer" version="1.0.0" />
+		<import addon="resource.games.libretro.restricted" version="1.0.0" optional="true" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.genplus.so">
+		<platforms>Sega - MS/GG/MD/CD</platforms>
+		<extensions>m3u|mdx|md|smd|gen|bin|cue|iso|chd|bms|sms|gg|sg|68k|sgd</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>true</supports_disc_control>
+		<libretro_core>genesis_plus_gx_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Non-commercial</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.genplus</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Sega - MS/GG/MD/CD (Genesis Plus GX)</summary>
+		<summary lang="en_GB">Sega - MS/GG/MD/CD (Genesis Plus GX)</summary>
+		<summary lang="es_ES">Sega - MS/GG/MD/CD (Genesis Plus GX)</summary>
+		<summary lang="ga">Sega - MS/GG/MD/CD (Genesis Plus GX)</summary>
+		<summary lang="it_IT">Sega - MS/GG/MD/CD (Genesis Plus GX)</summary>
+		<summary lang="ru_RU">Sega — MS/GG/MD/CD (Genesis Plus GX)</summary>
+		<summary lang="sv_SE">Sega - MS/GG/MD/CD (Genesis Plus GX)</summary>
+		<summary lang="zh_CN">世嘉 - MS/GG/MD/CD (Genesis Plus GX)</summary>
+		<description lang="cs_CZ">Genesis Plus GX je vylepšený port Genesis Plus pro API Libretro.[CR][CR]Podporuje hardware SG-1000, Mark-III, Master System, Game Gear, Mega Drive a Mega CD.</description>
+		<description lang="da_DK">Genesis Plus GX er en forbedret port af Genesis Plus til libretro API.[CR][CR]Understøtter SG-1000, Mark-III, Master System, Game Gear, Mega Drive og Mega CD hardware.</description>
+		<description lang="de_DE">Genesis Plus GX ist eine erweiterte Umsetzung von Genesis Plus auf die Libretro-API und bietet Unterstützung für SG-1000, Mark-III, Master System, Game Gear, Mega Drive und Mega CD Hardware.</description>
+		<description lang="en_GB">Genesis Plus GX is an enhanced port of Genesis Plus to the libretro API.[CR][CR]Features support for SG-1000, Mark-III, Master System, Game Gear, Mega Drive and Mega CD hardware.</description>
+		<description lang="es_ES">Genesis Plus GX es una adaptación mejorada de Genesis Plus a la API libretro[CR][CR]Compatible con el hardware SG-1000, Mark-III, Master System, Game Gear, Mega Drive y Mega CD.</description>
+		<description lang="ga">Is port feabhsaithe de Genesis Plus chuig API libretro é Genesis Plus GX.[CR][CR]Tacaíonn sé le crua-earraí SG-1000, Mark-III, Master System, Game Gear, Mega Drive agus Mega CD.</description>
+		<description lang="it_IT">Genesis Plus GX è un port avanzato di Genesis Plus per l'API libretro.[CR][CR]Include il supporto per l'hardware SG-1000, Mark-III, Master System, Game Gear, Mega Drive e Mega CD.</description>
+		<description lang="ru_RU">Genesis Plus GX — это улучшенный порт Genesis Plus на API libretro.[CR][CR]Поддерживается оборудование SG-1000, Mark-III, Master System, Game Gear, Mega Drive и Mega CD.</description>
+		<description lang="sv_SE">Genesis Plus GX är en förbättrad portning av Genesis Plus till libretro API[CR][CR]Med stöd för hårdvarorna SG-1000, Mark-III, Master System, Game Gear, Mega Drive och Mega CD.</description>
+		<description lang="zh_CN">Genesis Plus GX 是 Genesis Plus 到 libretro API 的增强移植。[CR][CR]支持 SG-1000、Mark III、Master System、Game Gear、Mega Drive 和 Mega CD 硬件。</description>
+		<disclaimer lang="cs_CZ">Zvláštní poděkování patří twinaphexovi za backportování vylepšení z verze GX</disclaimer>
+		<disclaimer lang="da_DK">Særlig tak til twinaphex for backporting-forbedringer fra GX-versionen</disclaimer>
+		<disclaimer lang="de_DE">Besonderen Dank an twinaphex für die Rückportierung von Erweiterungen aus der GX-Version</disclaimer>
+		<disclaimer lang="en_GB">Special thanks to twinaphex for backporting enhancements from the GX version</disclaimer>
+		<disclaimer lang="es_ES">Un agradecimiento especial a twinaphex por readaptar las mejoras de la versión GX</disclaimer>
+		<disclaimer lang="ga">Buíochas speisialta le twinaphex as feabhsuithe ar aisiompórtáil ón leagan GX</disclaimer>
+		<disclaimer lang="it_IT">Un ringraziamento speciale a twinaphex per i miglioramenti apportati al backport dalla versione GX</disclaimer>
+		<disclaimer lang="ru_RU">Особая благодарность twinaphex за перенос улучшений из версии GX</disclaimer>
+		<disclaimer lang="sv_SE">Särskilt tack till twinaphex för bakåtportering av förbättringar från GX-versionen</disclaimer>
+		<disclaimer lang="zh_CN">特别感谢 twinaphex 从 GX 版本中移植了增强功能</disclaimer>
+	</extension>
+</addon><addon id="game.libretro.genplus-wide" name="Sega - MS/GG/MD/CD (Genesis Plus GX Wide)" version="1.7.4.39" provider-name="Charles McDonald, Eke-Eke, heyjoeway">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+		<import addon="game.controller.genesis.3button" version="1.0.0" />
+		<import addon="game.controller.genesis.6button" version="1.0.0" />
+		<import addon="game.controller.genesis.mouse" version="1.0.0" />
+		<import addon="game.controller.genesis.4wayplay" version="1.0.0" />
+		<import addon="game.controller.genesis.teamplayer" version="1.0.0" />
+		<import addon="resource.games.libretro.restricted" version="1.0.0" optional="true" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.genplus-wide.so">
+		<platforms>Sega - MS/GG/MD/CD</platforms>
+		<extensions>m3u|mdx|md|smd|gen|bin|cue|iso|chd|bms|sms|gg|sg|68k|sgd</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>true</supports_disc_control>
+		<libretro_core>genesis_plus_gx_wide_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Non-commercial</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.genplus-wide</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Sega - MS/GG/MD/CD (Genesis Plus GX Wide)</summary>
+		<summary lang="da_DK">Sega - MS/GG/MD/CD (Genesis Plus GX Wide)</summary>
+		<summary lang="en_GB">Sega - MS/GG/MD/CD (Genesis Plus GX Wide)</summary>
+		<summary lang="es_ES">Sega - MS/GG/MD/CD (Genesis Plus GX Ancho)</summary>
+		<summary lang="ga">Sega - MS/GG/MD/CD (Genesis Plus GX Wide)</summary>
+		<summary lang="it_IT">Sega - MS/GG/MD/CD (Genesis Plus GX Wide)</summary>
+		<summary lang="ru_RU">Sega — MS/GG/MD/CD (Genesis Plus GX Wide)</summary>
+		<summary lang="sv_SE">Sega - MS/GG/MD/CD (Genesis Plus GX Wide)</summary>
+		<summary lang="zh_CN">世嘉 - MS/GG/MD/CD (Genesis Plus GX Wide)</summary>
+		<description lang="cs_CZ">Širokoúhlá úprava Genesis Plus GX, emulátoru Sega Genesis / Mega CD, který původně běžel na GameCube.</description>
+		<description lang="da_DK">En widescreen-modifikation af Genesis Plus GX, en Sega/Genesis/Mega CD-emulator, der oprindeligt kørte på GameCube.</description>
+		<description lang="de_DE">Eine Widescreen-Modifikation von Genesis Plus GX, einem Sega/Genesis/Mega CD-Emulator, der ursprünglich auf dem GameCube lief.</description>
+		<description lang="en_GB">A widescreen modification of Genesis Plus GX, a Sega/Genesis/Mega CD emulator that originally ran on the GameCube.</description>
+		<description lang="es_ES">Una modificación para pantalla panorámica de Genesis Plus GX, un emulador de Sega/Genesis/Mega CD que originalmente funcionaba en GameCube.</description>
+		<description lang="ga">Modhnú leathanscáileáin ar Genesis Plus GX, aithriseoir Sega/Genesis/Mega CD a rith ar dtús ar an GameCube.</description>
+		<description lang="it_IT">Una modifica widescreen di Genesis Plus GX, un emulatore di Sega/Genesis/Mega CD originariamente eseguito su GameCube.</description>
+		<description lang="ru_RU">Широкоэкранная модификация Genesis Plus GX, эмулятора Sega/Genesis/Mega CD, который изначально работал на GameCube.</description>
+		<description lang="sv_SE">En bredbildsversion av Genesis Plus GX, en Sega/Genesis/Mega CD-emulator som ursprungligen kördes på GameCube.</description>
+		<description lang="zh_CN">Genesis Plus GX 的宽屏修改，这是最初在 GameCube 上运行的 Sega/Genesis/Mega CD 模拟器。</description>
+	</extension>
 </addon><addon id="game.libretro.gme" name="Game Music Emu" version="0.6.1.12" provider-name="Blargg">
 	<requires>
 		<import addon="game.libretro" version="1.0.0" />
@@ -4798,6 +5455,35 @@
 		<description lang="sv_SE">Hatari är en Atari ST/STE/TT/Falcon-emulator.[CR][CR]Hatari försöker emulera hårdvaran så nära som möjligt för ökad kompatibilitet. På grund av detta kan den vara långsammare än mindre exakta emulatorer.</description>
 		<description lang="zh_CN">Hatari 是一款雅达利 ST/STE/TT/ 猎鹰（Falcon）模拟器。[CR][CR]Hatari 力求尽可能贴近地模拟硬件，以实现更高的兼容性。正因如此，它可能比精度较低的模拟器运行速度更慢。</description>
 	</extension>
+</addon><addon id="game.libretro.hbmame" name="Arcade (HBMAME)" version="0.220.0.22" provider-name="Robbbert,MAMEdev">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.hbmame.so">
+		<platforms />
+		<extensions>chd|cmd|zip|7z</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<requires_opengl>false</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2+</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.hbmame</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="da_DK">Arcade (HBMAME)</summary>
+		<summary lang="en_GB">Arcade (HBMAME)</summary>
+		<summary lang="es_ES">Arcade (HBMAME)</summary>
+		<summary lang="zh_CN">街机（HBMAME）</summary>
+		<description lang="da_DK">HBMAME står for Home Brew MAME. Det er en emulator af hjemmebryggede og hackede spil til arkadehardware.</description>
+		<description lang="en_GB">HBMAME stands for Home Brew MAME. It is an emulator of homebrew and hacked games for arcade hardware.</description>
+		<description lang="es_ES">HBMAME son las siglas de Home Brew MAME. Es un emulador de juegos caseros y pirateados para hardware arcade.</description>
+		<description lang="it_IT">HBMAME sta per Home Brew MAME. È un emulatore di giochi homebrew e hackerati per hardware arcade.</description>
+		<description lang="zh_CN">HBMAME 即 Home Brew MAME。它是一个用于街机硬件的自制和魔改游戏的模拟器。</description>
+		<lifecyclestate type="broken" lang="en_GB">Home Brew MAME hasn't been updated since 2020 and is no longer available for use in Kodi.</lifecyclestate>
+	</extension>
 </addon><addon id="game.libretro.jumpnbump" name="Jump 'n Bump" version="0.1.0.18" provider-name="Philippe Simons">
 	<requires>
 		<import addon="game.libretro" version="1.0.0" />
@@ -4914,6 +5600,323 @@
 		<disclaimer lang="es_ES">Crédito del icono: peter-86 (peter-86.deviantart.com)</disclaimer>
 		<disclaimer lang="it_IT">Credito icona: peter-86 (peter-86.deviantart.com)</disclaimer>
 		<disclaimer lang="zh_CN">图标来源：peter-86（peter-86.deviantart.com）</disclaimer>
+	</extension>
+</addon><addon id="game.libretro.mame2000" name="Arcade (MAME 2000)" version="0.37.0.49" provider-name="MAMEdev">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.mame2000.so">
+		<platforms>Arcade</platforms>
+		<extensions>zip|ZIP</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>mame2000_libretro</libretro_core>
+		<savestate_features>basic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>MAME</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.mame2000</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Arkáda (MAME 2000)</summary>
+		<summary lang="da_DK">Arcade (MAME 2000)</summary>
+		<summary lang="en_GB">Arcade (MAME 2000)</summary>
+		<summary lang="es_ES">Arcade (MAME 2000)</summary>
+		<summary lang="ga">Arcade (MAME 2000)</summary>
+		<summary lang="it_IT">Arcade (MAME 2000)</summary>
+		<summary lang="ru_RU">Аркада (MAME 2000)</summary>
+		<summary lang="sv_SE">Arcade (MAME 2000)</summary>
+		<summary lang="zh_CN">街机（MAME 2000）</summary>
+		<description lang="cs_CZ">Verze MAME z roku 2000 (0.37b5) pro Libretro. Kompatibilní se sadami iMAME4All/MAME4Droid/MAME 0.37b5.</description>
+		<description lang="da_DK">2000 version af MAME (0.37b5) til libretro. Kompatibel med iMAME4All/MAME4Droid/MAME 0.37b5 sæt.</description>
+		<description lang="de_DE">2000er Version von MAME (0.37b5) für libretro. Kompatibel mit Sets von iMAME4All/MAME4Droid/MAME 0.37b5.</description>
+		<description lang="en_GB">2000 version of MAME (0.37b5) for libretro. Compatible with iMAME4All/MAME4Droid/MAME 0.37b5 sets.</description>
+		<description lang="es_ES">Versión 2000 de MAME (0.37b5) para libretro. Compatible con los juegos de iMAME4All/MAME4Droid/MAME 0.37b5.</description>
+		<description lang="ga">Leagan 2000 de MAME (0.37b5) do libretro. Comhoiriúnach le tacair iMAME4All/MAME4Droid/MAME 0.37b5.</description>
+		<description lang="it_IT">Versione 2000 di MAME (0.37b5) per libretro. Compatibile con i set iMAME4All/MAME4Droid/MAME 0.37b5.</description>
+		<description lang="ru_RU">Версия MAME 2000 года (0.37b5) для libretro. Совместима с наборами iMAME4All/MAME4Droid/MAME 0.37b5.</description>
+		<description lang="sl_SI">2000 različica MAME (0.37b5) za libretro. Združljivo s kompleti iMAME4All/MAME4Droid/MAME 0.37b5.</description>
+		<description lang="sv_SE">2000 års version av MAME (0.37b5) för libretro. Kompatibel med iMAME4All/MAME4Droid/MAME 0.37b5-uppsättningar.</description>
+		<description lang="zh_CN">用于 libretro 的 2000 版本的 MAME（0.37b5）。与 iMAME4All/MAME4Droid/MAME 0.37b5 集兼容。</description>
+	</extension>
+</addon><addon id="game.libretro.mame2003" name="Arcade (MAME 2003)" version="0.78.0.72" provider-name="MAMEdev">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.mame2003.so">
+		<platforms>Arcade</platforms>
+		<extensions>zip</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>mame2003_libretro</libretro_core>
+		<savestate_features>basic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>MAME</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.mame2003</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Arkáda (MAME 2003)</summary>
+		<summary lang="da_DK">Arcade (MAME 2003)</summary>
+		<summary lang="en_GB">Arcade (MAME 2003)</summary>
+		<summary lang="es_ES">Arcade (MAME 2003)</summary>
+		<summary lang="ga">Arcade (MAME 2003)</summary>
+		<summary lang="it_IT">Arcade (MAME 2003)</summary>
+		<summary lang="ko_KR">아케이드 (MAME 2003)</summary>
+		<summary lang="ru_RU">Arcade (MAME 2003)</summary>
+		<summary lang="sv_SE">Arcade (MAME 2003)</summary>
+		<summary lang="zh_CN">街机（MAME 2003）</summary>
+		<description lang="cs_CZ">MAME 0.78 pro Libretro. Kompatibilní se sadami MAME 0.78.</description>
+		<description lang="da_DK">MAME 0.78 til libretro. Kompatibel med MAME 0.78 sæt.</description>
+		<description lang="de_DE">MAME 0.78 für libretro. Kompatibel mit MAME 0.78 Sets.</description>
+		<description lang="en_GB">MAME 0.78 for libretro. Compatible with MAME 0.78 sets.</description>
+		<description lang="es_ES">MAME 0.78 para libretro. Compatible con los juegos de MAME 0.78.</description>
+		<description lang="ga">MAME 0.78 do libretro. Comhoiriúnach le tacair MAME 0.78.</description>
+		<description lang="it_IT">MAME 0,78 per libretro. Compatibile con i set MAME 0,78.</description>
+		<description lang="ko_KR">libretro용 MAME 0.78. MAME 0.78 세트와 호환됩니다.</description>
+		<description lang="ru_RU">MAME 0.78 для libretro. Совместимо с наборами MAME 0.78.</description>
+		<description lang="sv_SE">MAME 0.78 för libretro. Kompatibel med MAME 0.78-uppsättningar.</description>
+		<description lang="zh_CN">libretro 的 MAME 0.78。兼容 MAME 0.78 系列。</description>
+	</extension>
+</addon><addon id="game.libretro.mame2003_midway" name="Arcade (MAME 2003 Midway)" version="0.78.0.33" provider-name="MAMEdev">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.mame2003_midway.so">
+		<platforms>Arcade</platforms>
+		<extensions>zip</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>mame2003_midway_libretro</libretro_core>
+		<savestate_features>basic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>MAME</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.mame2003_midway</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Arkáda (MAME 2003 Midway)</summary>
+		<summary lang="da_DK">Arcade (MAME 2003 Midway)</summary>
+		<summary lang="en_GB">Arcade (MAME 2003 Midway)</summary>
+		<summary lang="es_ES">Arcade (MAME 2003 Midway)</summary>
+		<summary lang="ga">Arcade (MAME 2003 Midway)</summary>
+		<summary lang="it_IT">Arcade (MAME 2003 Midway)</summary>
+		<summary lang="ru_RU">Аркада (MAME 2003 Midway)</summary>
+		<summary lang="sv_SE">Arcade (MAME 2003 Midway)</summary>
+		<summary lang="zh_CN">街机（MAME 2003 Midway）</summary>
+		<description lang="cs_CZ">MAME 2003 se speedhackem pro zvukový hardware Midway používaný ve hrách Mortal Kombat 2, 3 a dalších.</description>
+		<description lang="da_DK">MAME 2003 med speedhack til Midway-lydhardwaren brugt i Mortal Kombat 2, 3 og andre.</description>
+		<description lang="de_DE">MAME 2003 mit Speedhack für die Midway-Sound-Hardware, die in Mortal Kombat 2, 3 und anderen verwendet wurde.</description>
+		<description lang="en_GB">MAME 2003 with speedhack for the Midway sound hardware used in Mortal Kombat 2, 3 and others.</description>
+		<description lang="es_ES">MAME 2003 con speedhack para el hardware de sonido Midway utilizado en Mortal Kombat 2, 3 y otros.</description>
+		<description lang="ga">MAME 2003 le speedhack don chrua-earraí fuaime Midway a úsáideadh i Mortal Kombat 2, 3 agus cluichí eile.</description>
+		<description lang="it_IT">MAME 2003 con speedhack per l'hardware audio Midway usato in Mortal Kombat 2, 3 e altri.</description>
+		<description lang="ru_RU">MAME 2003 с читом на скорость (speedhack) для звукового оборудования Midway, используемого в Mortal Kombat 2, 3 и других играх.</description>
+		<description lang="sv_SE">MAME 2003 med speedhack för Midways ljudhårdvara som används i Mortal Kombat 2, 3 m.fl.</description>
+		<description lang="zh_CN">MAME 2003 加上针对《真人快打2》、《真人快打3》和其他游戏中使用的 Midway 声音硬件的 speedhack。</description>
+	</extension>
+</addon><addon id="game.libretro.mame2003_plus" name="Arcade (MAME 2003-Plus)" version="0.0.1.105" provider-name="MAMEdev, MAME 2003-Plus Team, et al (see license and changelog)">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.mame2003_plus.so">
+		<platforms>Arcade</platforms>
+		<extensions>zip</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>mame2003_plus_libretro</libretro_core>
+		<savestate_features>basic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>MAME Noncommercial</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.mame2003_plus</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="en_GB">Arcade (MAME 2003-Plus)</summary>
+		<description lang="af_ZA">Opgedateerde 2003 weergawe van MAME (0.78) vir libretro, met bygevoegde ondersteuning vir oor die 350 bykomende speletjies plus baie wat reggemaak is en verbeteringe.</description>
+		<description lang="cs_CZ">Aktualizovaná verze MAME z roku 2003 (0.78) pro Libretro s přidanou podporou více než 350 dalších her a mnoha opravami a vylepšeními.</description>
+		<description lang="da_DK">Opdateret 2018-version af MAME (0.78) til libretro, med tilføjet understøttelse af spil plus mange rettelser og forbedringer.</description>
+		<description lang="de_DE">Aktualisierte Version 2018 von MAME (0.78) für libretro, mit zusätzlicher Spieleunterstützung und vielen Korrekturen und Verbesserungen.</description>
+		<description lang="en_GB">Updated 2003 version of MAME (0.78) for libretro, with added support for over 350 additional games plus many fixes and improvements.</description>
+		<description lang="es_ES">Versión 2018 actualizada de MAME (0.78) para libretro, con soporte añadido para juegos además de muchas correcciones y mejoras.</description>
+		<description lang="ga">Leagan nuashonraithe de MAME (0.78) in 2003 do libretro, le tacaíocht bhreise do bhreis is 350 cluiche breise móide go leor socruithe agus feabhsuithe.</description>
+		<description lang="it_IT">Versione 2018 aggiornata di MAME (0.78) per libretro, con supporto di gioco aggiunto oltre a molte correzioni e miglioramenti.</description>
+		<description lang="ko_KR">libretro용 MAME(0.78) 2018 버전이 업데이트되었으며, 게임 지원이 추가되고 많은 수정 및 개선이 이루어졌습니다.</description>
+		<description lang="ru_RU">Обновленная версия MAME 2003 года (0.78) для libretro с дополнительной поддержкой более 350 игр, а также множеством исправлений и улучшений.</description>
+		<description lang="sv_SE">Uppdaterad 2003 års version av MAME (0.78) för libretro, med stöd för över 350 ytterligare spel samt många korrigeringar och förbättringar.</description>
+		<description lang="zh_CN">libretro 的升级2018版 MAME（0.78） 。增加了游戏支持，并进行了许多修正和改进。</description>
+	</extension>
+</addon><addon id="game.libretro.mame2010" name="Arcade (MAME 2010)" version="0.139.0.40" provider-name="MAMEdev">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.mame2010.so">
+		<platforms>Arcade</platforms>
+		<extensions>zip|chd|7z</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>mame2010_libretro</libretro_core>
+		<savestate_features>null</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>MAME</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.mame2010</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Arkáda (MAME 2010)</summary>
+		<summary lang="da_DK">Arcade (MAME 2010)</summary>
+		<summary lang="en_GB">Arcade (MAME 2010)</summary>
+		<summary lang="es_ES">Arcade (MAME 2010)</summary>
+		<summary lang="ga">Arcade (MAME 2010)</summary>
+		<summary lang="it_IT">Arcade (MAME 2010)</summary>
+		<summary lang="ru_RU">Аркада (MAME 2010)</summary>
+		<summary lang="sv_SE">Arcade (MAME 2010)</summary>
+		<summary lang="zh_CN">街机（MAME 2010）</summary>
+		<description lang="cs_CZ">Verze MAME z konce roku 2010 (0.139) pro Libretro. Kompatibilní se sadami MAME 0.139.</description>
+		<description lang="da_DK">Sen 2010-version af MAME (0.139) til libretro. Kompatibel med MAME 0.139 sæt.</description>
+		<description lang="de_DE">Späte 2010-Version von MAME (0.139) für libretro. Kompatibel mit MAME 0.139 Sets.</description>
+		<description lang="en_GB">Late 2010 version of MAME (0.139) for libretro. Compatible with MAME 0.139 sets.</description>
+		<description lang="es_ES">Versión de finales de 2010 de MAME (0.139) para libretro. Compatible con los juegos de MAME 0.139.</description>
+		<description lang="ga">Leagan déanach 2010 de MAME (0.139) do libretro. Comhoiriúnach le tacair MAME 0.139.</description>
+		<description lang="it_IT">Versione di fine 2010 di MAME (0.139) per libretro. Compatibile con i set MAME 0.139.</description>
+		<description lang="ru_RU">Версия MAME (0.139) конца 2010 года для libretro. Совместима с наборами MAME 0.139.</description>
+		<description lang="sv_SE">Sen 2010-version av MAME (0.139) för libretro. Kompatibel med MAME 0.139-uppsättningar.</description>
+		<description lang="zh_CN">2010 年末 libretro 版本的 MAME（0.139）。兼容 MAME 0.139。</description>
+	</extension>
+</addon><addon id="game.libretro.mame2014" name="Arcade (MAME 2014)" version="0.160.0.2" provider-name="MAMEdev">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.mame2014.so">
+		<platforms />
+		<extensions>chd|cmd|zip|7z</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<requires_opengl>false</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>MAME</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.mame2014</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<lifecycle type="broken" lang="en_GB">This add-on has been replaced by MAME 2015.</lifecycle>
+		<summary lang="da_DK">Arcade (MAME 2014)</summary>
+		<summary lang="en_GB">Arcade (MAME 2014)</summary>
+		<summary lang="es_ES">Arcade (MAME 2014)</summary>
+		<summary lang="zh_CN">街机（MAME 2014）</summary>
+		<description lang="da_DK">Sen 2014/tidlig 2015 version af MAME (0.160-ish) til libretro. Kompatibel med MAME 0.160 sæt.</description>
+		<description lang="en_GB">Late 2014/Early 2015 version of MAME (0.160-ish) for libretro. Compatible with MAME 0.160 sets.</description>
+		<description lang="es_ES">Versión de finales de 2014/principios de 2015 de MAME (0.160-ish) para libretro. Compatible con los juegos de MAME 0.160.</description>
+		<description lang="zh_CN">2014年末/2015年初 libretro 版的 MAME（0.160-ish）。兼容MAME 0.160。</description>
+		<lifecyclestate type="broken" lang="en_GB">This add-on has been replaced by MAME 2015.</lifecyclestate>
+	</extension>
+</addon><addon id="game.libretro.mame2015" name="Arcade (MAME 2015)" version="0.160.0.32" provider-name="MAMEdev">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.mame2015.so">
+		<platforms />
+		<extensions>chd|cmd|zip|7z</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<requires_opengl>false</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>MAME</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.mame2015</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Arkáda (MAME 2015)</summary>
+		<summary lang="da_DK">Arcade (MAME 2015)</summary>
+		<summary lang="en_GB">Arcade (MAME 2015)</summary>
+		<summary lang="es_ES">Arcade (MAME 2015)</summary>
+		<summary lang="ga">Arcade (MAME 2015)</summary>
+		<summary lang="it_IT">Arcade (MAME 2015)</summary>
+		<summary lang="ru_RU">Аркада (MAME 2015)</summary>
+		<summary lang="sv_SE">Arcade (MAME 2015)</summary>
+		<summary lang="zh_CN">街机（MAME 2015）</summary>
+		<description lang="cs_CZ">Verze MAME z konce roku 2014 / začátku roku 2015 (přibližně 0.160) pro Libretro. Kompatibilní se sadami MAME 0.160.</description>
+		<description lang="da_DK">Sen 2014/tidlig 2015 version af MAME (0.160-ish) til libretro. Kompatibel med MAME 0.160 sæt.</description>
+		<description lang="en_GB">Late 2014/Early 2015 version of MAME (0.160-ish) for libretro. Compatible with MAME 0.160 sets.</description>
+		<description lang="es_ES">Versión de finales de 2014/principios de 2015 de MAME (0.160-ish) para libretro. Compatible con los juegos de MAME 0.160.</description>
+		<description lang="ga">Leagan déanach 2014/tús 2015 de MAME (thart ar 0.160) do libretro. Comhoiriúnach le tacair MAME 0.160.</description>
+		<description lang="it_IT">Versione di fine 2014/inizio 2015 di MAME (circa 0.160) per libretro. Compatibile con i set MAME 0.160.</description>
+		<description lang="ru_RU">Версия MAME конца 2014 / начала 2015 года (около 0.160) для libretro. Совместима с наборами MAME 0.160.</description>
+		<description lang="sv_SE">Version av MAME (0.160-ish) från slutet av 2014/början av 2015 för libretro. Kompatibel med MAME 0.160-uppsättningar.</description>
+		<description lang="zh_CN">2014年末/2015年初 libretro 版的 MAME（0.160-ish）。兼容MAME 0.160。</description>
+		<lifecyclestate type="broken" lang="cs_CZ">MAME 2015 nebyl od roku 2023 aktualizován a v Kodi už není k dispozici k použití.</lifecyclestate>
+		<lifecyclestate type="broken" lang="en_GB">MAME 2015 hasn't been updated since 2023 and is no longer available for use in Kodi.</lifecyclestate>
+		<lifecyclestate type="broken" lang="es_ES">MAME 2015 no ha sido actualizado desde 2023 y ya no está disponible para su uso en Kodi.</lifecyclestate>
+		<lifecyclestate type="broken" lang="ga">Níor nuashonraíodh MAME 2015 ó 2023 agus níl sé ar fáil a thuilleadh lena úsáid i Kodi.</lifecyclestate>
+		<lifecyclestate type="broken" lang="it_IT">MAME 2015 non viene aggiornato dal 2023 e non è più disponibile per l'uso in Kodi.</lifecyclestate>
+		<lifecyclestate type="broken" lang="ru_RU">MAME 2015 не обновлялся с 2023 года и больше не доступен для использования в Kodi.</lifecyclestate>
+		<lifecyclestate type="broken" lang="sv_SE">MAME 2015 har inte uppdaterats sedan 2023 och är inte längre tillgänglig för användning i Kodi.</lifecyclestate>
+		<lifecyclestate type="broken" lang="zh_CN">MAME 2015 自 2023 年以来就没有更新过，现在已无法在 Kodi 中使用。</lifecyclestate>
+	</extension>
+</addon><addon id="game.libretro.mame2016" name="Arcade (MAME 2016)" version="0.174.0.31" provider-name="MAMEdev">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.mame2016.so">
+		<platforms />
+		<extensions>zip|chd|7z|cmd</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<requires_opengl>false</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2+</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.mame2016</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Arkáda (MAME 2016)</summary>
+		<summary lang="da_DK">Arcade (MAME 2016)</summary>
+		<summary lang="en_GB">Arcade (MAME 2016)</summary>
+		<summary lang="es_ES">Arcade (MAME 2016)</summary>
+		<summary lang="ga">Arcade (MAME 2016)</summary>
+		<summary lang="it_IT">Arcade (MAME 2016)</summary>
+		<summary lang="ru_RU">Аркада (MAME 2016)</summary>
+		<summary lang="sv_SE">Arcade (MAME 2016)</summary>
+		<summary lang="zh_CN">街机（MAME 2016）</summary>
+		<description lang="cs_CZ">Verze MAME z konce roku 2016 (0.174) pro Libretro. Kompatibilní se sadami MAME 0.174.</description>
+		<description lang="da_DK">Sen 2016-version af MAME (0.174) til libretro. Kompatibel med MAME 0.174 sæt.</description>
+		<description lang="de_DE">Späte 2016er Version von MAME (0.174) für libretro. Kompatibel mit MAME 0.174 Sets.</description>
+		<description lang="en_GB">Late 2016 version of MAME (0.174) for libretro. Compatible with MAME 0.174 sets.</description>
+		<description lang="es_ES">Versión de finales de 2016 de MAME (0.174) para libretro. Compatible con los juegos de MAME 0.174.</description>
+		<description lang="ga">Leagan déanach 2016 de MAME (0.174) do libretro. Comhoiriúnach le tacair MAME 0.174.</description>
+		<description lang="it_IT">Versione di fine 2016 di MAME (0.174) per libretro. Compatibile con i set MAME 0.174.</description>
+		<description lang="ru_RU">Версия MAME конца 2016 года (0.174) для libretro. Совместима с наборами MAME 0.174.</description>
+		<description lang="sv_SE">Sen 2016-version av MAME (0.174) för libretro. Kompatibel med MAME 0.174-uppsättningar.</description>
+		<description lang="zh_CN">2016 年末 libretro 版本的 MAME（0.174）。兼容 MAME 0.174。</description>
+		<lifecyclestate type="broken" lang="cs_CZ">MAME 2016 nebyl od roku 2022 aktualizován a v Kodi už není k dispozici k použití.</lifecyclestate>
+		<lifecyclestate type="broken" lang="en_GB">MAME 2016 hasn't been updated since 2022 and is no longer available for use in Kodi.</lifecyclestate>
+		<lifecyclestate type="broken" lang="es_ES">MAME 2016 no ha sido actualizado desde 2022 y ya no está disponible para su uso en Kodi.</lifecyclestate>
+		<lifecyclestate type="broken" lang="ga">Níor nuashonraíodh MAME 2016 ó 2022 agus níl sé ar fáil a thuilleadh lena úsáid i Kodi.</lifecyclestate>
+		<lifecyclestate type="broken" lang="it_IT">MAME 2016 non viene aggiornato dal 2022 e non è più disponibile per l'uso in Kodi.</lifecyclestate>
+		<lifecyclestate type="broken" lang="ru_RU">MAME 2016 не обновлялся с 2022 года и больше недоступен для использования в Kodi.</lifecyclestate>
+		<lifecyclestate type="broken" lang="sv_SE">MAME 2016 har inte uppdaterats sedan 2022 och är inte längre tillgänglig för användning i Kodi.</lifecyclestate>
+		<lifecyclestate type="broken" lang="zh_CN">MAME 2016 自 2022 年以来就没有更新过，现在已无法在 Kodi 中使用。</lifecyclestate>
 	</extension>
 </addon><addon id="game.libretro.melonds" name="Nintendo - DS (melonDS)" version="0.9.3.52" provider-name="Arisotura">
 	<requires>
@@ -5251,6 +6254,45 @@
 		<description lang="sl_SI">Mr.Boom je brezplačen klon Bombermana za 8 igralcev. Vsebuje potiskanje bomb, daljinsko upravljanje, jahanje kenguruja in drugo.</description>
 		<description lang="sv_SE">Mr.Boom är en freeware Bomberman-klon för 8 spelare. Det innehåller skjutande bomber, fjärrkontroller, kängururidning och mycket mer.</description>
 		<description lang="zh_CN">Mr.Boom 是一个自由软件的8玩家《炸弹人》游戏克隆。它以推炸弹、遥控、袋鼠骑行等为特色。</description>
+	</extension>
+</addon><addon id="game.libretro.mu" name="Palm OS (Mu)" version="1.3.3.43" provider-name="guicrith / meepingsnesroms; Stephanie Gawroriski (Xer Shadow Tail)">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+		<import addon="game.controller.default" version="1.0.0" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.mu.so">
+		<platforms>Palm OS</platforms>
+		<extensions>prc|pqa|img|pdb|zip</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>mu_libretro</libretro_core>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>CC BY-NC 3.0 US (Non-commercial)</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.mu</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Palm OS (Mu)</summary>
+		<summary lang="da_DK">Palm OS (Mu)</summary>
+		<summary lang="en_GB">Palm OS (Mu)</summary>
+		<summary lang="es_ES">Palm OS (Mu)</summary>
+		<summary lang="ga">Palm OS (Mu)</summary>
+		<summary lang="it_IT">Palm OS (Mu)</summary>
+		<summary lang="ru_RU">Palm OS (Mu)</summary>
+		<summary lang="sv_SE">Palm OS (Mu)</summary>
+		<summary lang="zh_CN">Palm OS (Mu)</summary>
+		<description lang="cs_CZ">Mu je nový emulátor Palm OS zaměřený v tomto pořadí na kompatibilitu, rychlost a přesnost.[CR][CR]Poznámka: Jsou vyžadovány soubory BIOSu [I]palmos41-en-m515.rom[/I] a [I]palmos52-en-t3.rom[/I].</description>
+		<description lang="en_GB">Mu is a new Palm OS emulator targeting compatibility, speed and accuracy in that order.[CR][CR]Note: The BIOS files [I]palmos41-en-m515.rom[/I] and [I]palmos52-en-t3.rom[/I] are needed.</description>
+		<description lang="es_ES">Mu es un nuevo emulador de Palm OS que busca compatibilidad, velocidad y precisión, en ese orden[CR][CR]Nota: Se necesitan los archivos BIOS [I]palmos41-en-m515.rom[/I] y [I]palmos52-en-t3.rom[/I].</description>
+		<description lang="ga">Is aithriseoir nua Palm OS é Mu atá dírithe ar chomhoiriúnacht, luas agus cruinneas san ord sin.[CR][CR]Nóta: Tá na comhaid BIOS [I]palmos41-en-m515.rom[/I] agus [I]palmos52-en-t3.rom[/I] ag teastáil.</description>
+		<description lang="it_IT">Mu è un nuovo emulatore Palm OS che punta su compatibilità, velocità e precisione, in quest'ordine.[CR][CR]Nota: sono necessari i file BIOS [I]palmos41-en-m515.rom[/I] e [I]palmos52-en-t3.rom[/I].</description>
+		<description lang="ru_RU">Mu — это новый эмулятор Palm OS, нацеленный на совместимость, скорость и точность в указанном порядке.[CR][CR]Примечание: требуются файлы BIOS [I]palmos41-en-m515.rom[/I] и [I]palmos52-en-t3.rom[/I].</description>
+		<description lang="sl_SI">Mu je nov emulator Palm OS, ki cilja na združljivost, hitrost in natančnost v tem vrstnem redu.[CR][CR]Opomba: Datoteki BIOS-a [I]palmos41-en-m515.rom[/I] in [I]palmos52-en- t3.rom[/I] so potrebni.</description>
+		<description lang="sv_SE">Mu är en ny Palm OS-emulator som är inriktad på kompatibilitet, hastighet och noggrannhet i nämnd ordning.[CR][CR]Obs: BIOS-filerna [I]palmos41-en-m515.rom[/I] och [I]palmos52-en-t3.rom[/I] behövs.</description>
+		<description lang="zh_CN">Mu 是一个新的 Palm OS 模拟器，以该顺序的兼容性，速度和准确性为目标。[CR][CR]注意：BIOS 文件[I]palmos41-en-m515。rom[/I]和[I]palmos52-en-t3。需要 rom[/I]。</description>
 	</extension>
 </addon><addon id="game.libretro.mupen64plus" name="Nintendo - Nintendo 64 (Mupen64Plus)" version="2.8.0.24" provider-name="m4xw, Hacktarux, gonetz, GLideN64 Contributors, Mupen64Plus Team">
 	<requires>
@@ -5606,6 +6648,47 @@
 		<description lang="sv_SE">OpenLara är en klassisk Tomb Raider-motor med öppen källkod. Den inspirerades av OpenTomb-projektet.</description>
 		<description lang="zh_CN">OpenLara 是一个经典的古墓丽影开源引擎。它的灵感来自 OpenTumble 项目。</description>
 	</extension>
+</addon><addon id="game.libretro.opera" name="The 3DO Company - 3DO (Opera)" version="1.0.0.61" provider-name="trapexit, JohnnyDude, FreeDO team">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+		<import addon="game.controller.3do" version="1.0.0" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.opera.so">
+		<platforms>The 3DO Company - 3DO</platforms>
+		<extensions>iso|bin|chd|cue</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>opera_libretro</libretro_core>
+		<savestate_features>basic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>LGPL/Non-commercial</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.opera</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">The 3DO Company - 3DO (Opera)</summary>
+		<summary lang="da_DK">The 3DO Company - 3DO (Opera)</summary>
+		<summary lang="en_GB">The 3DO Company - 3DO (Opera)</summary>
+		<summary lang="es_ES">The 3DO Company - 3DO (Opera)</summary>
+		<summary lang="ga">The 3DO Company - 3DO (Opera)</summary>
+		<summary lang="it_IT">The 3DO Company - 3DO (Opera)</summary>
+		<summary lang="ru_RU">The 3DO Company — 3DO (Opera)</summary>
+		<summary lang="sv_SE">The 3DO Company - 3DO (Opera)</summary>
+		<summary lang="zh_CN">3DO 公司 - 3DO（Opera）</summary>
+		<description lang="cs_CZ">Opera emuluje videoherní systém 3DO Interactive Multiplayer z roku 1993, vyslovovaný „3-D-Oh“.[CR][CR]Opera je fork emulátoru 4DO, který vychází ze zdrojového kódu FreeDO.</description>
+		<description lang="da_DK">Opera emulerer 3DO Interactive Multiplayer videospilsystemet, ofte blot kaldet 3DO.[CR][CR]Opera er en fork af 4DO, som er baseret på FreeDO-kildekoden.</description>
+		<description lang="de_DE">Opera emuliert das Videospiel 3DO Interactive Multiplayer, oft auch einfach 3DO genannt.[CR][CR]Opera ist eine Abspaltung von 4DO, das auf dem FreeDO Quellcode basiert.</description>
+		<description lang="en_GB">Opera emulates the 1993 3DO Interactive Multiplayer video game system, pronounced 3-D-Oh.[CR][CR]Opera is a fork of 4DO, which is based on the FreeDO source code.</description>
+		<description lang="es_ES">Opera emula el sistema de videojuegos 3DO Interactive Multiplayer, a menudo llamado simplemente 3DO.[CR][CR]Opera es una bifurcación de 4DO, que se basa en el código fuente de FreeDO.</description>
+		<description lang="ga">Déanann Opera aithris ar chóras físchluichí il-imreora idirghníomhach 3DO ó 1993, ar a fhuaimnítear 3-D-Ó.[CR][CR]Is forc de 4DO é Opera, atá bunaithe ar an gcód foinse FreeDO.</description>
+		<description lang="it_IT">Opera emula il sistema videoludico 3DO Interactive Multiplayer del 1993, pronunciato 3-D-Oh.[CR][CR]Opera è un fork di 4DO, basato sul codice sorgente di FreeDO.</description>
+		<description lang="ru_RU">Opera эмулирует видеоигровую систему 3DO Interactive Multiplayer 1993 года, произносится как «3-D-O».[CR][CR]Opera — это форк 4DO, который основан на исходном коде FreeDO.</description>
+		<description lang="sv_SE">Opera emulerar 3DO Interactive Multiplayer-videospelsystemet från 1993, uttalas 3-D-Oh.[CR][CR]Opera är en fork av 4DO, som är baserad på FreeDO-källkoden.</description>
+		<description lang="zh_CN">Opera 模拟了 3DO 交互式多人视频游戏系统，通常简称为 3DO。[CR][CR]Opera 是 4DO 的一个分支，它基于 FreeDO 源代码。</description>
+	</extension>
 </addon><addon id="game.libretro.parallel_n64" name="Nintendo - Nintendo 64 (ParaLLEl N64)" version="2.14.6.48" provider-name="Hacktarux, Mupen64Plus Team, TinyTiger, Libretro">
 	<requires>
 		<import addon="game.libretro" version="1.0.0" />
@@ -5779,6 +6862,61 @@
 		<description lang="ru_RU">PCSX ReARMed — это еще один форк PCSX, основанный на проекте PCSX-Reloaded, содержащий в себе код из PCSX, PCSX-df и PCSX-Revolution.[CR][CR]Эта версия включает рекомпилятор MIPS-to-ARM, код NEON GTE и больше улучшений производительности.</description>
 		<description lang="sv_SE">PCSX ReARMed är en annan PCSX-fork baserad på PCSX-Reloaded-projektet, som i sig innehåller kod från PCSX, PCSX-df och PCSX-Revolution.[CR][CR]Denna version innehåller en MIPS-to-ARM-omkompilator, NEON GTE-kod och fler prestandaförbättringar.</description>
 		<description lang="zh_CN">PCSX ReARMed 是基于 PCSX-Reloaded 项目的另一个 PCSX 分叉，该项目本身包含来自 PCSX、PCSX-df 和 PCSX-Revolution 的代码。[CR][CR]此版本具有 MIPS-to-ARM 重新编译、NEON GTE 代码和更多性能改进。</description>
+	</extension>
+</addon><addon id="game.libretro.picodrive" name="Sega - MS/GG/MD/CD/32X (PicoDrive)" version="2.05.0.64" provider-name="notaz, fdave, irixxxx">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+		<import addon="game.controller.genesis.3button" version="1.0.0" />
+		<import addon="game.controller.genesis.6button" version="1.0.0" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.picodrive.so">
+		<platforms>Sega - MS/GG/MD/CD/32X</platforms>
+		<extensions>bin|gen|smd|md|32x|cue|iso|chd|m3u|sms|gg|sg|sc|68k|sgd|pco|vgm|vgz</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>true</supports_disc_control>
+		<libretro_core>picodrive_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>MAME</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.picodrive</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Sega - MS/GG/MD/CD/32X (PicoDrive)</summary>
+		<summary lang="da_DK">Sega - MS/GG/MD/CD/32X (PicoDrive)</summary>
+		<summary lang="en_GB">Sega - MS/GG/MD/CD/32X (PicoDrive)</summary>
+		<summary lang="es_ES">Sega - MS/GG/MD/CD/32X (PicoDrive)</summary>
+		<summary lang="ga">Sega - MS/GG/MD/CD/32X (PicoDrive)</summary>
+		<summary lang="it_IT">Sega - MS/GG/MD/CD/32X (PicoDrive)</summary>
+		<summary lang="ru_RU">Sega — MS/GG/MD/CD/32X (PicoDrive)</summary>
+		<summary lang="sv_SE">Sega - MS/GG/MD/CD/32X (PicoDrive)</summary>
+		<summary lang="zh_CN">世嘉 - MS/GG/MD/CD/32X (PicoDrive)</summary>
+		<description lang="cs_CZ">PicoDrive je další emulátor Sega Game Gear / Master System / Mega Drive / Mega CD / 32X silně optimalizovaný pro ARM.</description>
+		<description lang="da_DK">PicoDrive er endnu en Sega Game Gear / Master System / Mega Drive / Mega CD / 32X emulator stærkt optimeret til ARM.</description>
+		<description lang="de_DE">PicoDrive ist ein weiterer Emulator für Sega Game Gear / Master System / Mega Drive / Mega CD / 32X, der stark für ARM optimiert ist.</description>
+		<description lang="en_GB">PicoDrive is yet another Sega Game Gear / Master System / Mega Drive / Mega CD / 32X emulator heavily optimized for ARM.</description>
+		<description lang="es_ES">PicoDrive es otro emulador de Sega Game Gear / Master System / Mega Drive / Mega CD / 32X muy optimizado para ARM.</description>
+		<description lang="ga">Is aithriseoir eile de chuid Sega Game Gear / Master System / Mega Drive / Mega CD / 32X é PicoDrive atá optamaithe go mór do ARM.</description>
+		<description lang="it_IT">PicoDrive è un altro emulatore Sega Game Gear / Master System / Mega Drive / Mega CD / 32X pesantemente ottimizzato per ARM.</description>
+		<description lang="ru_RU">PicoDrive — это ещё один эмулятор Sega Game Gear / Master System / Mega Drive / Mega CD / 32X, сильно оптимизированный для ARM.</description>
+		<description lang="sv_SE">PicoDrive är ännu en Sega Game Gear / Master System / Mega Drive / Mega CD / 32X-emulator som är kraftigt optimerad för ARM.</description>
+		<description lang="zh_CN">PicoDrive 是另一款针对 ARM 进行了大量优化的 Sega Game Gear / Master System / Mega Drive / Mega CD / 32X 模拟器。</description>
+		<disclaimer lang="cs_CZ">Autoři: Dave (alias fdave, autor FinalBurn) a notaz</disclaimer>
+		<disclaimer lang="da_DK">Forfattere: Dave (aka fdave, FinalBurn forfatter) og notaz</disclaimer>
+		<disclaimer lang="de_DE">Autoren: Dave (alias fdave, FinalBurn-Autor) und notaz</disclaimer>
+		<disclaimer lang="en_GB">Authors: Dave (aka fdave, FinalBurn author) and notaz</disclaimer>
+		<disclaimer lang="es_ES">Autores: Dave (alias fdave, autor de FinalBurn) y notaz</disclaimer>
+		<disclaimer lang="ga">Údair: Dave (aka fdave, údar FinalBurn) agus notaz</disclaimer>
+		<disclaimer lang="it_IT">Autori: Dave (alias fdave, autore di FinalBurn) e notaz</disclaimer>
+		<disclaimer lang="ru_RU">Авторы: Dave (также известный как fdave, автор FinalBurn) и notaz</disclaimer>
+		<disclaimer lang="sv_SE">Upphovspersoner: Dave (aka fdave, FinalBurn-grundare) och notaz</disclaimer>
+		<disclaimer lang="zh_CN">作者：Dave（又名 fdave，FinalBurn 作者）和 notaz</disclaimer>
 	</extension>
 </addon><addon id="game.libretro.pocketcdg" name="PocketCDG" version="0.0.1.40" provider-name="RedBug">
 	<requires>
@@ -6036,6 +7174,98 @@
 		<description lang="sl_SI">ProSystem je emulator Atari 7800.[CR][CR]Postavite [I]7800 BIOS (U).rom[/I] (izbirno) v mapo uporabniških podatkov emulatorja.</description>
 		<description lang="sv_SE">ProSystem är en Atari 7800-emulator.[CR][CR]Placera [I]7800 BIOS (U).rom[/I] (valfritt) i emulatorns userdata-mapp.</description>
 		<description lang="zh_CN">ProSystem 是雅达利 7800 模拟器。[CR][CR]将 [I]7800 BIOS (U).rom[/I]（可选）放到模拟器的 userdata 文件夹中。</description>
+	</extension>
+</addon><addon id="game.libretro.px68k" name="Sharp - X68000 (PX68k)" version="0.15.0.42" provider-name="hissorii">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+		<import addon="game.controller.msx.joystick" version="1.0.0" />
+		<import addon="game.controller.keyboard" version="1.0.0" />
+		<import addon="game.controller.mouse" version="1.0.0" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.px68k.so">
+		<platforms>Sharp - X68000</platforms>
+		<extensions>dim|img|d88|88d|hdm|dup|2hd|xdf|hdf|cmd|m3u</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>true</supports_disc_control>
+		<libretro_core>px68k_libretro</libretro_core>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Custom Non-Commercial</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.px68k</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Sharp - X68000 (PX68k)</summary>
+		<summary lang="da_DK">Sharp - X68000 (PX68k)</summary>
+		<summary lang="en_GB">Sharp - X68000 (PX68k)</summary>
+		<summary lang="es_ES">Sharp - X68000 (PX68k)</summary>
+		<summary lang="ga">Sharp - X68000 (PX68k)</summary>
+		<summary lang="it_IT">Sharp - X68000 (PX68k)</summary>
+		<summary lang="ru_RU">Sharp — X68000 (PX68k)</summary>
+		<summary lang="sv_SE">Sharp - X68000 (PX68k)</summary>
+		<summary lang="zh_CN">夏普 - X68000（PX68k）</summary>
+		<description lang="cs_CZ">PX68k je přenositelný emulátor SHARP X68000 pro PSP, Android a další platformy.</description>
+		<description lang="da_DK">PX68k er en bærbar SHARP X68000 emulator til PSP, Android og andre platforme.</description>
+		<description lang="de_DE">PX68k ist ein portabler SHARP-X68000-Emulator für PSP, Android und andere Plattformen.</description>
+		<description lang="en_GB">PX68k is a portable SHARP X68000 Emulator for PSP, Android and other platforms.</description>
+		<description lang="es_ES">PX68k es un emulador portátil del SHARP X68000 para PSP, Android y otras plataformas.</description>
+		<description lang="ga">Is aithriseoir iniompartha SHARP X68000 é PX68k do PSP, Android agus ardáin eile.</description>
+		<description lang="it_IT">PX68k è un emulatore portabile SHARP X68000 per PSP, Android e altre piattaforme.</description>
+		<description lang="ru_RU">PX68k — это портативный эмулятор SHARP X68000 для PSP, Android и других платформ.</description>
+		<description lang="sv_SE">PX68k är en portabel SHARP X68000-emulator för PSP, Android och andra plattformar.</description>
+		<description lang="zh_CN">PX68k 是一款适用于 PSP、Android 和其他平台的便携式夏普 X68000 模拟器。</description>
+	</extension>
+</addon><addon id="game.libretro.quasi88" name="NEC - PC-88 series (QUASI88)" version="0.6.4.45" provider-name="Showzoh Fukunaga">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+		<import addon="game.controller.default" version="1.0.0" />
+		<import addon="game.controller.keyboard" version="1.0.0" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.quasi88.so">
+		<platforms>NEC - PC-88 series</platforms>
+		<extensions>d88|m3u|t88|cmt</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>quasi88_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>BSD 3-Clause and MAME non-commercial</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.quasi88</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">NEC - řada PC-8000 / PC-8800 (QUASI88)</summary>
+		<summary lang="da_DK">NEC - PC-8000 / PC-8800 serie (QUASI88)</summary>
+		<summary lang="en_GB">NEC - PC-88 series (QUASI88)</summary>
+		<summary lang="es_ES">NEC - Series PC-8000 / PC-8800 (QUASI88)</summary>
+		<summary lang="ga">NEC - sraith PC-8000 / PC-8800 (QUASI88)</summary>
+		<summary lang="ru_RU">NEC — серия PC-8000 / PC-8800 (QUASI88)</summary>
+		<summary lang="sv_SE">NEC - PC-8000 / PC-8800 series (QUASI88)</summary>
+		<summary lang="zh_CN">NEC - PC-8000 / PC-8800 系列（QUASI88）</summary>
+		<description lang="cs_CZ">QUASI88 je emulátor od Showzoha Fukunagy s licencí BSD 3-Clause. QUASI88 používá kód z MAME, XMAME a fmgen.</description>
+		<description lang="da_DK">QUASI88 er en emulator af Showzoh Fukunaga licenseret under BSD 3-klausulens licens. QUASI88 bruger kode fra MAME, XMAME og fmgen.</description>
+		<description lang="en_GB">QUASI88 is an emulator by Showzoh Fukunaga licensed under the BSD 3-Clause license. QUASI88 uses code from MAME, XMAME and fmgen.</description>
+		<description lang="es_ES">QUASI88 es un emulador de Showzoh Fukunaga licenciado bajo la licencia BSD 3-Clause. QUASI88 utiliza código de MAME, XMAME y fmgen.</description>
+		<description lang="ga">Is aithriseoir é QUASI88 ó Showzoh Fukunaga atá ceadúnaithe faoin gceadúnas BSD 3-Clásal. Úsáideann QUASI88 cód ó MAME, XMAME agus fmgen.</description>
+		<description lang="ru_RU">QUASI88 — это эмулятор от Showzoh Fukunaga, распространяемый под лицензией BSD 3-Clause. QUASI88 использует код из MAME, XMAME и fmgen.</description>
+		<description lang="sv_SE">QUASI88 är en emulator av Showzoh Fukunaga licensierad under BSD 3-Clause-licensen. QUASI88 använder kod från MAME, XMAME och fmgen.</description>
+		<description lang="zh_CN">QUASI88 是由 Showzoh Fukunaga 根据 BSD 3-Clause 许可证授权的模拟器。QUASI88 使用来自 MAME、XMAME 和 fmgen 的代码。</description>
+		<disclaimer lang="cs_CZ">Autor obrázku: NEC Retro</disclaimer>
+		<disclaimer lang="da_DK">Billedkreditering: NEC Retro</disclaimer>
+		<disclaimer lang="en_GB">Image credit: NEC Retro</disclaimer>
+		<disclaimer lang="es_ES">Créditos de la imagen: NEC Retro</disclaimer>
+		<disclaimer lang="ga">Creidmheas íomhá: NEC Retro</disclaimer>
+		<disclaimer lang="ru_RU">Изображение предоставлено: NEC Retro</disclaimer>
+		<disclaimer lang="sv_SE">Bild: NEC Retro</disclaimer>
+		<disclaimer lang="zh_CN">图片来源：NEC Retro</disclaimer>
 	</extension>
 </addon><addon id="game.libretro.quicknes" name="Nintendo - NES / Famicom (QuickNES)" version="1.0.0.55" provider-name="blargg, kode54">
 	<requires>
@@ -6391,6 +7621,177 @@
 		<disclaimer lang="sl_SI">Gameblabla prenesla v libretro</disclaimer>
 		<disclaimer lang="sv_SE">Portad till libretro av gameblabla</disclaimer>
 		<disclaimer lang="zh_CN">gameblabla 将其移植到 libretro</disclaimer>
+	</extension>
+</addon><addon id="game.libretro.snes9x" name="Nintendo - SNES / SFC (Snes9x)" version="1.63.0.64" provider-name="Snes9x Team">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+		<import addon="game.controller.snes" version="1.0.0" />
+		<import addon="game.controller.snes.mouse" version="1.0.0" />
+		<import addon="game.controller.snes.multitap" version="1.0.0" />
+		<import addon="game.controller.snes.super.scope" version="1.0.0" />
+		<import addon="game.controller.konami.justifier.snes" version="1.0.0" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.snes9x.so">
+		<platforms>Nintendo - SNES / SFC</platforms>
+		<extensions>smc|sfc|swc|fig|bs|st</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>snes9x_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Non-commercial</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.snes9x</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Nintendo - SNES / SFC (Snes9x)</summary>
+		<summary lang="da_DK">Nintendo - SNES / SFC (Snes9x)</summary>
+		<summary lang="en_GB">Nintendo - SNES / SFC (Snes9x)</summary>
+		<summary lang="es_ES">Nintendo - SNES / SFC (Snes9x)</summary>
+		<summary lang="ga">Nintendo - SNES / SFC (SNES9X)</summary>
+		<summary lang="it_IT">Nintendo - SNES / SFC (Snes9x)</summary>
+		<summary lang="ru_RU">Nintendo — SNES / SFC (Snes9x)</summary>
+		<summary lang="sv_SE">Nintendo - SNES / SFC (Snes9x)</summary>
+		<summary lang="zh_CN">任天堂 - SNES / SFC (Snes9x)</summary>
+		<description lang="cs_CZ">Snes9x je přenositelný freeware emulátor SNES a Super Famicom.[CR][CR]Snes9x je napsaný v C++ a v portech pro i386 Linux a Windows obsahuje tři assemblerová jádra emulace CPU.</description>
+		<description lang="da_DK">Snes9x er en bærbar, freeware SNES- og Super Famicom-emulator.[CR][CR]Snes9x er kodet i C++ med tre CPU emuleringskerner på i386 Linux- og Windows-versionerne.</description>
+		<description lang="de_DE">Snes9x ist ein portabler, kostenloser SNES- und Super-Famicom-Emulator, der in C++ programmiert ist und drei Assembler-CPU-Emulationskerne in den i386-Linux- und Windows-Ports besitzt.</description>
+		<description lang="en_GB">Snes9x is a portable, freeware SNES and Super Famicom emulator.[CR][CR]Snes9x is coded in C++, with three assembler CPU emulation cores on the i386 Linux and Windows ports.</description>
+		<description lang="es_ES">Snes9x es un emulador gratuito y portátil de SNES y Super Famicom[CR][CR]Snes9x está codificado en C++, con tres núcleos de emulación de CPU en ensamblador para las versiones i386 de Linux y Windows.</description>
+		<description lang="fi_FI">Snes9x on kannettava, ilmainen SNES- ja Super Famicom -emulaattori.[CR][CR]Snes9x on koodattu C++-kielellä ja se sisältää kolme Assembler-prosessorin emulointiydintä i386 Linux- ja Windows-käännöksissä.</description>
+		<description lang="ga">Is éard atá i SNES9X ná aithriseoir iniompartha, freeware SNES agus Super Famicom.</description>
+		<description lang="it_IT">Snes9x è un emulatore portabile e gratuito per SNES e Super Famicom.[CR][CR]Snes9x è scritto in C++, con tre core di emulazione CPU in assembler nelle versioni i386 per Linux e Windows.</description>
+		<description lang="ru_RU">Snes9x — это портативный бесплатный эмулятор SNES и Super Famicom.[CR][CR]Snes9x написан на C++, с тремя ассемблерными ядрами эмуляции ЦП для портов i386 Linux и Windows.</description>
+		<description lang="sv_SE">Snes9x är en portabel freeware-emulator för SNES och Super Famicom.[CR][CR]Snes9x är kodad i C++, med tre emuleringskärnor för assemblerprocessorer på i386-portarna för Linux och Windows.</description>
+		<description lang="zh_CN">Snes9x 是一款便携式自由软件 SNES 和 Super Famicom 模拟器。[CR][CR]Snes9x 是用 C++ 编写的，在 i386 Linux 和 Windows 移植上有三个汇编器 CPU 仿真核。</description>
+		<disclaimer lang="cs_CZ">Tým Snes9X není žádným způsobem spojen ani přidružen k žádné ze zmíněných společností. Názory týmu Snes9X neodrážejí názory různých zde zmíněných společností. Společnosti a všechny produkty náležející těmto společnostem jsou ochrannými známkami daných společností. Informace o ochranných známkách a autorských právech získáte od příslušné společnosti.</disclaimer>
+		<disclaimer lang="da_DK">Snes9X-teamet er ikke forbundet med eller tilknyttet nogen nævnt virksomhed på nogen måde. Udtalelserne fra Snes9X-teamet afspejler ikke synspunkterne fra de forskellige virksomheder, der er nævnt her. Virksomheder og alle produkter, der vedrører det pågældende firma, er varemærker tilhørende det pågældende firma. Kontakt venligst det pågældende firma for varemærke- og copyrightoplysninger.</disclaimer>
+		<disclaimer lang="de_DE">Das Snes9X-Team ist in keiner Weise mit den genannten Unternehmen geschäftlich verbunden oder angegliedert. Die Meinungen des Snes9X-Teams spiegeln nicht die Ansichten der verschiedenen hier genannten Unternehmen wider. Unternehmen und alle Produkte, die mit diesem Unternehmen in Verbindung stehen, sind Warenzeichen des jeweiligen Unternehmens. Bitte an das jeweilige Unternehmen wenden, um Informationen zu Marken und Copyright zu erhalten.</disclaimer>
+		<disclaimer lang="en_GB">The Snes9X team is not connected or affiliated with any mentioned company in any way. The opinions of the Snes9X team do not reflect the views of the various companies mentioned here. Companies and all products pertaining to that company are trademarks of that company. Please contact that company for trademark and copyright information.</disclaimer>
+		<disclaimer lang="es_ES">El equipo de Snes9X no está relacionado ni afiliado a ninguna de las empresas mencionadas. Las opiniones del equipo de Snes9X no reflejan los puntos de vista de las distintas empresas mencionadas aquí. Las empresas y todos los productos pertenecientes a esa empresa son marcas registradas de esa empresa. Póngase en contacto con dicha empresa para obtener información sobre marcas comerciales y derechos de autor.</disclaimer>
+		<disclaimer lang="fi_FI">Snes9X-tiimi ei ole mitenkään yhteydessä tai sidoksissa mainittuihin yrityksiin, eivätkä Snes9X-tiimin mielipiteet heijasta mainittujen yritysten näkemyksiä. Yritykset ja kaikki niiden tuotteet ovat kyseisten yritysten tavaramerkkejä. Tavaramerkki- ja tekijänoikeustietoihin liittyen ole yhteydessä kyseisiin yrityksiin.</disclaimer>
+		<disclaimer lang="ga">Níl foireann SNES9X ceangailte ná cleamhnaithe le haon chuideachta a luaitear ar bhealach ar bith. Ní léiríonn tuairimí fhoireann SNES9X tuairimí na gcuideachtaí éagsúla a luaitear anseo. Is trádmharcanna den chuideachta sin iad cuideachtaí agus na táirgí go léir a bhaineann leis an gcuideachta sin. Téigh i dteagmháil leis an gcuideachta sin le haghaidh faisnéise trádmhairc agus cóipchirt.</disclaimer>
+		<disclaimer lang="it_IT">Il team Snes9X non è collegato né affiliato in alcun modo con nessuna delle aziende citate. Le opinioni del team Snes9X non rispecchiano il punto di vista delle varie aziende menzionate. Le aziende e tutti i prodotti a esse relativi sono marchi di proprietà delle rispettive aziende. Per informazioni su marchi e copyright, contattare direttamente l'azienda interessata.</disclaimer>
+		<disclaimer lang="ru_RU">Команда Snes9X никак не связана и не аффилирована ни с одной из упомянутых компаний. Мнения команды Snes9X не отражают взгляды различных компаний, упомянутых здесь. Компании и все продукты, относящиеся к этой компании, являются товарными знаками этой компании. Пожалуйста, обращайтесь в эту компанию за информацией о товарных знаках и авторских правах.</disclaimer>
+		<disclaimer lang="sv_SE">Snes9X-teamet är inte anslutet eller anslutet till något nämnt företag på något sätt. Åsikterna från Snes9X-teamet återspeglar inte åsikterna från de olika företagen som nämns här. Företag och alla produkter som hör till det företaget är varumärken som tillhör det företaget. Kontakta det företaget för information om varumärken och upphovsrätt.</disclaimer>
+		<disclaimer lang="zh_CN">Snes9X 团队与上述任何公司均无任何关联。Snes9X 团队的意见并不反映此处提到的各个公司的意见。公司和与该公司相关的所有产品均为该公司的商标。请联系该公司获取商标和版权信息。</disclaimer>
+	</extension>
+</addon><addon id="game.libretro.snes9x2002" name="Nintendo - SNES / SFC (Snes9x 2002)" version="7.2.0.55" provider-name="Snes9x Team, PocketSNES Team, Toadking">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+		<import addon="game.controller.snes" version="1.0.0" />
+		<import addon="game.controller.snes.mouse" version="1.0.0" />
+		<import addon="game.controller.snes.multitap" version="1.0.0" />
+		<import addon="game.controller.snes.super.scope" version="1.0.0" />
+		<import addon="game.controller.konami.justifier.snes" version="1.0.0" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.snes9x2002.so">
+		<platforms>Nintendo - SNES / SFC</platforms>
+		<extensions>smc|fig|sfc|gd3|gd7|dx2|bsx|swc</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>snes9x2002_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Non-commercial</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.snes9x2002</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Nintendo - SNES / SFC (Snes9x 2002)</summary>
+		<summary lang="da_DK">Nintendo - SNES / SFC (Snes9x 2002)</summary>
+		<summary lang="en_GB">Nintendo - SNES / SFC (Snes9x 2002)</summary>
+		<summary lang="es_ES">Nintendo - SNES / SFC (Snes9x 2002)</summary>
+		<summary lang="ga">Nintendo - SNES / SFC (Snes9x 2002)</summary>
+		<summary lang="it_IT">Nintendo - SNES / SFC (Snes9x 2002)</summary>
+		<summary lang="ru_RU">Nintendo — SNES / SFC (Snes9x 2002)</summary>
+		<summary lang="sv_SE">Nintendo - SNES / SFC (Snes9x 2002)</summary>
+		<summary lang="zh_CN">任天堂 - SNES / SFC (Snes9x 2002)</summary>
+		<description lang="cs_CZ">Port SNES9x 1.39 pro libretro. Tento emulátor, dříve nazývaný PocketSNES, je silně optimalizovaný pro ARM.</description>
+		<description lang="da_DK">En port af SNES9x 1.39 til libretro. Tidligere kaldt PocketSNES, er denne emulator stærkt optimeret til ARM.</description>
+		<description lang="de_DE">Eine Portierung von SNES9x 1.39 für libretro. Früher PocketSNES genannt, ist dieser Emulator sehr stark für ARM optimiert.</description>
+		<description lang="en_GB">A port of SNES9x 1.39 for libretro. Previously called PocketSNES, this emulator is heavily optimized for ARM.</description>
+		<description lang="es_ES">Una adaptación de SNES9x 1.39 para libretro. Anteriormente llamado PocketSNES, este emulador está muy optimizado para ARM.</description>
+		<description lang="fi_FI">SNES9x 1.39 -käännös Libretrolle. Aiemmalta nimeltään PocketSNES, on tämä emulaattori vahvasti ARM-optimoitu.</description>
+		<description lang="ga">Port de SNES9x 1.39 do libretro. PocketSNES a tugadh air roimhe seo, tá an t-aithriseoir seo optamaithe go mór do ARM.</description>
+		<description lang="it_IT">Una versione di SNES9x 1.39 per libretro. Precedentemente chiamato PocketSNES, questo emulatore è fortemente ottimizzato per ARM.</description>
+		<description lang="ko_KR">libretro용 SNES9x 1.39 포트. 이전에 PocketSNES라고 불렸던 이 에뮬레이터는 ARM에 최적화되어 있습니다.</description>
+		<description lang="ru_RU">Порт SNES9x 1.39 для libretro. Ранее назывался PocketSNES, этот эмулятор сильно оптимизирован для ARM.</description>
+		<description lang="sl_SI">Pristanišče SNES9x 1.39 za libretro. Ta emulator, ki se je prej imenoval PocketSNES, je močno optimiziran za ARM.</description>
+		<description lang="sv_SE">En portning av SNES9x 1.39 för libretro. Den här emulatorn, som tidigare kallades PocketSNES, är kraftigt optimerad för ARM.</description>
+		<description lang="zh_CN">用于 libretro 的 SNES9x 1.39 移植。以前称为 PocketSNES，该模拟器针对 ARM 进行了大量优化。</description>
+	</extension>
+</addon><addon id="game.libretro.snes9x2010" name="Nintendo - SNES / SFC (Snes9x 2010)" version="1.52.4.59" provider-name="Snes9x Team, Squarepusher">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+		<import addon="game.controller.snes" version="1.0.0" />
+		<import addon="game.controller.snes.mouse" version="1.0.0" />
+		<import addon="game.controller.snes.multitap" version="1.0.0" />
+		<import addon="game.controller.snes.super.scope" version="1.0.0" />
+		<import addon="game.controller.konami.justifier.snes" version="1.0.0" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.snes9x2010.so">
+		<platforms>Nintendo - SNES / SFC</platforms>
+		<extensions>smc|fig|sfc|gd3|gd7|dx2|bsx|swc</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<libretro_core>snes9x2010_libretro</libretro_core>
+		<savestate_features>deterministic</savestate_features>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Non-commercial</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.snes9x2010</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="cs_CZ">Nintendo - SNES / SFC (Snes9x 2010)</summary>
+		<summary lang="da_DK">Nintendo - SNES / SFC (Snes9x 2010)</summary>
+		<summary lang="en_GB">Nintendo - SNES / SFC (Snes9x 2010)</summary>
+		<summary lang="es_ES">Nintendo - SNES / SFC (Snes9x 2010)</summary>
+		<summary lang="ga">Nintendo - SNES / SFC (Snes9x 2010)</summary>
+		<summary lang="it_IT">Nintendo - SNES / SFC (Snes9x 2010)</summary>
+		<summary lang="ru_RU">Nintendo — SNES / SFC (Snes9x 2010)</summary>
+		<summary lang="sv_SE">Nintendo - SNES / SFC (Snes9x 2010)</summary>
+		<summary lang="zh_CN">任天堂 - SNES / SFC (Snes9x 2010)</summary>
+		<description lang="cs_CZ">Port Snes9x 1.52+ pro Libretro. Byl přepsán do C a obsahuje několik optimalizací a speedhacků.</description>
+		<description lang="da_DK">En port af Snes9x 1.52+ til Libretro. Omskrevet i C med flere optimeringer og speedhacks.</description>
+		<description lang="de_DE">Eine Portierung von Snes9x 1.52+ auf Libretro. Umgeschrieben in C mit mehreren Optimierungen und Schwingigkeitshacks.</description>
+		<description lang="en_GB">A port of Snes9x 1.52+ to Libretro. Rewritten in C with several optimizations and speedhacks.</description>
+		<description lang="es_ES">Una adaptación de Snes9x 1.52+ a Libretro. Reescrito en C con varias optimizaciones y speedhacks.</description>
+		<description lang="fi_FI">Snes9x 1.52+ -käännös Libretrolle. Koodattu uudelleen C-kielellä sisältäen useita optimointeja ja pikahakkerointeja.</description>
+		<description lang="ga">Port de Snes9x 1.52+ go Libretro. Athscríofa i C le roinnt optamaithe agus luasghéaruithe.</description>
+		<description lang="it_IT">Un port di Snes9x 1.52+ per Libretro. Riscritto in C con diverse ottimizzazioni e speedhack.</description>
+		<description lang="ru_RU">Порт Snes9x 1.52+ на Libretro. Переписан на C с несколькими оптимизациями и хаками скорости.</description>
+		<description lang="sv_SE">En portning av Snes9x 1.52+ till Libretro. Omskriven i C med flera optimeringar och speedhacks.</description>
+		<description lang="zh_CN">一个针对 Libretro 的 Snes9x 1.52+ 移植。用 C 重写，进行了多次优化和 Speed Hack。</description>
+		<disclaimer lang="cs_CZ">Autor ikony: HarryBana (harrybana.deviantart.com)</disclaimer>
+		<disclaimer lang="da_DK">Billedkreditering: HarryBana (harrybana.deviantart.com)</disclaimer>
+		<disclaimer lang="de_DE">Symbolnachweis: HarryBana (harrybana.deviantart.com)</disclaimer>
+		<disclaimer lang="en_GB">Icon credit: HarryBana (harrybana.deviantart.com)</disclaimer>
+		<disclaimer lang="es_ES">Crédito del icono: HarryBana (harrybana.deviantart.com)</disclaimer>
+		<disclaimer lang="fi_FI">Kuvakkeen lähde: HarryBana (harrybana.deviantart.com)</disclaimer>
+		<disclaimer lang="ga">Creidmheas deilbhín: HarryBana (harrybana.deviantart.com)</disclaimer>
+		<disclaimer lang="it_IT">Icona per gentile concessione di: HarryBana (harrybana.deviantart.com)</disclaimer>
+		<disclaimer lang="ru_RU">Автор иконки: HarryBana (harrybana.deviantart.com)</disclaimer>
+		<disclaimer lang="sv_SE">Ikonreferens: HarryBana (harrybana.deviantart.com)</disclaimer>
+		<disclaimer lang="zh_CN">图标来源：HarryBana（harrybana.deviantart.com）</disclaimer>
 	</extension>
 </addon><addon id="game.libretro.stella" name="Atari - 2600 (Stella)" version="8.0.0.91" provider-name="Stephen Anthony, Bradford Mott, Eckhard Stolberg, Brian Watson">
 	<requires>
@@ -6807,6 +8208,45 @@
 		<description lang="ru_RU">UAE расшифровывается как Ubiquitous Amiga Emulator.[CR][CR]Для большинства игр требуется определённая версия Amiga Kickstart ROM. Тем не менее некоторые старые игры могут быть запущены с помощью встроенного эмулятора ROM.</description>
 		<description lang="sv_SE">UAE står för Ubiquitous Amiga Emulator.[CR][CR]De flesta spel kräver en version av Amiga Kickstart ROM. Vissa gamla spel fungerar dock med den inbyggda ROM-emuleringen.</description>
 		<description lang="zh_CN">UAE 即 Ubiquitous Amiga Emulator（无处不在的 Amiga 模拟器）。[CR][CR]大多数游戏需要一个版本的 Amiga 启动 ROM，而一些旧游戏可使用内建 ROM 仿真。</description>
+	</extension>
+</addon><addon id="game.libretro.uae4arm" name="Commodore - Amiga (UAE4ARM)" version="0.5.0.12" provider-name="TomB/Chips-fr">
+	<requires>
+		<import addon="game.libretro" version="1.0.0" />
+		<import addon="game.controller.default" version="1.0.0" />
+		<import addon="game.controller.keyboard" version="1.0.0" />
+		<import addon="game.controller.mouse" version="1.0.0" />
+	</requires>
+	<extension point="kodi.gameclient" library_switch="game.libretro.uae4arm.so">
+		<platforms />
+		<extensions>adf|dms|zip|ipf|hdf|lha|uae|cue|iso</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
+		<requires_opengl>false</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform>switch</platform>
+		<source>https://github.com/kodi-game/game.libretro.uae4arm</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="cs_CZ">Commodore - Amiga (UAE4ARM)</summary>
+		<summary lang="da_DK">Commodore - Amiga (UAE4ARM)</summary>
+		<summary lang="en_GB">Commodore - Amiga (UAE4ARM)</summary>
+		<summary lang="es_ES">Commodore - Amiga (UAE4ARM)</summary>
+		<summary lang="it_IT">Commodore - Amiga (UAE4ARM)</summary>
+		<summary lang="ru_RU">Commodore — Amiga (UAE4ARM)</summary>
+		<summary lang="sv_SE">Commodore - Amiga (UAE4ARM)</summary>
+		<summary lang="zh_CN">Commodore - Amiga (UAE4ARM)</summary>
+		<description lang="cs_CZ">Zkratka UAE znamená Ubiquitous Amiga Emulator. UAE4ARM je optimalizovaný pro Android a Raspberry Pi.</description>
+		<description lang="da_DK">UAE står for Ubiquitous Amiga Emulator. UAE4ARM er optimeret til Android og Raspberry Pi.</description>
+		<description lang="en_GB">UAE stands for the Ubiquitous Amiga Emulator. UAE4ARM is optimized for Android and the Raspberry Pi.</description>
+		<description lang="es_ES">UAE es el acróstico de Ubiquitous Amiga Emulator (Emulador de Amiga Ubicuo). UAE4ARM esta optimizado para Android y Raspberry Pi.</description>
+		<description lang="it_IT">UAE è l'acronimo di Ubiquitous Amiga Emulator. UAE4ARM è ottimizzato per Android e Raspberry Pi.</description>
+		<description lang="ru_RU">UAE расшифровывается как Ubiquitous Amiga Emulator (Вездесущий эмулятор Amiga). UAE4ARM оптимизирован для Android и Raspberry Pi.</description>
+		<description lang="sv_SE">UAE står för Ubiquitous Amiga Emulator. UAE4ARM är optimerad för Android och Raspberry Pi.</description>
+		<description lang="zh_CN">UAE 即 Ubiquitous Amiga Emulator（无处不在的 Amiga 模拟器）。UAE4ARM 针对 Android 和树莓派进行了优化。</description>
 	</extension>
 </addon><addon id="game.libretro.uzem" name="Uzebox (Uzem)" version="2.0.0.41" provider-name="Libretro">
 	<requires>
