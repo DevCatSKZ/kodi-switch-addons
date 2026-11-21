@@ -1,0 +1,6 @@
+/.local/
+/release-assets/
+*.zip
+*.tar.gz
+__pycache__/
+
