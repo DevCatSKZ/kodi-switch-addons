@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="screensaver.pingpong" version="22.0.6" name="Ping Pong" provider-name="Team Kodi">
+  <requires>
+<import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.3" />
+<import addon="kodi.binary.global.gui" minversion="5.15.0" version="5.15.1" />
+<import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
+<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /></requires>
+  <extension point="xbmc.ui.screensaver" library_switch="screensaver.pingpong.so.22.0.6" />
+  <extension point="xbmc.addon.metadata">
+    <platform>switch</platform>
+    <license>GPL-2.0-or-later</license>
+    <source>https://github.com/xbmc/screensaver.pingpong</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+    <summary lang="af_ZA">Ping Pong skermskut</summary>
+    <summary lang="bs_BA">Čuvar ekrana za ping-pong</summary>
+    <summary lang="cs_CZ">Spořič obrazovky Ping Pong</summary>
+    <summary lang="da_DK">Ping Pong pauseskærm</summary>
+    <summary lang="de_DE">Ping Pong Bildschirmschoner</summary>
+    <summary lang="en_GB">Ping Pong screensaver</summary>
+    <summary lang="es_ES">Salvapantallas Ping Pong</summary>
+    <summary lang="et_EE">Ping Pong ekraanisäästja</summary>
+    <summary lang="fi_FI">Ping Pong -näytönsäästäjä</summary>
+    <summary lang="fr_FR">Économiseur d'écran ping-pong</summary>
+    <summary lang="it_IT">Salvaschermo ping pong</summary>
+    <summary lang="ru_RU">Заставка Ping Pong</summary>
+    <summary lang="sv_SE">Ping Pong skärmsläckare</summary>
+    <summary lang="zh_CN">乒乓球屏保</summary>
+    <description lang="af_ZA">Laat 'n bal heen en weer spring.</description>
+    <description lang="bs_BA">Pušta loptu da skače naprijed-nazad.</description>
+    <description lang="cs_CZ">Nechá míček odrážet se tam a zpět.</description>
+    <description lang="da_DK">Lad en bold springe frem og tilbage.</description>
+    <description lang="de_DE">Lässt einen Ball hin und her springen.</description>
+    <description lang="en_GB">Lets a ball jump back and forth.</description>
+    <description lang="es_ES">Permite a una bola saltar de un lado a otro.</description>
+    <description lang="et_EE">Laseb pallil edasi-tagasi hüpata.</description>
+    <description lang="fi_FI">Pomputtaa palloa edestakaisin.</description>
+    <description lang="fr_FR">Permet à une balle de sauter d'avant en arrière.</description>
+    <description lang="it_IT">Lascia che una pallina salti avanti e indietro.</description>
+    <description lang="ru_RU">Теперь мяч будет прыгать вперёд-назад.</description>
+    <description lang="sv_SE">Låter en boll hoppa fram och tillbaka.</description>
+    <description lang="zh_CN">让球来回弹跳。</description>
+  </extension>
+</addon><addon id="repository.kodi-switch" name="Kodi Switch Add-on repository" version="1.1.0" provider-name="Kodi Switch port">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0" />
+  </requires>
+  <extension point="xbmc.addon.repository">
+    <dir>
+      <info>https://devcatskz.github.io/kodi-switch-addons/piers/switch/addons.xml</info>
+      <checksum verify="sha256">https://devcatskz.github.io/kodi-switch-addons/piers/switch/addons.xml.sha256</checksum>
+      <datadir zip="true">https://github.com/DevCatSKZ/kodi-switch-addons/releases/download/</datadir>
+      <hashes>sha256</hashes>
+    <artdir>https://devcatskz.github.io/kodi-switch-addons/piers/switch/</artdir></dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>switch</platform>
+    <summary lang="en_GB">Binary add-ons and game cores for the Nintendo Switch</summary>
+    <description lang="en_GB">Native add-ons for Kodi on Nintendo Switch. Install and update add-ons online.</description>
+    <license>GPL-2.0-or-later</license>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon></addons>
